@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  rojgarsetu-app:
+    build: .
+    container_name: rojgarsetu-app
+    restart: always
+    ports:
+      - "3010:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+    volumes:
+      - ./data:/app/data
+    networks:
+      - the-perfect-mart_default
+
+networks:
+  the-perfect-mart_default:
+    external: true
