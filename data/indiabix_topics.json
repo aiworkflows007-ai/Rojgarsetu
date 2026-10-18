@@ -1,0 +1,1859 @@
+[
+  {
+    "id": "indiabix-time-and-work",
+    "slug": "time-and-work",
+    "title": "Time and Work",
+    "category": "QUANTITATIVE",
+    "categoryLabel": "📐 Quantitative Aptitude",
+    "icon": "⏱️",
+    "url": "https://www.indiabix.com/aptitude/time-and-work/",
+    "desc": "Problems on work done, individual days, combined efficiency, wages, and pipe-filling rates.",
+    "formulas": [
+      "Work Done = Time Taken × Efficiency Rate",
+      "If A takes n days, A's 1-day work = 1/n",
+      "Combined 1-day work of A & B = (1/A) + (1/B)",
+      "Time taken together = (A × B) / (A + B) days"
+    ],
+    "questionsCount": 10,
+    "questions": [
+      {
+        "id": 1,
+        "q": "A can do a work in 15 days and B in 20 days. If they work on it together for 4 days, then the fraction of the work that is left is :",
+        "options": [
+          "(1/4)",
+          "(1/10)",
+          "(7/15)",
+          "(8/15)"
+        ],
+        "ans": 3,
+        "ansLetter": "D",
+        "explanation": "(1/15) (1/20) (1/15) (7/60) (7/15)"
+      },
+      {
+        "id": 2,
+        "q": "A can lay railway track between two given stations in 16 days and B can do the same job in 12 days. With help of C, they did the job in 4 days only. Then, C alone can do the job in:",
+        "options": [
+          "(1/5)",
+          "(2/5)",
+          "(3/5)",
+          "10"
+        ],
+        "ans": 2,
+        "ansLetter": "C",
+        "explanation": "(1/4) (1/16) (1/12) (1/4) (48/5)"
+      },
+      {
+        "id": 3,
+        "q": "A, B and C can do a piece of work in 20, 30 and 60 days respectively. In how many days can A do the work if he is assisted by B and C on every third day?",
+        "options": [
+          "12 days",
+          "15 days",
+          "16 days",
+          "18 days"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "(1/20) (1/20) (1/10) (1/5) Whole work will be done in (3 x 5) = 15 days."
+      },
+      {
+        "id": 4,
+        "q": "A is thrice as good as workman as B and therefore is able to finish a job in 60 days less than B. Working together, they can do it in:",
+        "options": [
+          "20 days",
+          "(1/2)",
+          "25 days",
+          "30 days"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "Ratio of times taken by A and B = 1 : 3. The time difference is (3 - 1) 2 days while B take 3 days and A takes 1 day. If difference of time is 2 days, B takes 3 days. (3/2) So, A takes 30 days to do the work. (1/30) (1/90) (1/30) (45/2)"
+      },
+      {
+        "id": 5,
+        "q": "A alone can do a piece of work in 6 days and B alone in 8 days. A and B undertook to do it for Rs. 3200. With the help of C, they completed the work in 3 days. How much is to be paid to C?",
+        "options": [
+          "Rs. 375",
+          "Rs. 400",
+          "Rs. 600",
+          "Rs. 800"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "(1/3) (1/6) (1/24)"
+      },
+      {
+        "id": 6,
+        "q": "If 6 men and 8 boys can do a piece of work in 10 days while 26 men and 48 boys can do the same in 2 days, the time taken by 15 men and 20 boys in doing the same type of work will be:",
+        "options": [
+          "4 days",
+          "5 days",
+          "6 days",
+          "7 days"
+        ],
+        "ans": 0,
+        "ansLetter": "A",
+        "explanation": "Let 1 man's 1 day's work = x and 1 boy's 1 day's work = y. (1/10) (1/100) (15/100) 15 men and 20 boys can do the work in 4 days."
+      },
+      {
+        "id": 7,
+        "q": "A can do a piece of work in 4 hours; B and C together can do it in 3 hours, while A and C together can do it in 2 hours. How long will B alone take to do it?",
+        "options": [
+          "8 hours",
+          "10 hours",
+          "12 hours",
+          "24 hours"
+        ],
+        "ans": 2,
+        "ansLetter": "C",
+        "explanation": "(1/4) (1/3) (1/2) (1/4) (7/12) B alone will take 12 hours to do the work."
+      },
+      {
+        "id": 8,
+        "q": "A can do a certain work in the same time in which B and C together can do it. If A and B together could do it in 10 days and C alone in 50 days, then B alone could do it in:",
+        "options": [
+          "15 days",
+          "20 days",
+          "25 days",
+          "30 days"
+        ],
+        "ans": 2,
+        "ansLetter": "C",
+        "explanation": "(1/10) (1/50) (1/10) A's 1 day's work = (B + C)'s 1 day's work .... (ii) (3/25) (3/50) (1/10) So, B alone could do the work in 25 days."
+      },
+      {
+        "id": 9,
+        "q": "A does 80% of a work in 20 days. He then calls in B and they together finish the remaining work in 3 days. How long B alone would take to do the whole work?",
+        "options": [
+          "23 days",
+          "37 days",
+          "37",
+          "40 days"
+        ],
+        "ans": 2,
+        "ansLetter": "C",
+        "explanation": "(5/4) (4/5) Whole work will be done by A and B in (3 x 5) = 15 days. (1/25) (1/15) (75/2)"
+      },
+      {
+        "id": 10,
+        "q": "A machine P can print one lakh books in 8 hours, machine Q can print the same number of books in 10 hours while machine R can print them in 12 hours. All the machines are started at 9 A.M. while machine P is closed at 11 A.M. and the remaining two machines complete work. Approximately at what time will the work (to print one lakh books) be finished ?",
+        "options": [
+          "11:30 A.M.",
+          "12 noon",
+          "12:30 P.M.",
+          "1:00 P.M."
+        ],
+        "ans": 3,
+        "ansLetter": "D",
+        "explanation": "(1/8) (37/120) (37/60) (1/10) (11/60) (23/60) So, the work will be finished approximately 2 hours after 11 A.M., i.e., around 1 P.M."
+      }
+    ]
+  },
+  {
+    "id": "indiabix-profit-and-loss",
+    "slug": "profit-and-loss",
+    "title": "Profit and Loss",
+    "category": "QUANTITATIVE",
+    "categoryLabel": "📐 Quantitative Aptitude",
+    "icon": "💰",
+    "url": "https://www.indiabix.com/aptitude/profit-and-loss/",
+    "desc": "Cost price (CP), Selling price (SP), Gain%, Loss%, Marked price and Successive discounts.",
+    "formulas": [
+      "Gain% = [(SP - CP) / CP] × 100",
+      "Loss% = [(CP - SP) / CP] × 100",
+      "SP = [(100 + Gain%) / 100] × CP",
+      "Discount = Marked Price - Selling Price"
+    ],
+    "questionsCount": 10,
+    "questions": [
+      {
+        "id": 1,
+        "q": "Alfred buys an old scooter for Rs. 4700 and spends Rs. 800 on its repairs. If he sells the scooter for Rs. 5800, his gain percent is:",
+        "options": [
+          "(4/7)",
+          "(5/11)",
+          "10%",
+          "12%"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "Cost Price (C.P.) = Rs. (4700 + 800) = Rs. 5500. Selling Price (S.P.) = Rs. 5800. Gain = (S.P.) - (C.P.) = Rs.(5800 - 5500) = Rs. 300. (300/5500)"
+      },
+      {
+        "id": 2,
+        "q": "The cost price of 20 articles is the same as the selling price of x articles. If the profit is 25%, then the value of x is:",
+        "options": [
+          "15",
+          "16",
+          "18",
+          "25"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "Let C.P. of each article be Re. 1 C.P. of x articles = Rs. x. S.P. of x articles = Rs. 20. Profit = Rs. (20 - x). 20 - x x 100 = 25 x 2000 - 100x = 25x 125x = 2000 x = 16. Video Explanation: https://youtu.be/sidqvjUoZxY"
+      },
+      {
+        "id": 3,
+        "q": "If selling price is doubled, the profit triples. Find the profit percent.",
+        "options": [
+          "(2/3)",
+          "100",
+          "(1/3)",
+          "120"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "Let C.P. be Rs. x and S.P. be Rs. y. Then, 3(y - x) = (2y - x) y = 2x. Profit = Rs. (y - x) = Rs. (2x - x) = Rs. x. Profit % = x x 100 % = 100% x Video Explanation: https://youtu.be/dPzF10mGsWE"
+      },
+      {
+        "id": 4,
+        "q": "In a certain store, the profit is 320% of the cost. If the cost increases by 25% but the selling price remains constant, approximately what percentage of the selling price is the profit?",
+        "options": [
+          "30%",
+          "70%",
+          "100%",
+          "250%"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "Let C.P.= Rs. 100. Then, Profit = Rs. 320, S.P. = Rs. 420. New C.P. = 125% of Rs. 100 = Rs. 125 New S.P. = Rs. 420. Profit = Rs. (420 - 125) = Rs. 295. (295/420) Video Explanation: https://youtu.be/bQA8SB8ycbw"
+      },
+      {
+        "id": 5,
+        "q": "A vendor bought toffees at 6 for a rupee. How many for a rupee must he sell to gain 20%?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "ans": 2,
+        "ansLetter": "C",
+        "explanation": "C.P. of 6 toffees = Re. 1 (6/5) (6/5) (5/6) Video Explanation: https://youtu.be/7wKrnZ0LKA8"
+      },
+      {
+        "id": 6,
+        "q": "The percentage profit earned by selling an article for Rs. 1920 is equal to the percentage loss incurred by selling the same article for Rs. 1280. At what price should the article be sold to make 25% profit?",
+        "options": [
+          "Rs. 2000",
+          "Rs. 2200",
+          "Rs. 2400",
+          "Data inadequate"
+        ],
+        "ans": 0,
+        "ansLetter": "A",
+        "explanation": "Let C.P. be Rs. x. Then, 1920 - x x 100 = x - 1280 x 100 x x 1920 - x = x - 1280 2x = 3200 x = 1600 (125/100) Video Explanation: https://youtu.be/0tTd5TwCspY"
+      },
+      {
+        "id": 7,
+        "q": "A shopkeeper expects a gain of 22.5% on his cost price. If in a week, his sale was of Rs. 392, what was his profit?",
+        "options": [
+          "Rs. 18.20",
+          "Rs. 70",
+          "Rs. 72",
+          "Rs. 88.25"
+        ],
+        "ans": 2,
+        "ansLetter": "C",
+        "explanation": "(100/122.5) Profit = Rs. (392 - 320) = Rs. 72. Video Explanation: https://youtu.be/a36nJFgh5yk"
+      },
+      {
+        "id": 8,
+        "q": "A man buys a cycle for Rs. 1400 and sells it at a loss of 15%. What is the selling price of the cycle?",
+        "options": [
+          "Rs. 1090",
+          "Rs. 1160",
+          "Rs. 1190",
+          "Rs. 1202"
+        ],
+        "ans": 2,
+        "ansLetter": "C",
+        "explanation": "(85/100) Video Explanation: https://youtu.be/jn0XIafQvAc"
+      },
+      {
+        "id": 9,
+        "q": "Sam purchased 20 dozens of toys at the rate of Rs. 375 per dozen. He sold each one of them at the rate of Rs. 33. What was his percentage profit?",
+        "options": [
+          "3.5",
+          "4.5",
+          "5.6",
+          "6.5"
+        ],
+        "ans": 2,
+        "ansLetter": "C",
+        "explanation": "(375/12) Selling Price of 1 toy = Rs. 33 So, Gain = Rs. (33 - 31.25) = Rs. 1.75 (1.75/31.25) Video Explanation: https://youtu.be/MhswuvDVWzo"
+      },
+      {
+        "id": 10,
+        "q": "Some articles were bought at 6 articles for Rs. 5 and sold at 5 articles for Rs. 6. Gain percent is:",
+        "options": [
+          "30%",
+          "(1/3)",
+          "35%",
+          "44%"
+        ],
+        "ans": 3,
+        "ansLetter": "D",
+        "explanation": "Suppose, number of articles bought = L.C.M. of 6 and 5 = 30. (5/6) (6/5) (11/25)"
+      }
+    ]
+  },
+  {
+    "id": "indiabix-percentage",
+    "slug": "percentage",
+    "title": "Percentage",
+    "category": "QUANTITATIVE",
+    "categoryLabel": "📐 Quantitative Aptitude",
+    "icon": "📊",
+    "url": "https://www.indiabix.com/aptitude/percentage/",
+    "desc": "Percentage increase/decrease, salary calculations, population changes and exam mark percentages.",
+    "formulas": [
+      "% Increase = (Increase / Original Value) × 100",
+      "Net change for two successive % changes: a + b + (ab/100) %",
+      "If A is r% more than B, B is [r / (100 + r)] × 100% less than A"
+    ],
+    "questionsCount": 10,
+    "questions": [
+      {
+        "id": 1,
+        "q": "A batsman scored 110 runs which included 3 boundaries and 8 sixes. What percent of his total score did he make by running between the wickets?",
+        "options": [
+          "45%",
+          "(5/11)",
+          "(6/11)",
+          "55%"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "Number of runs made by running = 110 - (3 x 4 + 8 x 6) = 110 - (60) = 50. (50/110) Video Explanation: https://youtu.be/X2zTnABqEHU"
+      },
+      {
+        "id": 2,
+        "q": "Two students appeared at an examination. One of them secured 9 marks more than the other and his marks was 56% of the sum of their marks. The marks obtained by them are:",
+        "options": [
+          "39, 30",
+          "41, 32",
+          "42, 33",
+          "43, 34"
+        ],
+        "ans": 2,
+        "ansLetter": "C",
+        "explanation": "Let their marks be (x + 9) and x. (56/100) 25(x + 9) = 14(2x + 9) 3x = 99 x = 33 So, their marks are 42 and 33."
+      },
+      {
+        "id": 3,
+        "q": "A fruit seller had some apples. He sells 40% apples and still has 420 apples. Originally, he had:",
+        "options": [
+          "588 apples",
+          "600 apples",
+          "672 apples",
+          "700 apples"
+        ],
+        "ans": 3,
+        "ansLetter": "D",
+        "explanation": "Suppose originally he had x apples. Then, (100 - 40)% of x = 420. (60/100) (420 x 100/60) Video Explanation: https://youtu.be/-Pv25Do3WwY"
+      },
+      {
+        "id": 4,
+        "q": "What percentage of numbers from 1 to 70 have 1 or 9 in the unit's digit?",
+        "options": [
+          "1",
+          "14",
+          "20",
+          "21"
+        ],
+        "ans": 2,
+        "ansLetter": "C",
+        "explanation": "Clearly, the numbers which have 1 or 9 in the unit's digit, have squares that end in the digit 1. Such numbers from 1 to 70 are 1, 9, 11, 19, 21, 29, 31, 39, 41, 49, 51, 59, 61, 69. Number of such number =14 (14/70) Video Explanation: https://youtu.be/cBamI6iRNIA"
+      },
+      {
+        "id": 5,
+        "q": "If A = x% of y and B = y% of x, then which of the following is true?",
+        "options": [
+          "A is smaller than B.",
+          "A is greater than B",
+          "Relationship between A and B cannot be determined.",
+          "If x is smaller than y, then A is greater than B.",
+          "None of these"
+        ],
+        "ans": 4,
+        "ansLetter": "E",
+        "explanation": "x % of y = x x y = y x x = y % of x 100 100 A = B."
+      },
+      {
+        "id": 6,
+        "q": "If 20% of a = b, then b% of 20 is the same as:",
+        "options": [
+          "4% of a",
+          "5% of a",
+          "20% of a",
+          "None of these"
+        ],
+        "ans": 0,
+        "ansLetter": "A",
+        "explanation": "(20/100) (20/100)"
+      },
+      {
+        "id": 7,
+        "q": "In a certain school, 20% of students are below 8 years of age. The number of students above 8 years of age is of the number of students of 8 years of age which is 48. What is the total number of students in the school?",
+        "options": [
+          "72",
+          "80",
+          "120",
+          "150",
+          "100"
+        ],
+        "ans": 4,
+        "ansLetter": "E",
+        "explanation": "Let the number of students be x. Then, Number of students above 8 years of age = (100 - 20)% of x = 80% of x. (2/3) (80/100) x = 100. Video Explanation: https://youtu.be/yPfocU6DA2M"
+      },
+      {
+        "id": 8,
+        "q": "Two numbers A and B are such that the sum of 5% of A and 4% of B is two-third of the sum of 6% of A and 8% of B. Find the ratio of A : B.",
+        "options": [
+          "2 : 3",
+          "1 : 1",
+          "3 : 4",
+          "4 : 3"
+        ],
+        "ans": 3,
+        "ansLetter": "D",
+        "explanation": "(2/3) (5/100) (1/20) (1/20) (1/100) (A/B) Required ratio = 4 : 3 Video Explanation: YouTube Video"
+      },
+      {
+        "id": 9,
+        "q": "(3/5) What is the percentage error in the calculation?",
+        "options": [
+          "34%",
+          "44%",
+          "54%",
+          "64%"
+        ],
+        "ans": 3,
+        "ansLetter": "D",
+        "explanation": "Let the number be x. (5/3) (3/15)"
+      },
+      {
+        "id": 10,
+        "q": "In an election between two candidates, one got 55% of the total valid votes, 20% of the votes were invalid. If the total number of votes was 7500, the number of valid votes that the other candidate got, was:",
+        "options": [
+          "2700",
+          "2900",
+          "3000",
+          "3100"
+        ],
+        "ans": 0,
+        "ansLetter": "A",
+        "explanation": "Number of valid votes = 80% of 7500 = 6000. Valid votes polled by other candidate = 45% of 6000 (45/100)"
+      }
+    ]
+  },
+  {
+    "id": "indiabix-problems-on-trains",
+    "slug": "problems-on-trains",
+    "title": "Problems on Trains",
+    "category": "QUANTITATIVE",
+    "categoryLabel": "📐 Quantitative Aptitude",
+    "icon": "🚆",
+    "url": "https://www.indiabix.com/aptitude/problems-on-trains/",
+    "desc": "Speed, distance, time, train crossing platform/pole, and relative speeds of moving trains.",
+    "formulas": [
+      "Speed (km/hr to m/s) = multiply by (5/18)",
+      "Speed (m/s to km/hr) = multiply by (18/5)",
+      "Time to cross stationary object of length L = (Train Length + L) / Speed",
+      "Relative speed (opposite direction) = S1 + S2; Same direction = |S1 - S2|"
+    ],
+    "questionsCount": 10,
+    "questions": [
+      {
+        "id": 1,
+        "q": "A train running at the speed of 60 km/hr crosses a pole in 9 seconds. What is the length of the train?",
+        "options": [
+          "120 metres",
+          "180 metres",
+          "324 metres",
+          "150 metres"
+        ],
+        "ans": 3,
+        "ansLetter": "D",
+        "explanation": "(5/18) Length of the train = (Speed x Time). (50/3)"
+      },
+      {
+        "id": 2,
+        "q": "A train 125 m long passes a man, running at 5 km/hr in the same direction in which the train is going, in 10 seconds. The speed of the train is:",
+        "options": [
+          "45 km/hr",
+          "50 km/hr",
+          "54 km/hr",
+          "55 km/hr"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "(125/10) (25/2) (25/2) = 45 km/hr. Let the speed of the train be x km/hr. Then, relative speed = (x - 5) km/hr. x - 5 = 45 x = 50 km/hr."
+      },
+      {
+        "id": 3,
+        "q": "The length of the bridge, which a train 130 metres long and travelling at 45 km/hr can cross in 30 seconds, is:",
+        "options": [
+          "200 m",
+          "225 m",
+          "245 m",
+          "250 m"
+        ],
+        "ans": 2,
+        "ansLetter": "C",
+        "explanation": "(5/18) Time = 30 sec. Let the length of bridge be x metres. (25/30) 2(130 + x) = 750 x = 245 m. Video Explanation: https://youtu.be/M_d8WufJWKc"
+      },
+      {
+        "id": 4,
+        "q": "Two trains running in opposite directions cross a man standing on the platform in 27 seconds and 17 seconds respectively and they cross each other in 23 seconds. The ratio of their speeds is:",
+        "options": [
+          "1 : 3",
+          "3 : 2",
+          "3 : 4",
+          "None of these"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "Let the speeds of the two trains be x m/sec and y m/sec respectively. Then, length of the first train = 27x metres, and length of the second train = 17y metres. 27 x + 17 y = 23 x + y 27x + 17y = 23x + 23y 4x = 6y (3/2)"
+      },
+      {
+        "id": 5,
+        "q": "A train passes a station platform in 36 seconds and a man standing on the platform in 20 seconds. If the speed of the train is 54 km/hr, what is the length of the platform?",
+        "options": [
+          "120 m",
+          "240 m",
+          "300 m",
+          "None of these"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "(5/18) Length of the train = (15 x 20)m = 300 m. Let the length of the platform be x metres. Then, x + 300 = 15 36 x + 300 = 540 x = 240 m."
+      },
+      {
+        "id": 6,
+        "q": "A train 240 m long passes a pole in 24 seconds. How long will it take to pass a platform 650 m long?",
+        "options": [
+          "65 sec",
+          "89 sec",
+          "100 sec",
+          "150 sec"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "(240/24) (240 + 650/10)"
+      },
+      {
+        "id": 7,
+        "q": "Two trains of equal length are running on parallel lines in the same direction at 46 km/hr and 36 km/hr. The faster train passes the slower train in 36 seconds. The length of each train is:",
+        "options": [
+          "50 m",
+          "72 m",
+          "80 m",
+          "82 m"
+        ],
+        "ans": 0,
+        "ansLetter": "A",
+        "explanation": "Let the length of each train be x metres. Then, distance covered = 2x metres. Relative speed = (46 - 36) km/hr (5/18) (25/9) (25/36) 2x = 100 x = 50."
+      },
+      {
+        "id": 8,
+        "q": "A train 360 m long is running at a speed of 45 km/hr. In what time will it pass a bridge 140 m long?",
+        "options": [
+          "40 sec",
+          "42 sec",
+          "45 sec",
+          "48 sec"
+        ],
+        "ans": 0,
+        "ansLetter": "A",
+        "explanation": "(5/18) (5/18) Total distance to be covered = (360 + 140) m = 500 m. (Distance/Speed) (500 x 2/25)"
+      },
+      {
+        "id": 9,
+        "q": "Two trains are moving in opposite directions @ 60 km/hr and 90 km/hr. Their lengths are 1.10 km and 0.9 km respectively. The time taken by the slower train to cross the faster train in seconds is:",
+        "options": [
+          "36",
+          "45",
+          "48",
+          "49"
+        ],
+        "ans": 2,
+        "ansLetter": "C",
+        "explanation": "Relative speed = (60+ 90) km/hr (5/18) (125/3) Distance covered = (1.10 + 0.9) km = 2 km = 2000 m. (3/125)"
+      },
+      {
+        "id": 10,
+        "q": "A jogger running at 9 kmph alongside a railway track in 240 metres ahead of the engine of a 120 metres long train running at 45 kmph in the same direction. In how much time will the train pass the jogger?",
+        "options": [
+          "3.6 sec",
+          "18 sec",
+          "36 sec",
+          "72 sec"
+        ],
+        "ans": 2,
+        "ansLetter": "C",
+        "explanation": "Speed of train relative to jogger = (45 - 9) km/hr = 36 km/hr. (5/18) = 10 m/sec. Distance to be covered = (240 + 120) m = 360 m. (360/10)"
+      }
+    ]
+  },
+  {
+    "id": "indiabix-simple-interest",
+    "slug": "simple-interest",
+    "title": "Simple & Compound Interest",
+    "category": "QUANTITATIVE",
+    "categoryLabel": "📐 Quantitative Aptitude",
+    "icon": "📈",
+    "url": "https://www.indiabix.com/aptitude/simple-interest/",
+    "desc": "Principal, annual interest rate, time period, maturity amounts, and difference between CI and SI.",
+    "formulas": [
+      "Simple Interest (SI) = (P × R × T) / 100",
+      "Compound Amount A = P × [1 + (R/100)]^T",
+      "Difference between CI and SI for 2 years = P × (R / 100)^2"
+    ],
+    "questionsCount": 10,
+    "questions": [
+      {
+        "id": 1,
+        "q": "A sum of money at simple interest amounts to Rs. 815 in 3 years and to Rs. 854 in 4 years. The sum is:",
+        "options": [
+          "Rs. 650",
+          "Rs. 690",
+          "Rs. 698",
+          "Rs. 700"
+        ],
+        "ans": 2,
+        "ansLetter": "C",
+        "explanation": "S.I. for 1 year = Rs. (854 - 815) = Rs. 39. S.I. for 3 years = Rs.(39 x 3) = Rs. 117. Principal = Rs. (815 - 117) = Rs. 698."
+      },
+      {
+        "id": 2,
+        "q": "Mr. Thomas invested an amount of Rs. 13,900 divided in two different schemes A and B at the simple interest rate of 14% p.a. and 11% p.a. respectively. If the total amount of simple interest earned in 2 years be Rs. 3508, what was the amount invested in Scheme B?",
+        "options": [
+          "Rs. 6400",
+          "Rs. 6500",
+          "Rs. 7200",
+          "Rs. 7500",
+          "None of these"
+        ],
+        "ans": 0,
+        "ansLetter": "A",
+        "explanation": "Let the sum invested in Scheme A be Rs. x and that in Scheme B be Rs. (13900 - x). Then, x x 14 x 2 + (13900 - x ) x 11 x 2 = 3508 100 100 28x - 22x = 350800 - (13900 x 22) 6x = 45000 x = 7500. So, sum invested in Scheme B = Rs. (13900 - 7500) = Rs. 6400. Video Explanation: https://youtu.be/Xi4kU9y6ppk"
+      },
+      {
+        "id": 3,
+        "q": "A sum fetched a total simple interest of Rs. 4016.25 at the rate of 9 p.c.p.a. in 5 years. What is the sum?",
+        "options": [
+          "Rs. 4462.50",
+          "Rs. 8032.50",
+          "Rs. 8900",
+          "Rs. 8925",
+          "None of these"
+        ],
+        "ans": 3,
+        "ansLetter": "D",
+        "explanation": "(100 x 4016.25/9 x 5) (401625/45) = Rs. 8925."
+      },
+      {
+        "id": 4,
+        "q": "How much time will it take for an amount of Rs. 450 to yield Rs. 81 as interest at 4.5% per annum of simple interest?",
+        "options": [
+          "3.5 years",
+          "4 years",
+          "4.5 years",
+          "5 years"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "(100 x 81/450 x 4.5) Video Explanation: https://youtu.be/WdBzN0Sj8jc"
+      },
+      {
+        "id": 5,
+        "q": "Reena took a loan of Rs. 1200 with simple interest for as many years as the rate of interest. If she paid Rs. 432 as interest at the end of the loan period, what was the rate of interest?",
+        "options": [
+          "3.6",
+          "6",
+          "18",
+          "Cannot be determined",
+          "None of these"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "Let rate = R% and time = R years. (1200 x R x R/100) 12R2 = 432 R2 = 36 R = 6. Video Explanation: https://youtu.be/TjjI4iRkzT0"
+      },
+      {
+        "id": 6,
+        "q": "A sum of Rs. 12,500 amounts to Rs. 15,500 in 4 years at the rate of simple interest. What is the rate of interest?",
+        "options": [
+          "3%",
+          "4%",
+          "5%",
+          "6%",
+          "None of these"
+        ],
+        "ans": 3,
+        "ansLetter": "D",
+        "explanation": "S.I. = Rs. (15500 - 12500) = Rs. 3000. (100 x 3000/12500 x 4) Video Explanation: https://youtu.be/SIcQu1HOmOk"
+      },
+      {
+        "id": 7,
+        "q": "An automobile financier claims to be lending money at simple interest, but he includes the interest every six months for calculating the principal. If he is charging an interest of 10%, the effective rate of interest becomes:",
+        "options": [
+          "10%",
+          "10.25%",
+          "10.5%",
+          "None of these"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "Let the sum be Rs. 100. Then, (100 x 10 x 1/100 x 2) (105 x 10 x 1/100 x 2) So, amount at the end of 1 year = Rs. (100 + 5 + 5.25) = Rs. 110.25 Effective rate = (110.25 - 100) = 10.25%"
+      },
+      {
+        "id": 8,
+        "q": "A lent Rs. 5000 to B for 2 years and Rs. 3000 to C for 4 years on simple interest at the same rate of interest and received Rs. 2200 in all from both of them as interest. The rate of interest per annum is:",
+        "options": [
+          "5%",
+          "7%",
+          "(1/8)",
+          "10%"
+        ],
+        "ans": 3,
+        "ansLetter": "D",
+        "explanation": "Let the rate be R% p.a. (5000 x R x 2/100) 100R + 120R = 2200 (2200/220) Rate = 10%."
+      },
+      {
+        "id": 9,
+        "q": "A sum of Rs. 725 is lent in the beginning of a year at a certain rate of interest. After 8 months, a sum of Rs. 362.50 more is lent but at the rate twice the former. At the end of the year, Rs. 33.50 is earned as interest from both the loans. What was the original rate of interest?",
+        "options": [
+          "3.6%",
+          "4.5%",
+          "5%",
+          "6%",
+          "None of these"
+        ],
+        "ans": 4,
+        "ansLetter": "E",
+        "explanation": "Let the original rate be R%. Then, new rate = (2R)%. Note: Here, original rate is for 1 year(s); the new rate is for only 4 months i.e. year(s). (725 x R x 1/100) (2175 + 725) R = 33.50 x 100 x 3 (2175 + 725) R = 10050 (2900)R = 10050 (10050/2900) Original rate = 3.46%"
+      },
+      {
+        "id": 10,
+        "q": "A man took loan from a bank at the rate of 12% p.a. simple interest. After 3 years he had to pay Rs. 5400 interest only for the period. The principal amount borrowed by him was:",
+        "options": [
+          "Rs. 2000",
+          "Rs. 10,000",
+          "Rs. 15,000",
+          "Rs. 20,000"
+        ],
+        "ans": 2,
+        "ansLetter": "C",
+        "explanation": "(100 x 5400/12 x 3)"
+      }
+    ]
+  },
+  {
+    "id": "indiabix-ratio-and-proportion",
+    "slug": "ratio-and-proportion",
+    "title": "Ratio and Proportion",
+    "category": "QUANTITATIVE",
+    "categoryLabel": "📐 Quantitative Aptitude",
+    "icon": "⚖️",
+    "url": "https://www.indiabix.com/aptitude/ratio-and-proportion/",
+    "desc": "Comparison of quantities, mean proportion, third and fourth proportion, partnership shares.",
+    "formulas": [
+      "If a : b = c : d, then (a × d) = (b × c)",
+      "Mean proportion between a and b = √(a × b)",
+      "Third proportion to a and b = b^2 / a"
+    ],
+    "questionsCount": 10,
+    "questions": [
+      {
+        "id": 1,
+        "q": "A and B together have Rs. 1210. If of A's amount is equal to of B's amount, how much amount does B have?",
+        "options": [
+          "Rs. 460",
+          "Rs. 484",
+          "Rs. 550",
+          "Rs. 664"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "(4/15) (2/5) (3/2) (A/B) A : B = 3 : 2. (2/5)"
+      },
+      {
+        "id": 2,
+        "q": "Two numbers are respectively 20% and 50% more than a third number. The ratio of the two numbers is:",
+        "options": [
+          "2 : 5",
+          "3 : 5",
+          "4 : 5",
+          "6 : 7"
+        ],
+        "ans": 2,
+        "ansLetter": "C",
+        "explanation": "Let the third number be x. Then, first number = 120% of x = 120 x = 6 x 100 5 Second number = 150% of x = 150 x = 3 x 100 2 Ratio of first two numbers = 6 x : 3 x = 12 x : 15 x = 4 : 5. 5 2"
+      },
+      {
+        "id": 3,
+        "q": "A sum of money is to be distributed among A, B, C, D in the proportion of 5 : 2 : 4 : 3. If C gets Rs. 1000 more than D, what is B's share?",
+        "options": [
+          "Rs. 500",
+          "Rs. 1500",
+          "Rs. 2000",
+          "None of these"
+        ],
+        "ans": 2,
+        "ansLetter": "C",
+        "explanation": "Let the shares of A, B, C and D be Rs. 5x, Rs. 2x, Rs. 4x and Rs. 3x respectively. Then, 4x - 3x = 1000 x = 1000. B's share = Rs. 2x = Rs. (2 x 1000) = Rs. 2000."
+      },
+      {
+        "id": 4,
+        "q": "Seats for Mathematics, Physics and Biology in a school are in the ratio 5 : 7 : 8. There is a proposal to increase these seats by 40%, 50% and 75% respectively. What will be the ratio of increased seats?",
+        "options": [
+          "2 : 3 : 4",
+          "6 : 7 : 8",
+          "6 : 8 : 9",
+          "None of these"
+        ],
+        "ans": 0,
+        "ansLetter": "A",
+        "explanation": "Originally, let the number of seats for Mathematics, Physics and Biology be 5x, 7x and 8x respectively. Number of increased seats are (140% of 5x), (150% of 7x) and (175% of 8x). (140/100) 7 x , 21 x and 14 x . 2 The required ratio = 7 x : 21 x : 14 x 2 14x : 21x : 28x 2 : 3 : 4."
+      },
+      {
+        "id": 5,
+        "q": "In a mixture 60 litres, the ratio of milk and water 2 : 1. If this ratio is to be 1 : 2, then the quantity of water to be further added is:",
+        "options": [
+          "20 litres",
+          "30 litres",
+          "40 litres",
+          "60 litres"
+        ],
+        "ans": 3,
+        "ansLetter": "D",
+        "explanation": "(2/3) Quantity of water in it = (60- 40) litres = 20 litres. New ratio = 1 : 2 Let quantity of water to be added further be x litres. Then, milk : water = 40 . 20 + x (40/2) 20 + x = 80 x = 60. Quantity of water to be added = 60 litres."
+      },
+      {
+        "id": 6,
+        "q": "The ratio of the number of boys and girls in a college is 7 : 8. If the percentage increase in the number of boys and girls be 20% and 10% respectively, what will be the new ratio?",
+        "options": [
+          "8 : 9",
+          "17 : 18",
+          "21 : 22",
+          "Cannot be determined"
+        ],
+        "ans": 2,
+        "ansLetter": "C",
+        "explanation": "Originally, let the number of boys and girls in the college be 7x and 8x respectively. Their increased number is (120% of 7x) and (110% of 8x). (120/100) 42 x and 44 x 5 5 The required ratio = 42 x : 44 x = 21 : 22. 5 5"
+      },
+      {
+        "id": 7,
+        "q": "Salaries of Ravi and Sumit are in the ratio 2 : 3. If the salary of each is increased by Rs. 4000, the new ratio becomes 40 : 57. What is Sumit's salary?",
+        "options": [
+          "Rs. 17,000",
+          "Rs. 20,000",
+          "Rs. 25,500",
+          "Rs. 38,000"
+        ],
+        "ans": 3,
+        "ansLetter": "D",
+        "explanation": "Let the original salaries of Ravi and Sumit be Rs. 2x and Rs. 3x respectively. (40/57) 57(2x + 4000) = 40(3x + 4000) 6x = 68,000 3x = 34,000 Sumit's present salary = (3x + 4000) = Rs.(34000 + 4000) = Rs. 38,000."
+      },
+      {
+        "id": 8,
+        "q": "If 0.75 : x :: 5 : 8, then x is equal to:",
+        "options": [
+          "1.12",
+          "1.2",
+          "1.25",
+          "1.30"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "(6/5)"
+      },
+      {
+        "id": 9,
+        "q": "The sum of three numbers is 98. If the ratio of the first to second is 2 :3 and that of the second to the third is 5 : 8, then the second number is:",
+        "options": [
+          "20",
+          "30",
+          "48",
+          "58"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "Let the three parts be A, B, C. Then, (3/5) (24/5) (15/49)"
+      },
+      {
+        "id": 10,
+        "q": "If Rs. 782 be divided into three parts, proportional to : : , then the first part is:",
+        "options": [
+          "Rs. 182",
+          "Rs. 190",
+          "Rs. 196",
+          "Rs. 204"
+        ],
+        "ans": 3,
+        "ansLetter": "D",
+        "explanation": "Given ratio = : : = 6 : 8 : 9. (6/23)"
+      }
+    ]
+  },
+  {
+    "id": "indiabix-numbers",
+    "slug": "numbers",
+    "title": "Numbers & Divisibility",
+    "category": "QUANTITATIVE",
+    "categoryLabel": "📐 Quantitative Aptitude",
+    "icon": "🔢",
+    "url": "https://www.indiabix.com/aptitude/numbers/",
+    "desc": "Divisibility rules, unit digits, remainders, prime numbers, and consecutive integer equations.",
+    "formulas": [
+      "Dividend = (Divisor × Quotient) + Remainder",
+      "Sum of first n natural numbers = [n(n + 1)] / 2",
+      "Sum of first n odd numbers = n^2"
+    ],
+    "questionsCount": 10,
+    "questions": [
+      {
+        "id": 1,
+        "q": "Which one of the following is not a prime number?",
+        "options": [
+          "31",
+          "61",
+          "71",
+          "91"
+        ],
+        "ans": 3,
+        "ansLetter": "D",
+        "explanation": "91 is divisible by 7. So, it is not a prime number."
+      },
+      {
+        "id": 2,
+        "q": "(112 x 54) = ?",
+        "options": [
+          "67000",
+          "70000",
+          "76500",
+          "77200"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "(10/2)"
+      },
+      {
+        "id": 3,
+        "q": "It is being given that (232 + 1) is completely divisible by a whole number. Which of the following numbers is completely divisible by this number?",
+        "options": [
+          "(216 + 1)",
+          "(216 - 1)",
+          "(7 x 223)",
+          "(296 + 1)"
+        ],
+        "ans": 3,
+        "ansLetter": "D",
+        "explanation": "Let 232 = x. Then, (232 + 1) = (x + 1). Let (x + 1) be completely divisible by the natural number N. Then, (296 + 1) = [(232)3 + 1] = (x3 + 1) = (x + 1)(x2 - x + 1), which is completely divisible by N, since (x + 1) is divisible by N."
+      },
+      {
+        "id": 4,
+        "q": "What least number must be added to 1056, so that the sum is completely divisible by 23 ?",
+        "options": [
+          "2",
+          "3",
+          "18",
+          "21",
+          "None of these"
+        ],
+        "ans": 0,
+        "ansLetter": "A",
+        "explanation": "23) 1056 (45 92 --- 136 115 --- 21 --- Required number = (23 - 21) = 2."
+      },
+      {
+        "id": 5,
+        "q": "1397 x 1397 = ?",
+        "options": [
+          "1951609",
+          "1981709",
+          "18362619",
+          "2031719",
+          "None of these"
+        ],
+        "ans": 0,
+        "ansLetter": "A",
+        "explanation": "1397 x 1397 = (1397) 2 = (1400 - 3) 2 = (1400) 2 + (3) 2 - (2 x 1400 x 3) = 1960000 + 9 - 8400 = 1960009 - 8400 = 1951609."
+      },
+      {
+        "id": 6,
+        "q": "How many of the following numbers are divisible by 132 ? 264, 396, 462, 792, 968, 2178, 5184, 6336",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "ans": 0,
+        "ansLetter": "A",
+        "explanation": "132 = 4 x 3 x 11 So, if the number divisible by all the three number 4, 3 and 11, then the number is divisible by 132 also. 264 11,3,4 (/) 396 11,3,4 (/) 462 11,3 (X) 792 11,3,4 (/) 968 11,4 (X) 2178 11,3 (X) 5184 3,4 (X) 6336 11,3,4 (/) Therefore the following numbers are divisible by 132 : 264, 396, 792 and 6336. Required number of number = 4."
+      },
+      {
+        "id": 7,
+        "q": "(935421 x 625) = ?",
+        "options": [
+          "575648125",
+          "584638125",
+          "584649125",
+          "585628125"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "(10/2) (9354210000/16) = 584638125"
+      },
+      {
+        "id": 8,
+        "q": "The largest 4 digit number exactly divisible by 88 is:",
+        "options": [
+          "9944",
+          "9768",
+          "9988",
+          "8888",
+          "None of these"
+        ],
+        "ans": 0,
+        "ansLetter": "A",
+        "explanation": "Largest 4-digit number = 9999 88) 9999 (113 88 ---- 119 88 ---- 319 264 --- 55 --- Required number = (9999 - 55) = 9944."
+      },
+      {
+        "id": 9,
+        "q": "Which of the following is a prime number ?",
+        "options": [
+          "33",
+          "81",
+          "93",
+          "97"
+        ],
+        "ans": 3,
+        "ansLetter": "D",
+        "explanation": "Clearly, 97 is a prime number."
+      },
+      {
+        "id": 10,
+        "q": "What is the unit digit in {(6374)1793 x (625)317 x (341491)}?",
+        "options": [
+          "0",
+          "2",
+          "3",
+          "5"
+        ],
+        "ans": 0,
+        "ansLetter": "A",
+        "explanation": "Unit digit in (6374)1793 = Unit digit in (4)1793 = Unit digit in [(42)896 x 4] = Unit digit in (6 x 4) = 4 Unit digit in (625)317 = Unit digit in (5)317 = 5 Unit digit in (341)491 = Unit digit in (1)491 = 1 Required digit = Unit digit in (4 x 5 x 1) = 0."
+      }
+    ]
+  },
+  {
+    "id": "indiabix-number-series",
+    "slug": "number-series",
+    "title": "Number Series",
+    "category": "LOGICAL",
+    "categoryLabel": "🧩 Logical Reasoning",
+    "icon": "🎯",
+    "url": "https://www.indiabix.com/logical-reasoning/number-series/",
+    "desc": "Identify arithmetic progression, geometric patterns, alternating sequences, and missing numbers.",
+    "formulas": [
+      "Rule 1: Check difference between adjacent terms",
+      "Rule 2: Check square and cube progressions (n^2 ± k, n^3 ± k)",
+      "Rule 3: Check alternate series where even and odd positions follow separate rules"
+    ],
+    "questionsCount": 10,
+    "questions": [
+      {
+        "id": 1,
+        "q": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+        "options": [
+          "(1/3)",
+          "(1/8)",
+          "(2/8)",
+          "(1/16)"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "This is a simple division series; each number is one-half of the previous number. In other terms to say, the number is divided by 2 successively to get the next result. 4/2 = 2 2/2 = 1 1/2 = 1/2 (1/2)/2 = 1/4 (1/4)/2 = 1/8 and so on."
+      },
+      {
+        "id": 2,
+        "q": "Look at this series: 7, 10, 8, 11, 9, 12, ... What number should come next?",
+        "options": [
+          "7",
+          "10",
+          "12",
+          "13"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "This is a simple alternating addition and subtraction series. In the first pattern, 3 is added; in the second, 2 is subtracted."
+      },
+      {
+        "id": 3,
+        "q": "Look at this series: 36, 34, 30, 28, 24, ... What number should come next?",
+        "options": [
+          "20",
+          "22",
+          "23",
+          "26"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "This is an alternating number subtraction series. First, 2 is subtracted, then 4, then 2, and so on."
+      },
+      {
+        "id": 4,
+        "q": "Look at this series: 22, 21, 23, 22, 24, 23, ... What number should come next?",
+        "options": [
+          "22",
+          "24",
+          "25",
+          "26"
+        ],
+        "ans": 2,
+        "ansLetter": "C",
+        "explanation": "In this simple alternating subtraction and addition series; 1 is subtracted, then 2 is added, and so on."
+      },
+      {
+        "id": 5,
+        "q": "Look at this series: 53, 53, 40, 40, 27, 27, ... What number should come next?",
+        "options": [
+          "12",
+          "14",
+          "27",
+          "53"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "In this series, each number is repeated, then 13 is subtracted to arrive at the next number."
+      },
+      {
+        "id": 6,
+        "q": "Look at this series: 21, 9, 21, 11, 21, 13, 21, ... What number should come next?",
+        "options": [
+          "14",
+          "15",
+          "21",
+          "23"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "In this alternating repetition series, the random number 21 is interpolated every other number into an otherwise simple addition series that increases by 2, beginning with the number 9."
+      },
+      {
+        "id": 7,
+        "q": "Look at this series: 58, 52, 46, 40, 34, ... What number should come next?",
+        "options": [
+          "26",
+          "28",
+          "30",
+          "32"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "This is a simple subtraction series. Each number is 6 less than the previous number."
+      },
+      {
+        "id": 8,
+        "q": "Look at this series: 3, 4, 7, 8, 11, 12, ... What number should come next?",
+        "options": [
+          "7",
+          "10",
+          "14",
+          "15"
+        ],
+        "ans": 3,
+        "ansLetter": "D",
+        "explanation": "This alternating addition series begins with 3; then 1 is added to give 4; then 3 is added to give 7; then 1 is added, and so on."
+      },
+      {
+        "id": 9,
+        "q": "Look at this series: 8, 22, 8, 28, 8, ... What number should come next?",
+        "options": [
+          "9",
+          "29",
+          "32",
+          "34"
+        ],
+        "ans": 3,
+        "ansLetter": "D",
+        "explanation": "This is a simple addition series with a random number, 8, interpolated as every other number. In the series, 6 is added to each number except 8, to arrive at the next number."
+      },
+      {
+        "id": 10,
+        "q": "Look at this series: 31, 29, 24, 22, 17, ... What number should come next?",
+        "options": [
+          "15",
+          "14",
+          "13",
+          "12"
+        ],
+        "ans": 0,
+        "ansLetter": "A",
+        "explanation": "This is a simple alternating subtraction series, which subtracts 2, then 5."
+      }
+    ]
+  },
+  {
+    "id": "indiabix-letter-and-symbol-series",
+    "slug": "letter-and-symbol-series",
+    "title": "Letter and Symbol Series",
+    "category": "LOGICAL",
+    "categoryLabel": "🧩 Logical Reasoning",
+    "icon": "🔤",
+    "url": "https://www.indiabix.com/logical-reasoning/letter-and-symbol-series/",
+    "desc": "Alphabetical series, letter skips, reverse position values, and alphanumeric codes.",
+    "formulas": [
+      "Position mapping (EJOTY): E=5, J=10, O=15, T=20, Y=25",
+      "Opposite pairs sum to 27: A(1)+Z(26)=27, B(2)+Y(25)=27, C(3)+X(24)=27",
+      "Circular wrap: Z + 1 = A, A - 1 = Z"
+    ],
+    "questionsCount": 10,
+    "questions": [
+      {
+        "id": 1,
+        "q": "SCD, TEF, UGH, ____, WKL",
+        "options": [
+          "CMN",
+          "UJI",
+          "VIJ",
+          "IJT"
+        ],
+        "ans": 2,
+        "ansLetter": "C",
+        "explanation": "There are two alphabetical series here. The first series is with the first letters only: STUVW. The second series involves the remaining letters: CD, EF, GH, IJ, KL."
+      },
+      {
+        "id": 2,
+        "q": "B2CD, _____, BCD4, B5CD, BC6D",
+        "options": [
+          "B2C2D",
+          "BC3D",
+          "B2C3D",
+          "BCD7"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "Because the letters are the same, concentrate on the number series, which is a simple 2, 3, 4, 5, 6 series, and follows each letter in order."
+      },
+      {
+        "id": 3,
+        "q": "FAG, GAF, HAI, IAH, ____",
+        "options": [
+          "JAK",
+          "HAL",
+          "HAK",
+          "JAI"
+        ],
+        "ans": 0,
+        "ansLetter": "A",
+        "explanation": "The middle letters are static, so concentrate on the first and third letters. The series involves an alphabetical order with a reversal of the letters. The first letters are in alphabetical order: F, G, H, I , J. The second and fourth segments are reversals of the first and third segments. The missing segment begins with a new letter."
+      },
+      {
+        "id": 4,
+        "q": "ELFA, GLHA, ILJA, _____, MLNA",
+        "options": [
+          "OLPA",
+          "KLMA",
+          "LLMA",
+          "KLLA"
+        ],
+        "ans": 3,
+        "ansLetter": "D",
+        "explanation": "The second and forth letters in the series, L and A, are static. The first and third letters consist of an alphabetical order beginning with the letter E."
+      },
+      {
+        "id": 5,
+        "q": "CMM, EOO, GQQ, _____, KUU",
+        "options": [
+          "GRR",
+          "GSS",
+          "ISS",
+          "ITT"
+        ],
+        "ans": 2,
+        "ansLetter": "C",
+        "explanation": "The first letters are in alphabetical order with a letter skipped in between each segment: C, E, G, I, K. The second and third letters are repeated; they are also in order with a skipped letter: M, O, Q, S, U."
+      },
+      {
+        "id": 6,
+        "q": "ZA5, Y4B, XC6, W3D, _____",
+        "options": [
+          "E7V",
+          "V2E",
+          "VE5",
+          "VE7"
+        ],
+        "ans": 3,
+        "ansLetter": "D",
+        "explanation": "There are three series to look for here. The first letters are alphabetical in reverse: Z, Y, X, W, V. The second letters are in alphabetical order, beginning with A. The number series is as follows: 5, 4, 6, 3, 7."
+      },
+      {
+        "id": 7,
+        "q": "QPO, NML, KJI, _____, EDC",
+        "options": [
+          "HGF",
+          "CAB",
+          "JKL",
+          "GHI"
+        ],
+        "ans": 0,
+        "ansLetter": "A",
+        "explanation": "This series consists of letters in a reverse alphabetical order."
+      },
+      {
+        "id": 8,
+        "q": "JAK, KBL, LCM, MDN, _____",
+        "options": [
+          "OEP",
+          "NEO",
+          "MEN",
+          "PFQ"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "This is an alternating series in alphabetical order. The middle letters follow the order ABCDE. The first and third letters are alphabetical beginning with J. The third letter is repeated as a first letter in each subsequent three-letter segment."
+      },
+      {
+        "id": 9,
+        "q": "BCB, DED, FGF, HIH, ___",
+        "options": [
+          "JKJ",
+          "HJH",
+          "IJI",
+          "JHJ"
+        ],
+        "ans": 0,
+        "ansLetter": "A",
+        "explanation": "This series consists of a simple alphabetical order with the first two letters of all segments: B, C, D, E, F, G, H, I, J, K. The third letter of each segment is a repetition of the first letter."
+      },
+      {
+        "id": 10,
+        "q": "P5QR, P4QS, P3QT, _____, P1QV",
+        "options": [
+          "PQW",
+          "PQV2",
+          "P2QU",
+          "PQ3U"
+        ],
+        "ans": 2,
+        "ansLetter": "C",
+        "explanation": "The first two letters, PQ, are static. The third letter is in alphabetical order, beginning with R. The number series is in descending order beginning with 5."
+      }
+    ]
+  },
+  {
+    "id": "indiabix-blood-relation-test",
+    "slug": "blood-relation-test",
+    "title": "Blood Relations",
+    "category": "VERBAL_REASONING",
+    "categoryLabel": "🧬 Verbal & Analytical",
+    "icon": "👨‍👩‍👧‍👦",
+    "url": "https://www.indiabix.com/verbal-reasoning/blood-relation-test/",
+    "desc": "Decipher family trees, coded relations (A+B means father), and direct pointing statements.",
+    "formulas": [
+      "Generational Chart: Grandparents (+2), Parents (+1), Self/Siblings (0), Children (-1)",
+      "Symbolic Notation: (+) for Male, (-) for Female, (=) for Spouses, (--) for Siblings",
+      "Maternal relations = Mother's side; Paternal relations = Father's side"
+    ],
+    "questionsCount": 10,
+    "questions": [
+      {
+        "id": 1,
+        "q": "Pointing to a photograph of a boy Suresh said, \"He is the son of the only son of my mother.\" How is Suresh related to that boy?",
+        "options": [
+          "Brother",
+          "Uncle",
+          "Cousin",
+          "Father"
+        ],
+        "ans": 3,
+        "ansLetter": "D",
+        "explanation": "The boy in the photograph is the only son of the son of Suresh's mother i.e., the son of Suresh. Hence, Suresh is the father of boy."
+      },
+      {
+        "id": 2,
+        "q": "If A + B means A is the mother of B; A - B means A is the brother B; A % B means A is the father of B and A x B means A is the sister of B, which of the following shows that P is the maternal uncle of Q?",
+        "options": [
+          "Q - N + M x P",
+          "P + S x N - Q",
+          "P - M + N x Q",
+          "Q - S % P"
+        ],
+        "ans": 2,
+        "ansLetter": "C",
+        "explanation": "P - M &rarr; P is the brother of M M + N &rarr; M is the mother of N N x Q &rarr; N is the sister of Q Therefore, P is the maternal uncle of Q."
+      },
+      {
+        "id": 3,
+        "q": "If A is the brother of B; B is the sister of C; and C is the father of D, how D is related to A?",
+        "options": [
+          "Brother",
+          "Sister",
+          "Nephew",
+          "Cannot be determined"
+        ],
+        "ans": 3,
+        "ansLetter": "D",
+        "explanation": "If D is Male, the answer is Nephew. If D is Female, the answer is Niece. As the sex of D is not known, hence, the relation between D and A cannot be determined. Note: Niece - A daughter of one's brother or sister, or of one's brother-in-law or sister-in-law. Nephew - A son of one's brother or sister, or of one's brother-in-law or sister-in-law."
+      },
+      {
+        "id": 4,
+        "q": "If A + B means A is the brother of B; A - B means A is the sister of B and A x B means A is the father of B. Which of the following means that C is the son of M?",
+        "options": [
+          "M - N x C + F",
+          "F - C + N x M",
+          "N + M - F x C",
+          "M x N - C + F"
+        ],
+        "ans": 3,
+        "ansLetter": "D",
+        "explanation": "M x N &rarr; M is the father of N N - C &rarr; N is the sister of C and C + F &rarr; C is the brother of F. Hence, M is the father of C or C is the son of M."
+      },
+      {
+        "id": 5,
+        "q": "Introducing a boy, a girl said, \"He is the son of the daughter of the father of my uncle.\" How is the boy related to the girl?",
+        "options": [
+          "Brother",
+          "Nephew",
+          "Uncle",
+          "Son-in-law"
+        ],
+        "ans": 0,
+        "ansLetter": "A",
+        "explanation": "The father of the boy's uncle &rarr; the grandfather of the boy and daughter of the grandfather &rarr; sister of father."
+      },
+      {
+        "id": 6,
+        "q": "Pointing to a photograph Lata says, \"He is the son of the only son of my grandfather.\" How is the man in the photograph related to Lata?",
+        "options": [
+          "Brother",
+          "Uncle",
+          "Cousin",
+          "Data is inadequate"
+        ],
+        "ans": 0,
+        "ansLetter": "A",
+        "explanation": "The man in the photograph is the son of the only son of Lata's grandfather i.e., the man is the son of Lata's father. Hence, the man is the brother of Lata."
+      },
+      {
+        "id": 7,
+        "q": "If A + B means A is the brother of B; A x B means A is the son of B; and A % B means B is the daughter of A then which of the following means M is the maternal uncle of N?",
+        "options": [
+          "M + O x N",
+          "M % O x N + P",
+          "M + O % N",
+          "None of these"
+        ],
+        "ans": 3,
+        "ansLetter": "D",
+        "explanation": "Because the sex of O is not known."
+      },
+      {
+        "id": 8,
+        "q": "If D is the brother of B, how B is related to C? To answer this question which of the statements is/are necessary? The son of D is the grandson of C. B is the sister of D.",
+        "options": [
+          "Only 1",
+          "Only 2",
+          "Either 1 or 2",
+          "1 and 2 both are required"
+        ],
+        "ans": 3,
+        "ansLetter": "D",
+        "explanation": "Given: D is the brother of B. From statement 1, we can detect that D is son of C (son of D is the grandson of C). From statement 2, we can detect that B is 'Female' (sister of D). Therefore, B is daughter of C."
+      },
+      {
+        "id": 9,
+        "q": "If A + B means A is the father of B; A - B means A is the brother B; A % B means A is the wife of B and A x B means A is the mother of B, which of the following shows that M is the maternal grandmother of T?",
+        "options": [
+          "M x N % S + T",
+          "M x N - S % T",
+          "M x S - N % T",
+          "M x N x S % T"
+        ],
+        "ans": 0,
+        "ansLetter": "A",
+        "explanation": "M x N &rarr; M is the mother of N N % S &rarr; N is the wife of S and S + T &rarr; is the father of T. Hence, M is the maternal grandmother of T."
+      },
+      {
+        "id": 10,
+        "q": "Pointing to a photograph. Bajpai said, \"He is the son of the only daughter of the father of my brother.\" How Bajpai is related to the man in the photograph?",
+        "options": [
+          "Nephew",
+          "Brother",
+          "Father",
+          "Maternal Uncle"
+        ],
+        "ans": 3,
+        "ansLetter": "D",
+        "explanation": "The man in the photo is the son of the sister of Bajpai. Hence, Bajpai is the maternal uncle of the man in the photograph."
+      }
+    ]
+  },
+  {
+    "id": "indiabix-direction-sense-test",
+    "slug": "direction-sense-test",
+    "title": "Direction Sense Test",
+    "category": "VERBAL_REASONING",
+    "categoryLabel": "🧬 Verbal & Analytical",
+    "icon": "🧭",
+    "url": "https://www.indiabix.com/verbal-reasoning/direction-sense-test/",
+    "desc": "Cardinal directions (N, S, E, W), angular turns (90°, 180°), shadow tracking, and Pythagoras distance.",
+    "formulas": [
+      "Cardinal Compass: North (up), South (down), East (right), West (left)",
+      "Shortest Distance between start & end = √(x^2 + y^2) [Pythagoras theorem]",
+      "Sun in East (Morning) -> Shadow falls West; Sun in West (Evening) -> Shadow falls East"
+    ],
+    "questionsCount": 10,
+    "questions": [
+      {
+        "id": 1,
+        "q": "One morning Udai and Vishal were talking to each other face to face at a crossing. If Vishal's shadow was exactly to the left of Udai, which direction was Udai facing?",
+        "options": [
+          "East",
+          "West",
+          "North",
+          "South"
+        ],
+        "ans": 2,
+        "ansLetter": "C",
+        "explanation": "Refer to standard formula and calculate step-by-step."
+      },
+      {
+        "id": 2,
+        "q": "Y is in the East of X which is in the North of Z. If P is in the South of Z, then in which direction of Y, is P?",
+        "options": [
+          "North",
+          "South",
+          "South-East",
+          "None of these"
+        ],
+        "ans": 3,
+        "ansLetter": "D",
+        "explanation": "P is in South-West of Y."
+      },
+      {
+        "id": 3,
+        "q": "If South-East becomes North, North-East becomes West and so on. What will West become?",
+        "options": [
+          "North-East",
+          "North-West",
+          "South-East",
+          "South-West"
+        ],
+        "ans": 2,
+        "ansLetter": "C",
+        "explanation": "It is clear from the diagrams that new name of West will become South-East."
+      },
+      {
+        "id": 4,
+        "q": "A man walks 5 km toward south and then turns to the right. After walking 3 km he turns to the left and walks 5 km. Now in which direction is he from the starting place?",
+        "options": [
+          "West",
+          "South",
+          "North-East",
+          "South-West"
+        ],
+        "ans": 3,
+        "ansLetter": "D",
+        "explanation": "Hence required direction is South-West."
+      },
+      {
+        "id": 5,
+        "q": "Rahul put his timepiece on the table in such a way that at 6 P.M. hour hand points to North. In which direction the minute hand will point at 9.15 P.M. ?",
+        "options": [
+          "South-East",
+          "South",
+          "North",
+          "West"
+        ],
+        "ans": 3,
+        "ansLetter": "D",
+        "explanation": "At 9.15 P.M., the minute hand will point towards west."
+      },
+      {
+        "id": 6,
+        "q": "Rasik walked 20 m towards north. Then he turned right and walks 30 m. Then he turns right and walks 35 m. Then he turns left and walks 15 m. Finally he turns left and walks 15 m. In which direction and how many metres is he from the starting position?",
+        "options": [
+          "15 m West",
+          "30 m East",
+          "30 m West",
+          "45 m East"
+        ],
+        "ans": 3,
+        "ansLetter": "D",
+        "explanation": "Refer to standard formula and calculate step-by-step."
+      },
+      {
+        "id": 7,
+        "q": "Two cars start from the opposite places of a main road, 150 km apart. First car runs for 25 km and takes a right turn and then runs 15 km. It then turns left and then runs for another 25 km and then takes the direction back to reach the main road. In the mean time, due to minor break down the other car has run only 35 km along the main road. What would be the distance between two cars at this point?",
+        "options": [
+          "65 km",
+          "75 km",
+          "80 km",
+          "85 km"
+        ],
+        "ans": 0,
+        "ansLetter": "A",
+        "explanation": "Refer to standard formula and calculate step-by-step."
+      },
+      {
+        "id": 8,
+        "q": "Starting from the point X, Jayant walked 15 m towards west. He turned left and walked 20 m. He then turned left and walked 15 m. After this he turned to his right and walked 12 m. How far and in which directions is now Jayant from X?",
+        "options": [
+          "32 m, South",
+          "47 m, East",
+          "42 m, North",
+          "27 m, South"
+        ],
+        "ans": 0,
+        "ansLetter": "A",
+        "explanation": "Refer to standard formula and calculate step-by-step."
+      },
+      {
+        "id": 9,
+        "q": "One evening before sunset Rekha and Hema were talking to each other face to face. If Hema's shadow was exactly to the right of Hema, which direction was Rekha facing?",
+        "options": [
+          "North",
+          "South",
+          "East",
+          "Data is inadequate"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "In the evening sun sets in West. Hence then any shadow falls in the East. Since Hema's shadow was to the right of Hema. Hence Rekha was facing towards South."
+      },
+      {
+        "id": 10,
+        "q": "A boy rode his bicycle Northward, then turned left and rode 1 km and again turned left and rode 2 km. He found himself 1 km west of his starting point. How far did he ride northward initially?",
+        "options": [
+          "1 km",
+          "2 km",
+          "3 km",
+          "5 km"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "The boy rode 2 km. Northward."
+      }
+    ]
+  },
+  {
+    "id": "indiabix-seating-arrangement",
+    "slug": "seating-arrangement",
+    "title": "Seating Arrangement",
+    "category": "VERBAL_REASONING",
+    "categoryLabel": "🧬 Verbal & Analytical",
+    "icon": "🪑",
+    "url": "https://www.indiabix.com/verbal-reasoning/seating-arrangement/",
+    "desc": "Linear rows, circular tables facing inside/outside, and multi-variable placement puzzles.",
+    "formulas": [
+      "Circular Facing Center: Clockwise = Left, Counter-Clockwise = Right",
+      "Circular Facing Away from Center: Clockwise = Right, Counter-Clockwise = Left",
+      "Linear North-Facing: Left = West, Right = East"
+    ],
+    "questionsCount": 3,
+    "questions": [
+      {
+        "id": 1,
+        "q": "A, P, R, X, S and Z are sitting in a row. S and Z are in the centre. A and P are at the ends. R is sitting to the left of A. Who is to the right of P ?",
+        "options": [
+          "A",
+          "X",
+          "S",
+          "Z"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "The seating arrangement is as follows: Therefore, right of P is X."
+      },
+      {
+        "id": 2,
+        "q": "There are 8 houses in a line and in each house only one boy lives with the conditions as given below: Jack is not the neighbour Siman. Harry is just next to the left of Larry. There is at least one to the left of Larry. Paul lives in one of the two houses in the middle. Mike lives in between Paul and Larry. If at least one lives to the right of Robert and Harry is not between Taud and Larry, then which one of the following statement is not correct ?",
+        "options": [
+          "Robert is not at the left end.",
+          "Robert is in between Simon and Taud.",
+          "Taud is in between Paul and Jack.",
+          "There are three persons to the right of Paul."
+        ],
+        "ans": 2,
+        "ansLetter": "C",
+        "explanation": "No answer description is available. Let's discuss."
+      },
+      {
+        "id": 3,
+        "q": "A, B, C, D and E are sitting on a bench. A is sitting next to B, C is sitting next to D, D is not sitting with E who is on the left end of the bench. C is on the second position from the right. A is to the right of B and E. A and C are sitting together. In which position A is sitting ?",
+        "options": [
+          "Between B and D",
+          "Between B and C",
+          "Between E and D",
+          "Between C and E"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "Therefore, A is sitting in between B and C."
+      }
+    ]
+  },
+  {
+    "id": "indiabix-syllogism",
+    "slug": "syllogism",
+    "title": "Syllogism (Deductive Logic)",
+    "category": "VERBAL_REASONING",
+    "categoryLabel": "🧬 Verbal & Analytical",
+    "icon": "💡",
+    "url": "https://www.indiabix.com/verbal-reasoning/syllogism/",
+    "desc": "Statements: All / Some / No / Some Not. Determine which conclusions logically follow.",
+    "formulas": [
+      "Universal Affirmative: 'All A are B' (Circle A inside B)",
+      "Particular Affirmative: 'Some A are B' (Overlapping Circles)",
+      "Negative: 'No A is B' (Disjoint Circles)",
+      "Either-or Rule: Subject & predicate identical + one positive and one negative conclusion"
+    ],
+    "questionsCount": 10,
+    "questions": [
+      {
+        "id": 1,
+        "q": "Statements: Some actors are singers. All the singers are dancers. Conclusions: Some actors are dancers. No singer is actor.",
+        "options": [
+          "Only (1) conclusion follows",
+          "Only (2) conclusion follows",
+          "Either (1) or (2) follows",
+          "Neither (1) nor (2) follows",
+          "Both (1) and (2) follow"
+        ],
+        "ans": 0,
+        "ansLetter": "A",
+        "explanation": "Refer to standard formula and calculate step-by-step."
+      },
+      {
+        "id": 2,
+        "q": "Statements: All the harmoniums are instruments. All the instruments are flutes. Conclusions: All the flutes are instruments. All the harmoniums are flutes.",
+        "options": [
+          "Only (1) conclusion follows",
+          "Only (2) conclusion follows",
+          "Either (1) or (2) follows",
+          "Neither (1) nor (2) follows",
+          "Both (1) and (2) follow"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "Refer to standard formula and calculate step-by-step."
+      },
+      {
+        "id": 3,
+        "q": "Statements: Some mangoes are yellow. Some tixo are mangoes. Conclusions: Some mangoes are green. Tixo is a yellow.",
+        "options": [
+          "Only (1) conclusion follows",
+          "Only (2) conclusion follows",
+          "Either (1) or (2) follows",
+          "Neither (1) nor (2) follows",
+          "Both (1) and (2) follow"
+        ],
+        "ans": 3,
+        "ansLetter": "D",
+        "explanation": "Refer to standard formula and calculate step-by-step."
+      },
+      {
+        "id": 4,
+        "q": "Statements: Some ants are parrots. All the parrots are apples. Conclusions: All the apples are parrots. Some ants are apples.",
+        "options": [
+          "Only (1) conclusion follows",
+          "Only (2) conclusion follows",
+          "Either (1) or (2) follows",
+          "Neither (1) nor (2) follows",
+          "Both (1) and (2) follow"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "Refer to standard formula and calculate step-by-step."
+      },
+      {
+        "id": 5,
+        "q": "Statements: Some papers are pens. All the pencils are pens. Conclusions: Some pens are pencils. Some pens are papers.",
+        "options": [
+          "Only (1) conclusion follows",
+          "Only (2) conclusion follows",
+          "Either (1) or (2) follows",
+          "Neither (1) nor (2) follows",
+          "Both (1) and (2) follow"
+        ],
+        "ans": 4,
+        "ansLetter": "E",
+        "explanation": "Refer to standard formula and calculate step-by-step."
+      },
+      {
+        "id": 6,
+        "q": "Statements: All the actors are girls. All the girls are beautiful. Conclusions: All the actors are beautiful. Some girls are actors.",
+        "options": [
+          "Only (1) conclusion follows",
+          "Only (2) conclusion follows",
+          "Either (1) or (2) follows",
+          "Neither (1) nor (2) follows",
+          "Both (1) and (2) follow"
+        ],
+        "ans": 4,
+        "ansLetter": "E",
+        "explanation": "Refer to standard formula and calculate step-by-step."
+      },
+      {
+        "id": 7,
+        "q": "Statements: All the windows are doors. No door is a wall. Conclusions: Some windows are walls. No wall is a door.",
+        "options": [
+          "Only (1) conclusion follows",
+          "Only (2) conclusion follows",
+          "Either (1) or (2) follows",
+          "Neither (1) nor (2) follows",
+          "Both (1) and (2) follow"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "Refer to standard formula and calculate step-by-step."
+      },
+      {
+        "id": 8,
+        "q": "Statements: All cups are books. All books are shirts. Conclusions: Some cups are not shirts. Some shirts are cups.",
+        "options": [
+          "Only (1) conclusion follows",
+          "Only (2) conclusion follows",
+          "Either (1) or (2) follows",
+          "Neither (1) nor (2) follows",
+          "Both (1) and (2) follow"
+        ],
+        "ans": 1,
+        "ansLetter": "B",
+        "explanation": "Refer to standard formula and calculate step-by-step."
+      },
+      {
+        "id": 9,
+        "q": "Statements: Some cows are crows. Some crows are elephants. Conclusions: Some cows are elephants. All crows are elephants.",
+        "options": [
+          "Only (1) conclusion follows",
+          "Only (2) conclusion follows",
+          "Either (1) or (2) follows",
+          "Neither (1) nor (2) follows",
+          "Both (1) and (2) follow"
+        ],
+        "ans": 3,
+        "ansLetter": "D",
+        "explanation": "Refer to standard formula and calculate step-by-step."
+      },
+      {
+        "id": 10,
+        "q": "Statements: All the pencils are pens. All the pens are inks. Conclusions: All the pencils are inks. Some inks are pencils.",
+        "options": [
+          "Only (1) conclusion follows",
+          "Only (2) conclusion follows",
+          "Either (1) or (2) follows",
+          "Neither (1) nor (2) follows",
+          "Both (1) and (2) follow"
+        ],
+        "ans": 4,
+        "ansLetter": "E",
+        "explanation": "Refer to standard formula and calculate step-by-step."
+      }
+    ]
+  }
+]

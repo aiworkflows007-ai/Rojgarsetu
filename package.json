@@ -1,0 +1,14 @@
+{
+  "name": "sarkari-result-rojgarsetu",
+  "version": "1.0.0",
+  "description": "Sarkari Result RojgarSetu Portal — Govt, Private & Local Jobs + NCERT Notes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "cors": "^2.8.5"
+  }
+}

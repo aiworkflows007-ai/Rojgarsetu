@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="theme-color" content="#071224" />
+  <title>RojgarSetu 2026 — Government Jobs, State-Wise Private Vacancies, NCERT Notes &amp; Form Guidance</title>
+  <meta name="description" content="Official RojgarSetu Portal 2026. Central &amp; State Govt Jobs, Admit Cards, Results, Syllabus, State-wise Private Jobs, NCERT PDFs &amp; Form Filling Chat Assistant." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Kalam:wght@400;700&family=Manrope:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Top National Trust & Authority Strip -->
+  <div class="sr-top-national-bar">
+    <div class="national-bar-inner">
+      <div class="national-left">
+        <span class="flag-icon">🇮🇳</span>
+        <span class="gov-text"><strong>सत्यमेव जयते</strong> | National Recruitment Gateway</span>
+      </div>
+      <div class="national-right">
+        <span class="trust-badge">Use official notifications before applying</span>
+        <span class="nav-divider" aria-hidden="true">|</span>
+        <span id="currentDateDisplay" class="live-date">Updated Today</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="sr-wrapper">
+
+    <!-- 1. Authentic Prestigious Header -->
+    <header class="sr-header">
+      <div class="sr-header-inner">
+        <div class="sr-brand-col">
+          <div class="sr-emblem-wrap">
+            <div class="sr-emblem" title="RojgarSetu National Portal">
+              <span class="emblem-symbol">🏛️</span>
+              <span class="emblem-letters">RS</span>
+              <small>INDIA</small>
+            </div>
+          </div>
+          <div class="sr-header-text">
+            <div class="sr-title-row">
+              <h1 class="sr-title">ROJGAR SETU</h1>
+            </div>
+            <div class="sr-sub-tagline">
+              Central &amp; State Govt Jobs &bull; Private Vacancies &bull; NCERT Notes
+            </div>
+          </div>
+        </div>
+        <div class="sr-header-actions">
+          <button type="button" class="hdr-help-btn" onclick="openGuidanceChat()" title="Get form-filling guidance">
+            <span class="ai-icon">💬</span>
+            <span class="ai-btn-text">Form guidance</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- 2. THE THREE MAIN SWITCHER TABS (PROMINENT TOP MODE SWITCH) -->
+    <nav class="sr-mode-navbar" id="mainModeBar" aria-label="Main Category Navigation">
+      <button type="button" class="sr-mode-btn active" id="btnModeGovt" onclick="switchMainMode('GOVT')" title="Sarkari / Government Jobs Portal">
+        <span class="nav-icon">🏛️</span>
+        <span class="nav-label">Sarkari Jobs</span>
+        <span class="badge-count" id="countGovtBadge">0</span>
+      </button>
+      <button type="button" class="sr-mode-btn" id="btnModePrivate" onclick="switchMainMode('PRIVATE')" title="State-Wise Verified Private & Retail Vacancies">
+        <span class="nav-icon">🏢</span>
+        <span class="nav-label">Private Jobs</span>
+        <span class="badge-count" id="countPrivBadge">0</span>
+      </button>
+      <button type="button" class="sr-mode-btn" id="btnModeNotes" onclick="switchMainMode('NOTES')" title="NCERT Master Preparation Hub — Class 5 to 12">
+        <span class="nav-icon">📚</span>
+        <span class="nav-label">NCERT Master Hub</span>
+        <span class="badge-count" id="countNotesBadge">0</span>
+      </button>
+    </nav>
+
+    <!-- Sub Navbar Status Bar -->
+    <div class="sr-sub-navbar">
+      <div class="sr-sync-status">
+        <span class="live-dot"></span>
+        <span>Verified Active Opportunities: <strong><span id="totalLiveLinksCount">225+</span> Online Openings</strong></span>
+        <span class="sub-sep">|</span>
+        <span class="sync-time" id="syncTimeLabel">Live Commission Feeds</span>
+      </div>
+      <div class="sr-sub-actions">
+        <span class="sub-badge-chip">UPSC</span>
+        <span class="sub-badge-chip">SSC</span>
+        <span class="sub-badge-chip">Railway RRB</span>
+        <span class="sub-badge-chip">Defense</span>
+        <span class="sub-badge-chip">State PSCs</span>
+      </div>
+    </div>
+
+    <!-- Start with a goal: keeps the large portal easy to understand at first glance. -->
+    <section class="career-paths" aria-labelledby="careerPathTitle">
+      <div class="career-paths-intro">
+        <span class="eyebrow">YOUR NEXT STEP</span>
+        <h2 id="careerPathTitle">What do you want to achieve today?</h2>
+        <p>Choose one clear path. We will keep the tools, updates and guidance relevant to your goal.</p>
+      </div>
+      <div class="career-path-grid">
+        <button type="button" class="career-path-card is-featured" onclick="switchMainMode('GOVT')">
+          <span class="path-number" aria-hidden="true">01</span>
+          <span class="path-title">Apply for a government job</span>
+          <span class="path-copy">Find verified openings, dates and direct commission links.</span>
+          <span class="path-action">Explore openings <span aria-hidden="true">→</span></span>
+        </button>
+        <button type="button" class="career-path-card" onclick="switchMainMode('PRIVATE')">
+          <span class="path-number" aria-hidden="true">02</span>
+          <span class="path-title">Find a private job</span>
+          <span class="path-copy">Search fresh, no-fee roles by sector, state and qualification.</span>
+          <span class="path-action">Browse jobs <span aria-hidden="true">→</span></span>
+        </button>
+        <button type="button" class="career-path-card" onclick="switchMainMode('NOTES')">
+          <span class="path-number" aria-hidden="true">03</span>
+          <span class="path-title">Prepare and improve</span>
+          <span class="path-copy">Study NCERT notes, practice questions and build momentum.</span>
+          <span class="path-action">Start studying <span aria-hidden="true">→</span></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         VIEW 1: GOVERNMENT JOBS (ROJGARSETU LIVE VERIFIED)
+         ======================================================== -->
+    <main id="viewGovt" class="main-mode-view">
+      
+      <!-- Welcome Hero Heading & Quick Navigation -->
+      <section class="sr-welcome-block">
+        <div class="hero-badge-wrap">
+          <span class="hero-kicker-pill">🇮🇳 ALL INDIA GOVERNMENT RECRUITMENT PORTAL 2026</span>
+        </div>
+        <h1 class="sr-welcome-h1">Direct Official Access to 225+ Central &amp; State Government Vacancies</h1>
+        <div class="sr-welcome-sub">Verified application portals for UPSC, SSC, Railways, Defense, State PSCs &amp; Banking &bull; Gazette Links Only</div>
+
+        <div class="sr-quick-bar">
+          <a href="https://ncert.nic.in/textbook.php?ln=en" target="_blank" rel="noopener">📚 NCERT Class 1–12 Official PDF Books</a>
+          <span class="divider" aria-hidden="true">|</span>
+          <button type="button" class="quick-link-btn" onclick="openGuidanceChat()">💬 Ask Chat: How to Fill Form?</button>
+        </div>
+
+        <!-- Live Marquee Rows -->
+        <div class="sr-marquee-box" id="liveTicker">
+          <div class="sr-marquee-row" id="marqueeRow1">
+            <span style="color:#6b7280;">Loading verified recruitment announcements...</span>
+          </div>
+          <div class="sr-marquee-row" id="marqueeRow2"></div>
+        </div>
+      </section>
+
+      <!-- Search & Qualification Filter Strip -->
+      <section class="sr-filter-bar">
+        <div class="sr-filter-top">
+          <div class="search-wrapper">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="govtSearchInput" class="search-input" placeholder="Search by Job, Commission, Post (e.g., BPSC, Railway NTPC, SSC CGL, Police, UPSC)..." oninput="renderGovtView()" />
+          </div>
+          <button type="button" class="btn btn-outline" onclick="resetGovtFilters()">Reset Filters</button>
+        </div>
+
+        <!-- Trending Quick Keywords -->
+        <div class="trending-tags-bar">
+          <span class="trending-label">🔥 QUICK FILTERS:</span>
+          <button type="button" class="trend-tag" onclick="quickFilterSearch('Railway')">🚆 Railway RRB</button>
+          <button type="button" class="trend-tag" onclick="quickFilterSearch('Police')">👮 Police / Constable</button>
+          <button type="button" class="trend-tag" onclick="quickFilterSearch('Army')">⚔️ Defense / Army</button>
+          <button type="button" class="trend-tag" onclick="quickFilterSearch('SSC')">📑 SSC (CGL/CHSL)</button>
+          <button type="button" class="trend-tag" onclick="quickFilterSearch('BPSC')">🏛️ BPSC / Bihar</button>
+          <button type="button" class="trend-tag" onclick="quickFilterSearch('Teacher')">👨‍🏫 Teaching / TET</button>
+          <button type="button" class="trend-tag" onclick="quickFilterSearch('Banking')">🏦 Banking (IBPS/SBI)</button>
+          <button type="button" class="trend-tag" onclick="quickFilterSearch('10th / Matric')">🎯 10th Pass</button>
+          <button type="button" class="trend-tag" onclick="quickFilterSearch('12th / Inter')">🎯 12th Pass</button>
+          <button type="button" class="trend-tag" onclick="quickFilterSearch('Graduate')">🎓 Graduate</button>
+        </div>
+
+        <div class="qual-pills" id="govtQualPills">
+          <span class="filter-label">MIN QUALIFICATION:</span>
+          <button type="button" class="qual-pill active" data-qual="ALL" onclick="selectGovtQual('ALL')">All Qualifications</button>
+          <button type="button" class="qual-pill" data-qual="10th / Matric" onclick="selectGovtQual('10th / Matric')">10th / Matric</button>
+          <button type="button" class="qual-pill" data-qual="12th / Inter" onclick="selectGovtQual('12th / Inter')">12th / Inter</button>
+          <button type="button" class="qual-pill" data-qual="ITI / Diploma" onclick="selectGovtQual('ITI / Diploma')">ITI / Diploma</button>
+          <button type="button" class="qual-pill" data-qual="Graduate" onclick="selectGovtQual('Graduate')">Graduate</button>
+          <button type="button" class="qual-pill" data-qual="Post Graduate" onclick="selectGovtQual('Post Graduate')">Post Graduate</button>
+        </div>
+        <div class="filter-summary" id="govtShowingSummary">Showing all active recruitment notifications</div>
+      </section>
+
+      <!-- Iconic 8 Top Action Color Boxes (Interactive Direct Apply) -->
+      <section class="sr-color-grid" id="topColorGrid">
+        <!-- Rendered dynamically from live top jobs -->
+      </section>
+
+      <!-- 3-COLUMN ROW 1: Result | Admit Card | Latest Jobs -->
+      <section class="sr-three-col-grid">
+        <!-- Col 1: Result -->
+        <div class="sr-box" id="colResultCard">
+          <div>
+            <div class="sr-box-header">Result</div>
+            <ul class="sr-list" id="colResultList"></ul>
+          </div>
+          <div class="sr-box-footer">
+            <span class="col-count-tag" id="countColResult">0</span>
+            <span class="sr-view-more">Official Verified »</span>
+          </div>
+        </div>
+
+        <!-- Col 2: Admit Card -->
+        <div class="sr-box" id="colAdmitCard">
+          <div>
+            <div class="sr-box-header">Admit Card</div>
+            <ul class="sr-list" id="colAdmitList"></ul>
+          </div>
+          <div class="sr-box-footer">
+            <span class="col-count-tag" id="countColAdmit">0</span>
+            <span class="sr-view-more">Official Verified »</span>
+          </div>
+        </div>
+
+        <!-- Col 3: Latest Jobs -->
+        <div class="sr-box" id="colJobCard">
+          <div>
+            <div class="sr-box-header" style="background-color:#991b1b;">Latest Jobs</div>
+            <ul class="sr-list" id="colLatestJobList"></ul>
+          </div>
+          <div class="sr-box-footer">
+            <span class="col-count-tag" id="countColJobs">0</span>
+            <span class="sr-view-more">Official Verified »</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3-COLUMN ROW 2: Answer Key | Syllabus | Admission -->
+      <section class="sr-three-col-grid">
+        <!-- Col 4: Answer Key -->
+        <div class="sr-box">
+          <div>
+            <div class="sr-box-header">Answer Key</div>
+            <ul class="sr-list" id="colAnswerKeyList"></ul>
+          </div>
+          <div class="sr-box-footer">
+            <span class="col-count-tag" id="countColKey">0</span>
+            <span class="sr-view-more">Official Verified »</span>
+          </div>
+        </div>
+
+        <!-- Col 5: Syllabus -->
+        <div class="sr-box">
+          <div>
+            <div class="sr-box-header purple-hdr">Syllabus</div>
+            <ul class="sr-list" id="colSyllabusList"></ul>
+          </div>
+          <div class="sr-box-footer">
+            <span class="col-count-tag" id="countColSyllabus">0</span>
+            <span class="sr-view-more">Official Verified »</span>
+          </div>
+        </div>
+
+        <!-- Col 6: Admission -->
+        <div class="sr-box">
+          <div>
+            <div class="sr-box-header blue-hdr">Admission</div>
+            <ul class="sr-list" id="colAdmissionList"></ul>
+          </div>
+          <div class="sr-box-footer">
+            <span class="col-count-tag" id="countColAdmission">0</span>
+            <span class="sr-view-more">Official Verified »</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3-COLUMN ROW 3: Certificate Verification | Outsourcing & Offline Jobs | Important Links -->
+      <section class="sr-three-col-grid">
+        <!-- Col 7: Certificate -->
+        <div class="sr-box">
+          <div>
+            <div class="sr-box-header">Certificate Verification</div>
+            <ul class="sr-list" id="colCertificateList"></ul>
+          </div>
+          <div class="sr-box-footer">
+            <span class="col-count-tag" id="countColCert">0</span>
+            <span class="sr-view-more">Official Verified »</span>
+          </div>
+        </div>
+
+        <!-- Col 8: Outsourcing / Offline Jobs -->
+        <div class="sr-box">
+          <div>
+            <div class="sr-box-header green-hdr">Outsourcing &amp; Offline Jobs</div>
+            <ul class="sr-list" id="colOutsourcingList"></ul>
+          </div>
+          <div class="sr-box-footer">
+            <span class="col-count-tag" id="countColOutsource">0</span>
+            <span class="sr-view-more">Official Verified »</span>
+          </div>
+        </div>
+
+        <!-- Col 9: Important -->
+        <div class="sr-box">
+          <div>
+            <div class="sr-box-header">Important Links</div>
+            <ul class="sr-list" id="colImportantList"></ul>
+          </div>
+          <div class="sr-box-footer">
+            <span class="col-count-tag" id="countColImportant">0</span>
+            <span class="sr-view-more">Official Verified »</span>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ========================================================
+         VIEW 2: PRIVATE SECTOR JOBS (STATE-WISE & DATE-SORTED)
+         ======================================================== -->
+    <main id="viewPrivate" class="main-mode-view" style="display:none;">
+      
+      <!-- Private Header Strip: Genuine Businesses, Retail Shops, Factories & Industries -->
+      <section class="private-header-strip">
+        <div class="hero-badge-wrap">
+          <span class="hero-kicker-pill">🏢 VERIFIED BUSINESS, RETAIL &amp; INDUSTRIAL OPENINGS 2026</span>
+        </div>
+        <h2 class="private-header-h2">100% Genuine Direct Store, Factory &amp; Workshop Hiring</h2>
+        <p class="private-header-sub">Direct official company portals &bull; 10th / 12th / ITI / Diploma &amp; Non-Tech Freshers &bull; Zero Placement Fees</p>
+        
+        <!-- Trust Guarantee Tags -->
+        <div class="private-trust-badges">
+          <span class="p-trust-pill">🛡️ 100% Verified Direct Portals</span>
+          <span class="p-trust-pill">🚫 Zero Placement &amp; Reg. Charges</span>
+          <span class="p-trust-pill">⚡ Sorted by Date of Posting</span>
+          <span class="p-trust-pill">🏪 Real Stores, Factories &amp; Hubs</span>
+        </div>
+
+        <!-- 4-Metric Real-Time Stat Dashboard -->
+        <div class="private-metrics-grid">
+          <div class="p-metric-card">
+            <div class="p-metric-icon">💼</div>
+            <div class="p-metric-data">
+              <span class="p-metric-num" id="statPrivTotalOpenings">38+</span>
+              <span class="p-metric-label">Active Verified Jobs</span>
+            </div>
+          </div>
+          <div class="p-metric-card">
+            <div class="p-metric-icon">⚡</div>
+            <div class="p-metric-data">
+              <span class="p-metric-num" id="statPrivTodayCount">10+ Posts</span>
+              <span class="p-metric-label">Posted Today &amp; Fresh</span>
+            </div>
+          </div>
+          <div class="p-metric-card">
+            <div class="p-metric-icon">📍</div>
+            <div class="p-metric-data">
+              <span class="p-metric-num" id="statPrivStatesCount">14+ States</span>
+              <span class="p-metric-label">All-India Locations</span>
+            </div>
+          </div>
+          <div class="p-metric-card">
+            <div class="p-metric-icon">🎯</div>
+            <div class="p-metric-data">
+              <span class="p-metric-num">10th / 12th / ITI</span>
+              <span class="p-metric-label">No Fancy Degree Needed</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sector Quick-Filter Pills Strip -->
+      <section class="private-sector-bar">
+        <div class="sector-bar-header">
+          <span class="sector-bar-title">🏷️ BROWSE BY WORK SECTOR:</span>
+          <span class="sector-bar-sub" id="activeSectorLabel">All Sectors</span>
+        </div>
+        <div class="sector-pills-scroll" id="sectorPills">
+          <button type="button" class="sector-pill active" data-sector="ALL" onclick="selectPrivateSector('ALL')">
+            ✨ All Sectors <span class="pill-count" id="countSectorAll">38</span>
+          </button>
+          <button type="button" class="sector-pill" data-sector="Shops & Retail Supermarkets" onclick="selectPrivateSector('Shops & Retail Supermarkets')">
+            🛒 Retail &amp; Supermarkets <span class="pill-count" id="countSectorRetail">8</span>
+          </button>
+          <button type="button" class="sector-pill" data-sector="Factories & Industrial Plants" onclick="selectPrivateSector('Factories & Industrial Plants')">
+            🏭 Factories &amp; Plants <span class="pill-count" id="countSectorFactory">9</span>
+          </button>
+          <button type="button" class="sector-pill" data-sector="Pharmacies & Healthcare Shops" onclick="selectPrivateSector('Pharmacies & Healthcare Shops')">
+            💊 Pharmacies &amp; Medical <span class="pill-count" id="countSectorPharmacy">5</span>
+          </button>
+          <button type="button" class="sector-pill" data-sector="Warehousing & Logistics Hubs" onclick="selectPrivateSector('Warehousing & Logistics Hubs')">
+            📦 Logistics &amp; Warehousing <span class="pill-count" id="countSectorLogistics">6</span>
+          </button>
+          <button type="button" class="sector-pill" data-sector="Showrooms & Dealerships" onclick="selectPrivateSector('Showrooms & Dealerships')">
+            🏬 Showrooms &amp; Auto <span class="pill-count" id="countSectorShowroom">6</span>
+          </button>
+          <button type="button" class="sector-pill" data-sector="MSME & Local Businesses" onclick="selectPrivateSector('MSME & Local Businesses')">
+            ⚙️ MSME &amp; Small Enterprises <span class="pill-count" id="countSectorMSME">4</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- State Selection Pills Carousel -->
+      <section class="state-filter-box">
+        <div class="state-filter-title">
+          <span>📍 FILTER BY STATE / REGION:</span>
+          <span style="font-weight:800; color:#ab183d;" id="activeStateLabel">All India</span>
+        </div>
+        <div class="state-pills-scroll" id="statePills">
+          <button type="button" class="state-pill active" data-state="ALL" onclick="selectPrivateState('ALL')">🇮🇳 All States <span class="pill-count" id="pstate-ALL">38</span></button>
+          <button type="button" class="state-pill" data-state="Bihar" onclick="selectPrivateState('Bihar')">Bihar <span class="pill-count" id="pstate-Bihar">4</span></button>
+          <button type="button" class="state-pill" data-state="Uttar Pradesh" onclick="selectPrivateState('Uttar Pradesh')">Uttar Pradesh <span class="pill-count" id="pstate-UttarPradesh">5</span></button>
+          <button type="button" class="state-pill" data-state="Delhi NCR" onclick="selectPrivateState('Delhi NCR')">Delhi NCR <span class="pill-count" id="pstate-DelhiNCR">4</span></button>
+          <button type="button" class="state-pill" data-state="Maharashtra" onclick="selectPrivateState('Maharashtra')">Maharashtra <span class="pill-count" id="pstate-Maharashtra">4</span></button>
+          <button type="button" class="state-pill" data-state="Gujarat" onclick="selectPrivateState('Gujarat')">Gujarat <span class="pill-count" id="pstate-Gujarat">3</span></button>
+          <button type="button" class="state-pill" data-state="Madhya Pradesh" onclick="selectPrivateState('Madhya Pradesh')">Madhya Pradesh <span class="pill-count" id="pstate-MadhyaPradesh">3</span></button>
+          <button type="button" class="state-pill" data-state="Rajasthan" onclick="selectPrivateState('Rajasthan')">Rajasthan <span class="pill-count" id="pstate-Rajasthan">3</span></button>
+          <button type="button" class="state-pill" data-state="Karnataka" onclick="selectPrivateState('Karnataka')">Karnataka <span class="pill-count" id="pstate-Karnataka">3</span></button>
+          <button type="button" class="state-pill" data-state="West Bengal" onclick="selectPrivateState('West Bengal')">West Bengal <span class="pill-count" id="pstate-WestBengal">2</span></button>
+          <button type="button" class="state-pill" data-state="Jharkhand" onclick="selectPrivateState('Jharkhand')">Jharkhand <span class="pill-count" id="pstate-Jharkhand">2</span></button>
+          <button type="button" class="state-pill" data-state="Tamil Nadu" onclick="selectPrivateState('Tamil Nadu')">Tamil Nadu <span class="pill-count" id="pstate-TamilNadu">2</span></button>
+          <button type="button" class="state-pill" data-state="Telangana" onclick="selectPrivateState('Telangana')">Telangana <span class="pill-count" id="pstate-Telangana">2</span></button>
+          <button type="button" class="state-pill" data-state="Haryana / Punjab" onclick="selectPrivateState('Haryana / Punjab')">Haryana / Punjab <span class="pill-count" id="pstate-HaryanaPunjab">2</span></button>
+        </div>
+      </section>
+
+      <!-- Search, Sort & Qualification Filters Strip -->
+      <section class="sr-filter-bar">
+        <div class="sr-filter-top">
+          <div class="search-wrapper">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="privateSearchInput" class="search-input" placeholder="Search by role, store, factory, trade (e.g., DMart, Apollo Pharmacy, Cashier, ITI, Helper, Patna, Pune)..." oninput="renderPrivateView()" />
+          </div>
+          <div class="filter-dropdowns">
+            <div class="select-label-wrap">
+              <label for="privateSortSelect" class="filter-mini-lbl">Sort by:</label>
+              <select id="privateSortSelect" class="filter-select" onchange="renderPrivateView()">
+                <option value="date-desc">⚡ Date: Newest First (Today)</option>
+                <option value="date-asc">📅 Date: Oldest First</option>
+                <option value="openings-desc">👥 Highest Vacancies</option>
+                <option value="salary-desc">💰 Salary: High to Low</option>
+              </select>
+            </div>
+            <div class="select-label-wrap">
+              <label for="privateQualSelect" class="filter-mini-lbl">Education:</label>
+              <select id="privateQualSelect" class="filter-select" onchange="renderPrivateView()">
+                <option value="ALL">All Qualifications</option>
+                <option value="10th Pass / Matric">🎯 10th Pass / Matric</option>
+                <option value="12th Pass / Intermediate">🎯 12th Pass / Intermediate</option>
+                <option value="ITI / Technical Trade">⚙️ ITI / Technical Trade</option>
+                <option value="Graduate (Any Stream)">🎓 Graduate (Any Stream)</option>
+              </select>
+            </div>
+          </div>
+          <button type="button" class="btn btn-outline" onclick="resetPrivateFilters()">Reset Filters</button>
+        </div>
+        <div class="filter-summary-bar">
+          <div class="filter-summary" id="privateResultsSummary">Showing verified business, retail and industrial openings across India</div>
+          <div class="sort-indicator-pill" id="privateSortIndicator">⚡ Sorted by Date of Posting (Newest First)</div>
+        </div>
+      </section>
+
+      <!-- Private Jobs Cards Grid -->
+      <section class="private-jobs-grid" id="privateCardsGrid">
+        <!-- Rendered dynamically -->
+      </section>
+
+    </main>
+
+    <!-- ========================================================
+         VIEW 3: STUDY HUB — NOTES, DAILY QUIZZES & MOCK TESTS
+         ======================================================== -->
+    <main id="viewNotes" class="main-mode-view" style="display:none;">
+      
+      <!-- Smart EdTech Dashboard Layout (Inspired by Modern EdTech Screenshot) -->
+      <div class="smart-edtech-layout ncert-legacy-shell">
+
+        <!-- 1. Deep Royal Indigo Sidebar -->
+        <aside class="edtech-sidebar">
+          <div class="edtech-sidebar-brand">
+            <div class="edtech-brand-icon">🎓</div>
+            <span>Smart NCERT</span>
+          </div>
+
+          <nav class="edtech-nav-list" aria-label="EdTech Navigation">
+            <button type="button" class="edtech-nav-item active" id="sideNavDashboard" onclick="switchEdtechTab('dashboard')">
+              <span class="edtech-nav-icon">📊</span>
+              <span>Overview</span>
+            </button>
+            <button type="button" class="edtech-nav-item" id="sideNavLessons" onclick="switchEdtechTab('lessons')">
+              <span class="edtech-nav-icon">📚</span>
+              <span>Courses</span>
+            </button>
+            <button type="button" class="edtech-nav-item" id="sideNavHandwritten" onclick="switchEdtechTab('handwritten')">
+              <span class="edtech-nav-icon">✍️</span>
+              <span>Topper Notes</span>
+            </button>
+            <button type="button" class="edtech-nav-item" id="sideNavAssessments" onclick="switchEdtechTab('assessments')">
+              <span class="edtech-nav-icon">⚡</span>
+              <span>Assessment</span>
+            </button>
+            <button type="button" class="edtech-nav-item" id="sideNavSchedule" onclick="switchEdtechTab('schedule')">
+              <span class="edtech-nav-icon">📅</span>
+              <span>Schedule</span>
+            </button>
+          </nav>
+
+          <div class="edtech-sidebar-bottom">
+            <div style="font-size:0.75rem; color:#93c5fd; margin-bottom:6px; font-weight:800; letter-spacing:0.04em;">ACTIVE CURRICULUM</div>
+            <div style="font-size:0.85rem; color:#ffffff; font-weight:900;">NCERT Class 5 — 10</div>
+            <div style="font-size:0.75rem; color:#cbd5e1; margin-top:3px; line-height:1.4;">96 Chapters &bull; 2,880 MCQs &bull; 96 Speed Quizzes &bull; 12 Grand Tests</div>
+          </div>
+        </aside>
+
+        <!-- 2. Main Platform Body -->
+        <div class="edtech-body-wrap">
+
+          <!-- Topbar -->
+          <header class="edtech-topbar">
+            <div class="edtech-search-wrap">
+              <span class="edtech-search-icon">🔍</span>
+              <input type="text" id="edtechSearchInput" class="edtech-search-input" placeholder="Search your course, topper notes, or NCERT concepts..." oninput="handleEdtechSearch(this.value)">
+            </div>
+
+            <div class="edtech-topbar-right">
+              <div class="lang-pill-group" style="margin:0;">
+                <button type="button" class="lang-pill active" id="btnEdtechLangHi" onclick="setStudyLanguage('hi')">
+                  🇮🇳 हिन्दी
+                </button>
+                <button type="button" class="lang-pill" id="btnEdtechLangEn" onclick="setStudyLanguage('en')">
+                  🇬🇧 ENG
+                </button>
+                <button type="button" class="lang-pill" id="btnEdtechLangBi" onclick="setStudyLanguage('bilingual')">
+                  🌐 द्विभाषी
+                </button>
+              </div>
+
+              <button type="button" class="edtech-icon-btn" title="Daily Notifications" onclick="showToast('🔔 You have 3 active study tasks scheduled today!')">
+                🔔
+                <span class="edtech-badge-dot"></span>
+              </button>
+
+              <div class="edtech-profile-card" onclick="showToast('Student Profile: Grace Stanley (Aspirant)')">
+                <div style="width:34px; height:34px; border-radius:50%; background:linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%); color:#ffffff; display:flex; align-items:center; justify-content:center; font-weight:900; font-size:0.92rem; border:2px solid #93c5fd;">
+                  GS
+                </div>
+                <div>
+                  <div class="edtech-username">Grace Stanley</div>
+                  <div style="font-size:0.7rem; color:#64748b; font-weight:700;">Aspirant</div>
+                </div>
+              </div>
+            </div>
+          </header>
+
+          <!-- 3. Dashboard Multi-Column Grid (From Screenshot) -->
+          <div class="edtech-dashboard-grid" id="edtechDashboardSection">
+
+            <!-- Left Main Feed Column -->
+            <div class="edtech-main-feed">
+
+              <!-- Hero Card -->
+              <div class="edtech-hero-card">
+                <div class="edtech-hero-left">
+                  <h1>Hello Grace Stanley! 👋</h1>
+                  <p>It's good to see you again. You have 3 study tasks scheduled today — complete your daily handwritten notes revision and attempt your chapter speed sprint.</p>
+                  <button type="button" class="edtech-hero-cta" onclick="switchEdtechTab('handwritten')">
+                    ✍️ Read Handwritten Notes &rarr;
+                  </button>
+                </div>
+                <div class="edtech-hero-illustration" aria-hidden="true">
+                  📚🎓✨
+                </div>
+              </div>
+
+              <!-- Performance & Topic Mastery Row -->
+              <div class="edtech-analytics-row">
+
+                <!-- Card 1: Best Lessons / Accuracy Bar Chart -->
+                <div class="edtech-stat-card">
+                  <div class="edtech-stat-header">
+                    <span class="edtech-stat-title">Best Lessons &amp; Accuracy</span>
+                    <span class="edtech-dropdown-pill">This Week ▼</span>
+                  </div>
+
+                  <div class="best-lessons-metric">
+                    <span class="best-lessons-num">95.4%</span>
+                    <span class="best-lessons-sub">Overall NCERT Mastery</span>
+                  </div>
+
+                  <div class="edtech-bar-chart">
+                    <div class="barchart-col">
+                      <span class="barchart-pct">92%</span>
+                      <div class="barchart-bar-wrap"><div class="barchart-fill" style="height:92%;"></div></div>
+                      <span class="barchart-label">Math</span>
+                    </div>
+                    <div class="barchart-col">
+                      <span class="barchart-pct">88%</span>
+                      <div class="barchart-bar-wrap"><div class="barchart-fill" style="height:88%; background:linear-gradient(180deg, #10b981 0%, #059669 100%);"></div></div>
+                      <span class="barchart-label">Science</span>
+                    </div>
+                    <div class="barchart-col">
+                      <span class="barchart-pct">96%</span>
+                      <div class="barchart-bar-wrap"><div class="barchart-fill" style="height:96%; background:linear-gradient(180deg, #f59e0b 0%, #d97706 100%);"></div></div>
+                      <span class="barchart-label">SST</span>
+                    </div>
+                    <div class="barchart-col">
+                      <span class="barchart-pct">94%</span>
+                      <div class="barchart-bar-wrap"><div class="barchart-fill" style="height:94%; background:linear-gradient(180deg, #8b5cf6 0%, #6d28d9 100%);"></div></div>
+                      <span class="barchart-label">Hindi</span>
+                    </div>
+                    <div class="barchart-col">
+                      <span class="barchart-pct">98%</span>
+                      <div class="barchart-bar-wrap"><div class="barchart-fill" style="height:98%; background:linear-gradient(180deg, #ec4899 0%, #db2777 100%);"></div></div>
+                      <span class="barchart-label">Speed</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Card 2: Topic Mastery Rings (6 Circular Donuts From Screenshot) -->
+                <div class="edtech-stat-card">
+                  <div class="edtech-stat-header">
+                    <span class="edtech-stat-title">Topic Mastery Rings</span>
+                    <span class="edtech-dropdown-pill">NCERT Core ▼</span>
+                  </div>
+
+                  <div class="edtech-donuts-grid">
+                    <!-- Circle 1: 92% Numbers -->
+                    <div class="donut-card-item">
+                      <div class="donut-circle-wrap">
+                        <svg width="64" height="64" viewBox="0 0 64 64">
+                          <circle class="donut-bg-ring" cx="32" cy="32" r="26"></circle>
+                          <circle class="donut-fill-ring" cx="32" cy="32" r="26" stroke-dasharray="163.36" stroke-dashoffset="13"></circle>
+                        </svg>
+                        <span class="donut-pct-text">92%</span>
+                      </div>
+                      <span class="donut-sub-title">Numbers</span>
+                    </div>
+
+                    <!-- Circle 2: 83% Fractions -->
+                    <div class="donut-card-item">
+                      <div class="donut-circle-wrap">
+                        <svg width="64" height="64" viewBox="0 0 64 64">
+                          <circle class="donut-bg-ring" cx="32" cy="32" r="26"></circle>
+                          <circle class="donut-fill-ring" cx="32" cy="32" r="26" stroke="#10b981" stroke-dasharray="163.36" stroke-dashoffset="28"></circle>
+                        </svg>
+                        <span class="donut-pct-text">83%</span>
+                      </div>
+                      <span class="donut-sub-title">Fractions</span>
+                    </div>
+
+                    <!-- Circle 3: 78% Geometry -->
+                    <div class="donut-card-item">
+                      <div class="donut-circle-wrap">
+                        <svg width="64" height="64" viewBox="0 0 64 64">
+                          <circle class="donut-bg-ring" cx="32" cy="32" r="26"></circle>
+                          <circle class="donut-fill-ring" cx="32" cy="32" r="26" stroke="#f59e0b" stroke-dasharray="163.36" stroke-dashoffset="36"></circle>
+                        </svg>
+                        <span class="donut-pct-text">78%</span>
+                      </div>
+                      <span class="donut-sub-title">Geometry</span>
+                    </div>
+
+                    <!-- Circle 4: 97% Science -->
+                    <div class="donut-card-item">
+                      <div class="donut-circle-wrap">
+                        <svg width="64" height="64" viewBox="0 0 64 64">
+                          <circle class="donut-bg-ring" cx="32" cy="32" r="26"></circle>
+                          <circle class="donut-fill-ring" cx="32" cy="32" r="26" stroke="#8b5cf6" stroke-dasharray="163.36" stroke-dashoffset="5"></circle>
+                        </svg>
+                        <span class="donut-pct-text">97%</span>
+                      </div>
+                      <span class="donut-sub-title">Science</span>
+                    </div>
+
+                    <!-- Circle 5: 96% SST -->
+                    <div class="donut-card-item">
+                      <div class="donut-circle-wrap">
+                        <svg width="64" height="64" viewBox="0 0 64 64">
+                          <circle class="donut-bg-ring" cx="32" cy="32" r="26"></circle>
+                          <circle class="donut-fill-ring" cx="32" cy="32" r="26" stroke="#06b6d4" stroke-dasharray="163.36" stroke-dashoffset="7"></circle>
+                        </svg>
+                        <span class="donut-pct-text">96%</span>
+                      </div>
+                      <span class="donut-sub-title">SST</span>
+                    </div>
+
+                    <!-- Circle 6: 89% Hindi -->
+                    <div class="donut-card-item">
+                      <div class="donut-circle-wrap">
+                        <svg width="64" height="64" viewBox="0 0 64 64">
+                          <circle class="donut-bg-ring" cx="32" cy="32" r="26"></circle>
+                          <circle class="donut-fill-ring" cx="32" cy="32" r="26" stroke="#ec4899" stroke-dasharray="163.36" stroke-dashoffset="18"></circle>
+                        </svg>
+                        <span class="donut-pct-text">89%</span>
+                      </div>
+                      <span class="donut-sub-title">Hindi</span>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Card 3: Mentors Row (From Screenshot) -->
+              <div class="edtech-mentors-card">
+                <div class="edtech-stat-header">
+                  <span class="edtech-stat-title">Your Mentors &amp; Subject Faculty</span>
+                  <span style="font-size:0.8rem; font-weight:800; color:#2563eb; cursor:pointer;" onclick="showToast('All 3 faculties are active!')">3 Mentors Online 🟢</span>
+                </div>
+
+                <div class="mentor-list">
+                  <div class="mentor-row-item">
+                    <div class="mentor-info-left">
+                      <div class="mentor-avatar-img">👨‍🏫</div>
+                      <div>
+                        <div class="mentor-name">Prof. R.K. Sharma</div>
+                        <div class="mentor-sub">NCERT Mathematics Mentor &bull; 15 yrs exp.</div>
+                      </div>
+                    </div>
+                    <div class="mentor-actions-right">
+                      <button type="button" class="mentor-action-btn" title="Ask Math Doubt" onclick="showToast('Connecting with Prof. Sharma for Math Doubt Support...')">💬</button>
+                      <button type="button" class="mentor-action-btn" title="Direct Helpline" onclick="showToast('Direct faculty helpline: 1800-NCERT-HELP')">📞</button>
+                    </div>
+                  </div>
+
+                  <div class="mentor-row-item">
+                    <div class="mentor-info-left">
+                      <div class="mentor-avatar-img">👩‍🔬</div>
+                      <div>
+                        <div class="mentor-name">Dr. Ananya Sen</div>
+                        <div class="mentor-sub">Curiosity &amp; Science Specialist &bull; Ex-KVS</div>
+                      </div>
+                    </div>
+                    <div class="mentor-actions-right">
+                      <button type="button" class="mentor-action-btn" title="Ask Science Doubt" onclick="showToast('Connecting with Dr. Ananya for Science Doubt Support...')">💬</button>
+                      <button type="button" class="mentor-action-btn" title="Direct Helpline" onclick="showToast('Direct faculty helpline: 1800-NCERT-HELP')">📞</button>
+                    </div>
+                  </div>
+
+                  <div class="mentor-row-item">
+                    <div class="mentor-info-left">
+                      <div class="mentor-avatar-img">👨‍🏫</div>
+                      <div>
+                        <div class="mentor-name">Shri Anand Verma</div>
+                        <div class="mentor-sub">Social Science (Exploring Society) &bull; Gold Medalist</div>
+                      </div>
+                    </div>
+                    <div class="mentor-actions-right">
+                      <button type="button" class="mentor-action-btn" title="Ask SST Doubt" onclick="showToast('Connecting with Shri Anand Verma for SST Doubt Support...')">💬</button>
+                      <button type="button" class="mentor-action-btn" title="Direct Helpline" onclick="showToast('Direct faculty helpline: 1800-NCERT-HELP')">📞</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Right Column: Calendar / Schedule Panel (From Screenshot) -->
+            <div class="edtech-right-panel">
+
+              <!-- Daily Schedule Timeline Card -->
+              <div class="edtech-schedule-card">
+                <div class="edtech-stat-header" style="margin-bottom:8px;">
+                  <span class="edtech-stat-title">Daily Study Schedule</span>
+                  <span class="edtech-dropdown-pill">Live Timeline</span>
+                </div>
+                <div style="font-size:0.8rem; color:#64748b; margin-bottom:12px; font-weight:700;">
+                  📅 Today &bull; 4 Planned Study Blocks
+                </div>
+
+                <div class="timeline-flow">
+                  <div class="timeline-event-item">
+                    <div class="timeline-node" style="border-color:#3b82f6;"></div>
+                    <div class="timeline-time">10:00 - 11:00 AM</div>
+                    <div class="timeline-title">✍️ Rational Numbers &amp; Place Value</div>
+                    <div class="timeline-tag" style="background:#dbeafe; color:#1e40af;">Handwritten Notes</div>
+                  </div>
+
+                  <div class="timeline-event-item">
+                    <div class="timeline-node" style="border-color:#10b981;"></div>
+                    <div class="timeline-time">11:30 - 12:15 PM</div>
+                    <div class="timeline-title">🔬 Crop Production &amp; Science Deep Dive</div>
+                    <div class="timeline-tag" style="background:#dcfce7; color:#166534;">Concept Lab</div>
+                  </div>
+
+                  <div class="timeline-event-item">
+                    <div class="timeline-node" style="border-color:#f59e0b;"></div>
+                    <div class="timeline-time">12:30 - 01:15 PM</div>
+                    <div class="timeline-title">⚡ Class 8 Mathematics Speed Quiz</div>
+                    <div class="timeline-tag" style="background:#fef3c7; color:#92400e;">10 Min MCQ Sprint</div>
+                  </div>
+
+                  <div class="timeline-event-item">
+                    <div class="timeline-node" style="border-color:#8b5cf6;"></div>
+                    <div class="timeline-time">01:45 - 02:30 PM</div>
+                    <div class="timeline-title">🎯 Grand Mock Test &amp; PYQ Analysis</div>
+                    <div class="timeline-tag" style="background:#f3e8ff; color:#6b21a8;">Competition Edge</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Quick Study Summary Card -->
+              <div class="edtech-schedule-card" style="background:linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%); color:#ffffff;">
+                <div style="font-size:0.75rem; font-weight:800; letter-spacing:0.05em; color:#93c5fd; margin-bottom:6px;">PRO ASPIRANT TRACKER</div>
+                <div style="font-size:1.15rem; font-weight:900; margin-bottom:8px;">96 Chapters Ready</div>
+                <div style="font-size:0.82rem; color:#bfdbfe; line-height:1.5; margin-bottom:14px;">
+                  2,880 Chapter Questions &bull; 96 Speed Quizzes &bull; 12 Grand Mock Series with Official NCERT Chapter PDFs!
+                </div>
+                <button type="button" class="btn btn-sm" style="background:#ffffff; color:#1e3a8a; font-weight:900; border-radius:18px; width:100%; border:none; padding:8px 14px;" onclick="switchEdtechTab('handwritten')">
+                  📖 Open Topper Notebook
+                </button>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- 4. Curriculum Browser Section (Lessons, Quizzes & Topper Notes) -->
+          <div id="ncertCurriculumBrowser" style="padding:0 28px 28px;">
+
+            <section class="ncert-hub-intro" aria-labelledby="ncertHubTitle">
+              <div>
+                <span class="eyebrow">NCERT LEARNING HUB</span>
+                <h1 id="ncertHubTitle">Learn one chapter at a time</h1>
+                <p>Choose your class, read clear handwritten notes or the official NCERT PDF, then test yourself with a chapter quiz.</p>
+              </div>
+              <div class="ncert-benefit-list" aria-label="What you can do here">
+                <span>Handwritten notes</span>
+                <span>Official PDFs</span>
+                <span>Chapter quizzes</span>
+              </div>
+            </section>
+
+            <section class="ncert-progress-card" aria-live="polite">
+              <div>
+                <span class="progress-kicker">YOUR DEVICE PROGRESS</span>
+                <strong id="ncertProgressTitle">Start your first chapter</strong>
+                <p id="ncertProgressSummary">Your activity is saved only in this browser. No account is needed.</p>
+              </div>
+              <button type="button" class="progress-reset-btn" onclick="resetNcertProgress()">Clear this device</button>
+            </section>
+
+            <!-- NCERT Class & Subject Navigation -->
+            <section class="study-filter-section">
+              <!-- Class Selector Pills -->
+              <div class="study-exam-pills" id="ncertClassPills">
+                <span class="filter-label">CHOOSE CLASS</span>
+                <button type="button" class="exam-pill active" data-class="5" onclick="selectNcertClass(5)">Class 5</button>
+                <button type="button" class="exam-pill" data-class="6" onclick="selectNcertClass(6)">Class 6</button>
+                <button type="button" class="exam-pill" data-class="7" onclick="selectNcertClass(7)">Class 7</button>
+                <button type="button" class="exam-pill" data-class="8" onclick="selectNcertClass(8)">Class 8</button>
+                <button type="button" class="exam-pill" data-class="9" onclick="selectNcertClass(9)">Class 9</button>
+                <button type="button" class="exam-pill" data-class="10" onclick="selectNcertClass(10)">Class 10</button>
+              </div>
+
+              <!-- Language Medium Switcher Strip (Hindi / English / Bilingual) -->
+              <div class="study-lang-bar" id="studyLangBar">
+                <span class="lang-bar-title">LANGUAGE</span>
+                <div class="lang-pill-group">
+                  <button type="button" class="lang-pill active" id="btnLangHi" onclick="setStudyLanguage('hi')">
+                    🇮🇳 हिन्दी माध्यम (Hindi)
+                  </button>
+                  <button type="button" class="lang-pill" id="btnLangEn" onclick="setStudyLanguage('en')">
+                    🇬🇧 English Medium
+                  </button>
+                  <button type="button" class="lang-pill" id="btnLangBilingual" onclick="setStudyLanguage('bilingual')">
+                    🌐 द्विभाषी (Bilingual)
+                  </button>
+                </div>
+              </div>
+
+              <!-- Subject Switcher Tabs -->
+              <div class="study-type-tabs" id="ncertSubjectTabs" style="margin-bottom:10px;">
+                <button type="button" class="type-tab-btn active" data-subj="ALL" onclick="selectNcertSubject('ALL')">
+                  ⭐ All Subjects (<span id="countSubjAll">0</span>)
+                </button>
+                <button type="button" class="type-tab-btn" data-subj="MATH" onclick="selectNcertSubject('MATH')">
+                  📐 Mathematics (<span id="countSubjMath">0</span>)
+                </button>
+                <button type="button" class="type-tab-btn" data-subj="EVS" onclick="selectNcertSubject('EVS')">
+                  🌿 Science &amp; EVS (<span id="countSubjEVS">0</span>)
+                </button>
+                <button type="button" class="type-tab-btn" data-subj="SST" onclick="selectNcertSubject('SST')">
+                  🌍 Social Science (Exploring Society) (<span id="countSubjSST">0</span>)
+                </button>
+                <button type="button" class="type-tab-btn" data-subj="HINDI" onclick="selectNcertSubject('HINDI')">
+                  📖 Hindi (व्याकरण व साहित्य) (<span id="countSubjHindi">0</span>)
+                </button>
+              </div>
+
+              <!-- Resource Type Tabs -->
+              <div class="study-type-tabs" id="studyTypeTabs">
+                <button type="button" class="type-tab-btn active" data-type="ALL" onclick="selectStudyType('ALL')">
+                  All resources (<span id="countTypeAll">0</span>)
+                </button>
+                <button type="button" class="type-tab-btn" data-type="NOTES" onclick="selectStudyType('NOTES')">
+                  Handwritten notes + PDFs (<span id="countTypeNotes">0</span>)
+                </button>
+                <button type="button" class="type-tab-btn" data-type="QUIZ" onclick="selectStudyType('QUIZ')">
+                  Chapter quizzes (<span id="countTypeQuiz">0</span>)
+                </button>
+              </div>
+
+              <!-- Search & Control Toolbar -->
+              <div class="study-search-toolbar">
+                <div class="study-search-wrap">
+                  <span class="srch-icon">🔍</span>
+                  <input type="text" id="studySearchInput" class="study-search-input" placeholder="Search NCERT chapters, topics or formulas (e.g. Fractions, Angles, LCM, Decimals, Perimeter)..." oninput="debounce(renderNotesView, 250)()">
+                </div>
+                <button type="button" class="btn btn-outline btn-sm" onclick="resetStudyFilters()">Reset Filters</button>
+              </div>
+
+              <!-- Summary Bar -->
+              <div class="filter-summary-bar">
+                <div class="filter-summary" id="studyResultsSummary">Showing NCERT chapters &amp; topper notes</div>
+                <div class="sort-indicator-pill" id="studyActiveIndicator">⚡ 100% NCERT Foundation Curriculum</div>
+              </div>
+            </section>
+
+            <!-- Study Resources Cards Grid -->
+            <section class="study-cards-grid" id="notesCardsGrid">
+              <!-- Rendered dynamically -->
+            </section>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </main>
+
+    <!-- Trust & Transparency Assurance Banner -->
+    <section class="trust-guarantee-section">
+      <div class="trust-guarantee-header">
+        <span class="trust-pill">NATIONAL RECRUITMENT INTEGRITY ASSURANCE</span>
+        <h2>Why Millions of Aspirants Rely on RojgarSetu</h2>
+        <p>100% verified notifications, direct commission servers, and complete applicant protection.</p>
+      </div>
+      <div class="trust-cards-grid">
+        <div class="trust-card">
+          <div class="trust-card-icon">🏛️</div>
+          <h3>Direct Commission Portals</h3>
+          <p>Every Apply link connects you straight to genuine Central &amp; State government domains (.gov.in &amp; .nic.in). Zero third-party redirects or intermediary trackers.</p>
+        </div>
+        <div class="trust-card">
+          <div class="trust-card-icon">📰</div>
+          <h3>Daily Gazette Verification</h3>
+          <p>All vacancies, age limits, syllabus schemes, and exam dates are cross-verified against official Central &amp; State Employment News bulletins before publication.</p>
+        </div>
+        <div class="trust-card">
+          <div class="trust-card-icon">🛡️</div>
+          <h3>Zero Candidate Fees</h3>
+          <p>RojgarSetu is a 100% free national career repository. We never charge candidates for accessing notifications, downloading admit cards, or reading NCERT PDFs.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Official Commissions Quick Directory -->
+    <section class="commission-directory-section">
+      <div class="commission-directory-header">
+        <span class="dir-title">Official Commission Portals Directory</span>
+        <span class="dir-sub">Direct official government links</span>
+      </div>
+      <div class="commission-chips-grid">
+        <a href="https://upsc.gov.in/" target="_blank" rel="noopener" class="comm-chip"><span>UPSC</span> &bull; upsc.gov.in ↗</a>
+        <a href="https://ssc.gov.in/" target="_blank" rel="noopener" class="comm-chip"><span>SSC</span> &bull; ssc.gov.in ↗</a>
+        <a href="https://www.rrbapply.gov.in/" target="_blank" rel="noopener" class="comm-chip"><span>Railway RRB</span> &bull; rrbapply.gov.in ↗</a>
+        <a href="https://bpsc.bih.nic.in/" target="_blank" rel="noopener" class="comm-chip"><span>BPSC Bihar</span> &bull; bpsc.bih.nic.in ↗</a>
+        <a href="https://upsssc.gov.in/" target="_blank" rel="noopener" class="comm-chip"><span>UPSSSC</span> &bull; upsssc.gov.in ↗</a>
+        <a href="https://joinindianarmy.nic.in/" target="_blank" rel="noopener" class="comm-chip"><span>Indian Army</span> &bull; joinindianarmy.nic.in ↗</a>
+        <a href="https://www.joinindiannavy.gov.in/" target="_blank" rel="noopener" class="comm-chip"><span>Indian Navy</span> &bull; joinindiannavy.gov.in ↗</a>
+        <a href="https://careerindianairforce.cdac.in/" target="_blank" rel="noopener" class="comm-chip"><span>Air Force</span> &bull; cdac.in ↗</a>
+        <a href="https://www.ibps.in/" target="_blank" rel="noopener" class="comm-chip"><span>IBPS Banking</span> &bull; ibps.in ↗</a>
+        <a href="https://sbi.co.in/web/careers" target="_blank" rel="noopener" class="comm-chip"><span>SBI Careers</span> &bull; sbi.co.in ↗</a>
+        <a href="https://nta.ac.in/" target="_blank" rel="noopener" class="comm-chip"><span>NTA Testing</span> &bull; nta.ac.in ↗</a>
+        <a href="https://ncert.nic.in/" target="_blank" rel="noopener" class="comm-chip"><span>NCERT Books</span> &bull; ncert.nic.in ↗</a>
+      </div>
+    </section>
+
+    <!-- SEO Information Footer -->
+    <section class="sr-seo-section">
+      <div class="sr-seo-header">RojgarSetu 2026 — All India Government &amp; State-Wise Private Job Information Portal</div>
+      <div class="sr-seo-body">
+        <p><strong>About RojgarSetu:</strong> RojgarSetu brings you authentic, lightning-fast notifications on BPSC, SSC CGL/CHSL/MTS, Railway RRB, UPSC, Banking IBPS/SBI, Defense Army/Navy, and Teacher Eligibility tests (STET/CTET). Every link connects directly with official commission recruitment portals.</p>
+        <p><strong>Form Filling Assistance:</strong> Click the floating <em>"💬 Form Filling Guidance"</em> chat button at the bottom-right corner to get instant AI answers on photo/signature resizing, One-Time-Registration (OTR) requirements, age relaxations, and document checklists.</p>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- ========================================================
+       FLOATING INTERACTIVE FORM FILLING GUIDANCE CHAT ASSISTANT
+       ======================================================== -->
+  <div class="guidance-chat-widget" id="guidanceChatWidget">
+    <!-- Trigger Button -->
+    <button type="button" class="chat-launcher-btn" id="chatLauncherBtn" onclick="toggleGuidanceChat()" aria-label="Open Form Filling Guidance Chat">
+      <span class="chat-launcher-icon">💬</span>
+      <span class="chat-launcher-text">Form Guidance Chat</span>
+      <span class="chat-launcher-badge">Help</span>
+    </button>
+
+    <!-- Chat Window Drawer -->
+    <div class="chat-window-box" id="chatWindowBox">
+      <div class="chat-window-header">
+        <div class="chat-header-info">
+          <div class="chat-avatar">🤖</div>
+          <div>
+          <div class="chat-header-title">Form Filling Guidance</div>
+            <div class="chat-header-sub">Online • Instant Guidelines for 2026 Forms</div>
+          </div>
+        </div>
+        <button type="button" class="chat-close-btn" onclick="toggleGuidanceChat()">&times;</button>
+      </div>
+
+      <!-- Quick Action Questions Chips -->
+      <div class="chat-chips-scroll">
+        <button type="button" class="chat-chip" onclick="askQuickQuestion('photo_resize')">📸 Photo &amp; Sign Size (20-50 KB)</button>
+        <button type="button" class="chat-chip" onclick="askQuickQuestion('otr_guide')">🏛️ OTR Registration Steps</button>
+        <button type="button" class="chat-chip" onclick="askQuickQuestion('payment_issue')">💳 Fee Debited but Pending?</button>
+        <button type="button" class="chat-chip" onclick="askQuickQuestion('docs_needed')">📑 Required Documents List</button>
+        <button type="button" class="chat-chip" onclick="askQuickQuestion('age_relax')">📅 Age Relaxation Rules</button>
+        <button type="button" class="chat-chip" onclick="askQuickQuestion('edit_mistake')">❌ How to Correct Mistake?</button>
+      </div>
+
+      <!-- Messages Stream -->
+      <div class="chat-messages-body" id="chatMessagesBody">
+        <div class="chat-bubble bot-msg">
+          <p>👋 <strong>Namaste! Welcome to RojgarSetu Form Guidance Assistant.</strong></p>
+          <p>I can help you step-by-step with:</p>
+          <ul style="padding-left:16px; margin:4px 0;">
+            <li>Exact photo &amp; signature dimensions &amp; KB size</li>
+            <li>How to fill BPSC, SSC, Railway &amp; UPSC forms</li>
+            <li>What documents are needed for your category</li>
+            <li>Solving payment &amp; submission errors</li>
+          </ul>
+          <p style="margin-top:4px;">Click any topic above or type your question below!</p>
+        </div>
+      </div>
+
+      <!-- Chat Input Bar -->
+      <form class="chat-input-bar" onsubmit="handleChatSubmit(event)">
+        <input type="text" id="chatUserInput" class="chat-input" placeholder="Type your form question (e.g., photo size for SSC, BPSC OTR)..." autocomplete="off" required />
+        <button type="submit" class="chat-send-btn">Send ➤</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ========================================================
+       MODALS
+       ======================================================== -->
+
+  <!-- Full RojgarSetu Vacancy Details, Seats & Eligibility Modal -->
+  <div class="modal-backdrop" id="postDetailModal">
+    <div class="modal-box modal-xl">
+      <div class="modal-header">
+        <div class="modal-title" id="postDetailModalTitle">📋 RojgarSetu Vacancy Details, Seats &amp; Eligibility 2026</div>
+        <button type="button" class="close-btn" onclick="closeModal('postDetailModal')">&times;</button>
+      </div>
+      <div class="modal-body" id="postDetailBody"></div>
+    </div>
+  </div>
+
+  <!-- Interactive Daily Quiz & Full Mock Test Series Simulator Modal -->
+  <div class="modal-backdrop" id="interactiveQuizModal">
+    <div class="modal-box modal-quiz">
+      <div class="quiz-modal-header">
+        <div class="quiz-header-left">
+          <span class="quiz-badge-tag" id="quizExamBadge">⚡ SPEED QUIZ</span>
+          <div class="quiz-modal-title" id="quizModalTitle">Exam Practice Quiz</div>
+        </div>
+        <div class="quiz-header-right">
+          <div class="quiz-lang-selector" title="Change Question Language">
+            <label for="quizLangSelect" class="quiz-lang-lbl">View in:</label>
+            <select id="quizLangSelect" onchange="setQuizLanguage(this.value)" class="quiz-lang-dropdown">
+              <option value="hi" selected>🇮🇳 हिन्दी</option>
+              <option value="en">🇬🇧 English</option>
+              <option value="bilingual">🌐 Bilingual</option>
+            </select>
+          </div>
+          <div class="quiz-timer-pill" id="quizTimerPill" title="Time Remaining">
+            <span class="timer-icon">⏱️</span>
+            <span id="quizTimerText">10:00</span>
+          </div>
+          <button type="button" class="close-btn" onclick="exitQuizConfirm()" title="Exit Test">&times;</button>
+        </div>
+      </div>
+
+      <!-- Quiz Body: Dynamic Questions or Result Scorecard -->
+      <div class="quiz-modal-body" id="quizModalBody">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </div>
+
+
+  <!-- In-App Scrollable Notes & Interactive Practice Reader Modal (NotebookLM Style) -->
+  <div class="modal-backdrop" id="notesReaderModal">
+    <div class="modal-box modal-reader">
+      <div class="reader-modal-header">
+        <div class="reader-header-info">
+          <div class="reader-badge-row">
+            <span class="reader-badge" id="readerExamBadge">🎓 BPSC TRE 4.0</span>
+            <span class="reader-subject-pill" id="readerSubjectBadge">Social Science</span>
+            <span class="reader-time-pill" id="readerTimePill">⏱️ 8 min read</span>
+          </div>
+          <h2 class="reader-modal-title" id="readerModalTitle">Chapter Notes Title</h2>
+        </div>
+        <div class="reader-header-actions">
+          <div class="reader-lang-toggle" title="Switch Reading Language">
+            <button type="button" class="btn-lang-toggle active" id="readerLangHi" onclick="setReaderLanguage('hi')" title="हिन्दी में पढ़ें">🇮🇳 हिन्दी</button>
+            <button type="button" class="btn-lang-toggle" id="readerLangEn" onclick="setReaderLanguage('en')" title="Read in English">🇬🇧 English</button>
+            <button type="button" class="btn-lang-toggle" id="readerLangBi" onclick="setReaderLanguage('bilingual')" title="दोनों भाषाओं में देखें">🌐 दोनों</button>
+          </div>
+          <div class="reader-font-controls" title="Adjust Text Size">
+            <button type="button" class="btn-font-size" onclick="adjustReaderFontSize(-1)" title="Smaller Text">A-</button>
+            <button type="button" class="btn-font-size" onclick="adjustReaderFontSize(1)" title="Larger Text">A+</button>
+          </div>
+          <button type="button" class="btn btn-outline btn-sm" onclick="window.print()" title="Print / Save PDF">🖨️ Print</button>
+          <button type="button" class="close-btn" onclick="closeModal('notesReaderModal')" title="Close Reader">&times;</button>
+        </div>
+      </div>
+
+      <!-- Quick Reader Navigation Bar -->
+      <div class="reader-quick-nav">
+        <button type="button" class="reader-nav-tab active" id="tabReaderNotes" onclick="scrollToReaderSection('readerNotesContent')">
+          📖 Chapter Notes &amp; Formulas
+        </button>
+        <button type="button" class="reader-nav-tab" id="tabReaderPractice" onclick="scrollToReaderSection('readerPracticeZone')">
+          🎯 Solve MCQs (<span id="readerPracticeCountBadge">0</span>)
+        </button>
+        <button type="button" class="reader-nav-tab" id="tabReaderPdf" onclick="scrollToReaderSection('readerPdfZone')">
+          📄 Official NCERT PDF
+        </button>
+      </div>
+
+      <!-- Scrollable Reader Body -->
+      <div class="reader-modal-body" id="notesReaderBody">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toastMsg">Saved!</div>
+
+  <!-- Frontend Scripts -->
+  <script src="js/api.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

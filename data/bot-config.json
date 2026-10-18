@@ -1,0 +1,4 @@
+{
+  "token": "",
+  "instructions": "Get your bot token from @BotFather on Telegram and paste it here, or set TELEGRAM_BOT_TOKEN environment variable."
+}

@@ -1,0 +1,3162 @@
+{
+  "ncert-c5-math-ch11": [
+    {
+      "id": 1,
+      "q": "How is 'one-tenth' written in decimal notation?",
+      "qHi": "'एक-दशांश' (one-tenth) को दशमलव संकेतन में किस प्रकार लिखा जाता है?",
+      "options": [
+        "0.01",
+        "0.1",
+        "0.001",
+        "1.0"
+      ],
+      "optionsHi": [
+        "0.01",
+        "0.1",
+        "0.001",
+        "1.0"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & BPSC TRE Primary",
+      "explanation": "1/10 = 0.1 (one-tenth).",
+      "explanationHi": "1/10 = 0.1 (एक-दशांश)।"
+    },
+    {
+      "id": 2,
+      "q": "How is 'one-hundredth' written in decimal notation?",
+      "qHi": "'एक-शतांश' (one-hundredth) को दशमलव रूप में कैसे लिखा जाता है?",
+      "options": [
+        "0.1",
+        "0.01",
+        "0.001",
+        "1.01"
+      ],
+      "optionsHi": [
+        "0.1",
+        "0.01",
+        "0.001",
+        "1.01"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & UPTET",
+      "explanation": "1/100 = 0.01 (one-hundredth).",
+      "explanationHi": "1/100 = 0.01 (एक-शतांश)।"
+    },
+    {
+      "id": 3,
+      "q": "Convert 35 paise into Rupees using decimal notation.",
+      "qHi": "35 पैसे को दशमलव का प्रयोग कर रुपये में बदलिए।",
+      "options": [
+        "₹3.50",
+        "₹0.35",
+        "₹0.035",
+        "₹35.0"
+      ],
+      "optionsHi": [
+        "₹3.50",
+        "₹0.35",
+        "₹0.035",
+        "₹35.0"
+      ],
+      "ans": 1,
+      "pyqRef": "BPSC TRE 2.0 & JNVST",
+      "explanation": "1 Rupee = 100 paise. 35 paise = 35/100 = ₹0.35.",
+      "explanationHi": "1 रुपया = 100 पैसे। 35 पैसे = 35/100 = ₹0.35।"
+    },
+    {
+      "id": 4,
+      "q": "What decimal number is represented by '7 tenths and 5 hundredths'?",
+      "qHi": "'7 दशांश और 5 शतांश' द्वारा कौन सी दशमलव संख्या निरूपित होती है?",
+      "options": [
+        "0.075",
+        "0.75",
+        "7.05",
+        "7.5"
+      ],
+      "optionsHi": [
+        "0.075",
+        "0.75",
+        "7.05",
+        "7.5"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & DSSSB PRT",
+      "explanation": "7/10 + 5/100 = 0.7 + 0.05 = 0.75.",
+      "explanationHi": "7/10 + 5/100 = 0.7 + 0.05 = 0.75।"
+    },
+    {
+      "id": 5,
+      "q": "Convert the fraction 3/4 into a decimal.",
+      "qHi": "भिन्न 3/4 को दशमलव में परिवर्तित कीजिए।",
+      "options": [
+        "0.34",
+        "0.65",
+        "0.75",
+        "0.80"
+      ],
+      "optionsHi": [
+        "0.34",
+        "0.65",
+        "0.75",
+        "0.80"
+      ],
+      "ans": 2,
+      "pyqRef": "CTET Paper 1 & REET",
+      "explanation": "3 ÷ 4 = 0.75 (or 3×25 / 4×25 = 75/100 = 0.75).",
+      "explanationHi": "3 ÷ 4 = 0.75 (अथवा 75/100 = 0.75)।"
+    },
+    {
+      "id": 6,
+      "q": "Convert 2/5 into decimal form.",
+      "qHi": "2/5 को दशमलव रूप में बदलिए।",
+      "options": [
+        "0.2",
+        "0.25",
+        "0.4",
+        "0.5"
+      ],
+      "optionsHi": [
+        "0.2",
+        "0.25",
+        "0.4",
+        "0.5"
+      ],
+      "ans": 2,
+      "pyqRef": "BPSC TRE Primary & KVS",
+      "explanation": "2/5 = (2 × 2) / (5 × 2) = 4/10 = 0.4.",
+      "explanationHi": "2/5 = 4/10 = 0.4।"
+    },
+    {
+      "id": 7,
+      "q": "Which of the following is greater: 0.7 or 0.07?",
+      "qHi": "निम्नलिखित में से कौन सा बड़ा है: 0.7 या 0.07?",
+      "options": [
+        "0.07",
+        "0.7",
+        "Both are equal",
+        "Cannot be determined"
+      ],
+      "optionsHi": [
+        "0.07",
+        "0.7",
+        "दोनों बराबर हैं",
+        "तय नहीं किया जा सकता"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 Pedagogy",
+      "explanation": "0.7 = 7/10 = 70/100, while 0.07 = 7/100. 70/100 > 7/100, so 0.7 is greater.",
+      "explanationHi": "0.7 = 70/100, जबकि 0.07 = 7/100। 70/100 > 7/100, अतः 0.7 बड़ा है।"
+    },
+    {
+      "id": 8,
+      "q": "Which statement is true comparing 0.5 and 0.50?",
+      "qHi": "0.5 और 0.50 की तुलना करने पर कौन सा कथन सत्य है?",
+      "options": [
+        "0.5 > 0.50",
+        "0.5 < 0.50",
+        "0.5 = 0.50",
+        "0.50 is 10 times 0.5"
+      ],
+      "optionsHi": [
+        "0.5 > 0.50",
+        "0.5 < 0.50",
+        "0.5 = 0.50",
+        "0.50, 0.5 का 10 गुना है"
+      ],
+      "ans": 2,
+      "pyqRef": "CTET Paper 1 & BPSC TRE",
+      "explanation": "Trailing zeroes after decimals do not change value: 0.5 = 5/10 = 50/100 = 0.50.",
+      "explanationHi": "दशमलव के बाद अंतिम शून्य मान नहीं बदलता: 0.5 = 5/10 = 50/100 = 0.50।"
+    },
+    {
+      "id": 9,
+      "q": "Find the sum of 4.5 and 3.75.",
+      "qHi": "4.5 और 3.75 का योग ज्ञात कीजिए।",
+      "options": [
+        "7.80",
+        "8.25",
+        "8.20",
+        "7.125"
+      ],
+      "optionsHi": [
+        "7.80",
+        "8.25",
+        "8.20",
+        "7.125"
+      ],
+      "ans": 1,
+      "pyqRef": "JNVST Class 6 Entrance",
+      "explanation": "4.50 + 3.75 = 8.25.",
+      "explanationHi": "4.50 + 3.75 = 8.25।"
+    },
+    {
+      "id": 10,
+      "q": "Subtract 2.85 from 6.00.",
+      "qHi": "6.00 में से 2.85 घटाइए।",
+      "options": [
+        "3.15",
+        "3.25",
+        "4.15",
+        "3.85"
+      ],
+      "optionsHi": [
+        "3.15",
+        "3.25",
+        "4.15",
+        "3.85"
+      ],
+      "ans": 0,
+      "pyqRef": "CTET Paper 1 & UPTET",
+      "explanation": "6.00 - 2.85 = 3.15.",
+      "explanationHi": "6.00 - 2.85 = 3.15।"
+    },
+    {
+      "id": 11,
+      "q": "How many centimetres is 1 millimetre (mm)?",
+      "qHi": "1 मिलीमीटर (mm) कितने सेंटीमीटर के बराबर होता है?",
+      "options": [
+        "0.01 cm",
+        "0.1 cm",
+        "1.0 cm",
+        "0.001 cm"
+      ],
+      "optionsHi": [
+        "0.01 cm",
+        "0.1 cm",
+        "1.0 cm",
+        "0.001 cm"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & NCERT Class 5 Ch 11",
+      "explanation": "1 cm = 10 mm. Therefore, 1 mm = 1/10 cm = 0.1 cm.",
+      "explanationHi": "1 cm = 10 mm। अतः 1 mm = 1/10 cm = 0.1 cm।"
+    },
+    {
+      "id": 12,
+      "q": "The length of a pencil is 7 cm 5 mm. Express this length in decimal centimetres.",
+      "qHi": "एक पेंसिल की लंबाई 7 cm 5 mm है। इस लंबाई को दशमलव सेंटीमीटर में व्यक्त कीजिए।",
+      "options": [
+        "7.05 cm",
+        "7.5 cm",
+        "75.0 cm",
+        "0.75 cm"
+      ],
+      "optionsHi": [
+        "7.05 cm",
+        "7.5 cm",
+        "75.0 cm",
+        "0.75 cm"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & BPSC TRE",
+      "explanation": "5 mm = 0.5 cm. Total length = 7 + 0.5 = 7.5 cm.",
+      "explanationHi": "5 mm = 0.5 cm। कुल लंबाई = 7 + 0.5 = 7.5 cm।"
+    },
+    {
+      "id": 13,
+      "q": "What is the place value of digit 7 in the number 45.372?",
+      "qHi": "संख्या 45.372 में अंक 7 का स्थानीय मान क्या है?",
+      "options": [
+        "7",
+        "7/10",
+        "7/100",
+        "7/1000"
+      ],
+      "optionsHi": [
+        "7",
+        "7/10",
+        "7/100 (सात शतांश)",
+        "7/1000"
+      ],
+      "ans": 2,
+      "pyqRef": "CTET Paper 1 & Bihar STET",
+      "explanation": "In 45.372, 3 is in tenths place, 7 is in hundredths place (7/100 or 0.07).",
+      "explanationHi": "45.372 में 3 दशांश स्थान पर है और 7 शतांश स्थान पर (7/100 या 0.07) है।"
+    },
+    {
+      "id": 14,
+      "q": "Convert the decimal 2.5 into an improper fraction in its lowest terms.",
+      "qHi": "दशमलव 2.5 को उसके सरलतम रूप में विषम भिन्न में बदलिए।",
+      "options": [
+        "25/10",
+        "5/2",
+        "2/5",
+        "12/5"
+      ],
+      "optionsHi": [
+        "25/10",
+        "5/2",
+        "2/5",
+        "12/5"
+      ],
+      "ans": 1,
+      "pyqRef": "BPSC TRE 3.0 & CTET",
+      "explanation": "2.5 = 25/10. Dividing numerator and denominator by 5 gives 5/2.",
+      "explanationHi": "2.5 = 25/10 = 5/2।"
+    },
+    {
+      "id": 15,
+      "q": "A patient's temperature was 98.4°F in the morning and rose to 101.2°F in the evening. By how much did the temperature rise?",
+      "qHi": "सुबह एक मरीज का तापमान 98.4°F था और शाम को बढ़कर 101.2°F हो गया। तापमान में कितनी वृद्धि हुई?",
+      "options": [
+        "2.6°F",
+        "2.8°F",
+        "3.2°F",
+        "3.8°F"
+      ],
+      "optionsHi": [
+        "2.6°F",
+        "2.8°F",
+        "3.2°F",
+        "3.8°F"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & DSSSB",
+      "explanation": "101.2 - 98.4 = 2.8°F.",
+      "explanationHi": "101.2 - 98.4 = 2.8°F।"
+    },
+    {
+      "id": 16,
+      "q": "How is '15 Rupees and 5 Paise' written in decimal notation?",
+      "qHi": "'15 रुपये और 5 पैसे' को दशमलव रूप में कैसे लिखा जाता है?",
+      "options": [
+        "₹15.5",
+        "₹15.05",
+        "₹15.50",
+        "₹15.005"
+      ],
+      "optionsHi": [
+        "₹15.5",
+        "₹15.05",
+        "₹15.50",
+        "₹15.005"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & KVS PRT",
+      "explanation": "5 paise = 5/100 = 0.05 Rupees. Total = ₹15.05.",
+      "explanationHi": "5 पैसे = 5/100 = 0.05 रुपये। कुल = ₹15.05।"
+    },
+    {
+      "id": 17,
+      "q": "What is the product of 0.4 × 0.3?",
+      "qHi": "0.4 × 0.3 का गुणनफल क्या होगा?",
+      "options": [
+        "1.2",
+        "0.12",
+        "0.012",
+        "12.0"
+      ],
+      "optionsHi": [
+        "1.2",
+        "0.12",
+        "0.012",
+        "12.0"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & BPSC TRE",
+      "explanation": "4 × 3 = 12. There are 2 decimal digits in total (one in 0.4, one in 0.3), so 0.12.",
+      "explanationHi": "4 × 3 = 12। दशमलव के 2 अंक होंगे, अतः 0.12।"
+    },
+    {
+      "id": 18,
+      "q": "Divide 4.8 by 6.",
+      "qHi": "4.8 को 6 से भाग दीजिए।",
+      "options": [
+        "0.08",
+        "0.8",
+        "8.0",
+        "0.6"
+      ],
+      "optionsHi": [
+        "0.08",
+        "0.8",
+        "8.0",
+        "0.6"
+      ],
+      "ans": 1,
+      "pyqRef": "JNVST Class 6 Entrance",
+      "explanation": "48 ÷ 6 = 8. Since dividend is 4.8, 4.8 ÷ 6 = 0.8.",
+      "explanationHi": "48 ÷ 6 = 8। अतः 4.8 ÷ 6 = 0.8।"
+    },
+    {
+      "id": 19,
+      "q": "In a 10 × 10 grid of 100 small squares, 38 squares are shaded yellow. What decimal fraction is shaded?",
+      "qHi": "100 छोटे वर्गों वाले 10 × 10 के ग्रिड में 38 वर्ग पीले रंगे हैं। रंगे हुए भाग का दशमलव भिन्न क्या है?",
+      "options": [
+        "0.038",
+        "0.38",
+        "3.8",
+        "38.0"
+      ],
+      "optionsHi": [
+        "0.038",
+        "0.38",
+        "3.8",
+        "38.0"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & NCERT Class 5 Ch 11",
+      "explanation": "38 out of 100 = 38/100 = 0.38.",
+      "explanationHi": "100 में से 38 = 38/100 = 0.38।"
+    },
+    {
+      "id": 20,
+      "q": "What is the expanded form of 34.56?",
+      "qHi": "34.56 का विस्तारित रूप (Expanded form) क्या है?",
+      "options": [
+        "30 + 4 + 5/10 + 6/100",
+        "300 + 4 + 5/10 + 6/100",
+        "30 + 4 + 50 + 6",
+        "3 + 4/10 + 5/100 + 6/1000"
+      ],
+      "optionsHi": [
+        "30 + 4 + 5/10 + 6/100",
+        "300 + 4 + 5/10 + 6/100",
+        "30 + 4 + 50 + 6",
+        "3 + 4/10 + 5/100 + 6/1000"
+      ],
+      "ans": 0,
+      "pyqRef": "CTET Paper 1 & State TET",
+      "explanation": "34.56 = 30 + 4 + 5/10 + 6/100.",
+      "explanationHi": "34.56 = 30 + 4 + 5/10 + 6/100।"
+    },
+    {
+      "id": 21,
+      "q": "Which decimal number is closest to 1?",
+      "qHi": "निम्नलिखित में से कौन सी दशमलव संख्या 1 के सबसे निकट है?",
+      "options": [
+        "0.9",
+        "0.99",
+        "1.05",
+        "0.89"
+      ],
+      "optionsHi": [
+        "0.9",
+        "0.99",
+        "1.05",
+        "0.89"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & BPSC TRE 2.0",
+      "explanation": "Differences from 1: |1 - 0.9|=0.1, |1 - 0.99|=0.01, |1 - 1.05|=0.05, |1 - 0.89|=0.11. Closest is 0.99.",
+      "explanationHi": "1 से अंतर: |1 - 0.99| = 0.01 जो सबसे कम है। अतः 0.99 सबसे निकट है।"
+    },
+    {
+      "id": 22,
+      "q": "Calculate: 0.008 × 100",
+      "qHi": "मान ज्ञात कीजिए: 0.008 × 100",
+      "options": [
+        "0.08",
+        "0.8",
+        "8",
+        "80"
+      ],
+      "optionsHi": [
+        "0.08",
+        "0.8",
+        "8",
+        "80"
+      ],
+      "ans": 1,
+      "pyqRef": "BPSC TRE Primary & SSC MTS",
+      "explanation": "Multiplying by 100 shifts the decimal point 2 places to the right: 0.008 -> 0.8.",
+      "explanationHi": "100 से गुणा करने पर दशमलव बिंदु 2 स्थान दाईं ओर खिसकता है: 0.008 -> 0.8।"
+    },
+    {
+      "id": 23,
+      "q": "A ribbon of length 5 metres is cut into 10 equal pieces. What is the length of each piece in metres?",
+      "qHi": "5 मीटर लंबे फीते को 10 बराबर टुकड़ों में काटा जाता है। प्रत्येक टुकड़े की लंबाई मीटर में क्या होगी?",
+      "options": [
+        "0.05 m",
+        "0.5 m",
+        "5.0 m",
+        "2.0 m"
+      ],
+      "optionsHi": [
+        "0.05 m",
+        "0.5 m",
+        "5.0 m",
+        "2.0 m"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & REET",
+      "explanation": "5 ÷ 10 = 0.5 metres.",
+      "explanationHi": "5 ÷ 10 = 0.5 मीटर।"
+    },
+    {
+      "id": 24,
+      "q": "Express 750 grams in kilograms using decimals.",
+      "qHi": "750 ग्राम को दशमलव का उपयोग कर किलोग्राम में व्यक्त कीजिए।",
+      "options": [
+        "0.075 kg",
+        "0.75 kg",
+        "7.5 kg",
+        "75.0 kg"
+      ],
+      "optionsHi": [
+        "0.075 kg",
+        "0.75 kg",
+        "7.5 kg",
+        "75.0 kg"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & UPTET",
+      "explanation": "750 ÷ 1000 = 0.750 kg = 0.75 kg.",
+      "explanationHi": "750 ÷ 1000 = 0.750 kg = 0.75 kg।"
+    },
+    {
+      "id": 25,
+      "q": "Convert 45 metres into kilometres using decimals.",
+      "qHi": "45 मीटर को दशमलव का प्रयोग कर किलोमीटर में बदलिए।",
+      "options": [
+        "0.45 km",
+        "0.045 km",
+        "0.0045 km",
+        "4.5 km"
+      ],
+      "optionsHi": [
+        "0.45 km",
+        "0.045 km",
+        "0.0045 km",
+        "4.5 km"
+      ],
+      "ans": 1,
+      "pyqRef": "BPSC TRE 1.0 & JNVST",
+      "explanation": "1 km = 1000 m. 45 m = 45/1000 km = 0.045 km.",
+      "explanationHi": "1 km = 1000 m। 45 m = 45/1000 km = 0.045 km।"
+    },
+    {
+      "id": 26,
+      "q": "Round off the decimal number 3.86 to the nearest tenth.",
+      "qHi": "दशमलव संख्या 3.86 को निकटतम दशांश तक सन्निकटित (Round off) कीजिए।",
+      "options": [
+        "3.8",
+        "3.9",
+        "4.0",
+        "3.85"
+      ],
+      "optionsHi": [
+        "3.8",
+        "3.9",
+        "4.0",
+        "3.85"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & DSSSB",
+      "explanation": "The hundredths digit is 6 (≥ 5), so tenths digit increases by 1: 3.86 rounds to 3.9.",
+      "explanationHi": "शतांश का अंक 6 है (5 या अधिक), अतः दशांश अंक 1 बढ़ जाएगा: 3.86 -> 3.9।"
+    },
+    {
+      "id": 27,
+      "q": "Which fraction is exactly equal to the decimal 0.125?",
+      "qHi": "कौन सा भिन्न दशमलव 0.125 के पूर्णतः बराबर है?",
+      "options": [
+        "1/4",
+        "1/5",
+        "1/8",
+        "1/10"
+      ],
+      "optionsHi": [
+        "1/4",
+        "1/5",
+        "1/8",
+        "1/10"
+      ],
+      "ans": 2,
+      "pyqRef": "BPSC TRE 2.0 & CTET",
+      "explanation": "0.125 = 125/1000. Dividing both by 125 gives 1/8.",
+      "explanationHi": "0.125 = 125/1000 = 1/8।"
+    },
+    {
+      "id": 28,
+      "q": "Anil bought 3 gel pens at ₹4.50 each. How much did he pay in total?",
+      "qHi": "अनिल ने ₹4.50 प्रति पेन की दर से 3 जेल पेन खरीदे। उसने कुल कितने रुपये दिए?",
+      "options": [
+        "₹12.50",
+        "₹13.50",
+        "₹14.00",
+        "₹15.00"
+      ],
+      "optionsHi": [
+        "₹12.50",
+        "₹13.50",
+        "₹14.00",
+        "₹15.00"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & KVS PRT",
+      "explanation": "3 × ₹4.50 = ₹13.50.",
+      "explanationHi": "3 × ₹4.50 = ₹13.50।"
+    },
+    {
+      "id": 29,
+      "q": "If 1 US Dollar is equal to ₹83.50, what will be the value of 10 US Dollars in Indian Rupees?",
+      "qHi": "यदि 1 यूएस डॉलर ₹83.50 के बराबर है, तो 10 यूएस डॉलर का मूल्य भारतीय रुपये में क्या होगा?",
+      "options": [
+        "₹835",
+        "₹8350",
+        "₹83.50",
+        "₹8.35"
+      ],
+      "optionsHi": [
+        "₹835",
+        "₹8350",
+        "₹83.50",
+        "₹8.35"
+      ],
+      "ans": 0,
+      "pyqRef": "NCERT Class 5 Ch 11 Currency & BPSC TRE",
+      "explanation": "10 × 83.50 = ₹835.00.",
+      "explanationHi": "10 × 83.50 = ₹835.00।"
+    },
+    {
+      "id": 30,
+      "q": "Simplify: 5.6 - 2.45 + 1.25",
+      "qHi": "सरल कीजिए: 5.6 - 2.45 + 1.25",
+      "options": [
+        "4.40",
+        "4.45",
+        "4.35",
+        "4.50"
+      ],
+      "optionsHi": [
+        "4.40",
+        "4.45",
+        "4.35",
+        "4.50"
+      ],
+      "ans": 0,
+      "pyqRef": "CTET Paper 1 & State TET",
+      "explanation": "5.60 + 1.25 = 6.85. 6.85 - 2.45 = 4.40.",
+      "explanationHi": "5.60 + 1.25 = 6.85। 6.85 - 2.45 = 4.40।"
+    }
+  ],
+  "ncert-c5-math-ch12": [
+    {
+      "id": 1,
+      "q": "How many seconds are there in 1 hour?",
+      "qHi": "1 घंटे में कितने सेकंड होते हैं?",
+      "options": [
+        "60 seconds",
+        "600 seconds",
+        "3600 seconds",
+        "86400 seconds"
+      ],
+      "optionsHi": [
+        "60 सेकंड",
+        "600 सेकंड",
+        "3600 सेकंड",
+        "86400 सेकंड"
+      ],
+      "ans": 2,
+      "pyqRef": "CTET Paper 1 & BPSC TRE Primary",
+      "explanation": "1 hour = 60 minutes × 60 seconds = 3600 seconds.",
+      "explanationHi": "1 घंटा = 60 मिनट × 60 सेकंड = 3600 सेकंड।"
+    },
+    {
+      "id": 2,
+      "q": "Convert 3:45 PM into 24-hour railway clock time.",
+      "qHi": "3:45 PM को 24-घंटे वाली रेलवे घड़ी के समय में बदलिए।",
+      "options": [
+        "03:45 hours",
+        "13:45 hours",
+        "15:45 hours",
+        "17:45 hours"
+      ],
+      "optionsHi": [
+        "03:45 बजे",
+        "13:45 बजे",
+        "15:45 बजे",
+        "17:45 बजे"
+      ],
+      "ans": 2,
+      "pyqRef": "CTET Paper 1 & UPTET",
+      "explanation": "For PM times after 12 noon, add 12 hours: 3:45 + 12:00 = 15:45 hours.",
+      "explanationHi": "दोपहर 12 के बाद PM समय में 12 घंटे जोड़ते हैं: 3:45 + 12:00 = 15:45 बजे।"
+    },
+    {
+      "id": 3,
+      "q": "Convert 20:30 hours of railway time into 12-hour AM/PM format.",
+      "qHi": "रेलवे समय के 20:30 बजे को 12-घंटे वाले AM/PM प्रारूप में बदलिए।",
+      "options": [
+        "8:30 AM",
+        "8:30 PM",
+        "10:30 PM",
+        "9:30 PM"
+      ],
+      "optionsHi": [
+        "8:30 AM",
+        "8:30 PM",
+        "10:30 PM",
+        "9:30 PM"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & KVS PRT",
+      "explanation": "Subtract 12 hours: 20:30 - 12:00 = 8:30 PM.",
+      "explanationHi": "12 घंटे घटाइए: 20:30 - 12:00 = 8:30 PM।"
+    },
+    {
+      "id": 4,
+      "q": "A train departs New Delhi at 08:30 hours and reaches Agra at 11:15 hours. What is the total travel duration?",
+      "qHi": "एक ट्रेन नई दिल्ली से 08:30 बजे रवाना होती है और 11:15 बजे आगरा पहुँचती है। यात्रा की कुल अवधि क्या है?",
+      "options": [
+        "2 hours 15 minutes",
+        "2 hours 45 minutes",
+        "3 hours 15 minutes",
+        "3 hours 45 minutes"
+      ],
+      "optionsHi": [
+        "2 घंटे 15 मिनट",
+        "2 घंटे 45 मिनट",
+        "3 घंटे 15 मिनट",
+        "3 घंटे 45 मिनट"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 (Repeated PYQ)",
+      "explanation": "From 08:30 to 11:00 is 2h 30m. Plus 15m = 2 hours 45 minutes.",
+      "explanationHi": "08:30 से 11:00 तक 2 घंटे 30 मिनट + 15 मिनट = 2 घंटे 45 मिनट।"
+    },
+    {
+      "id": 5,
+      "q": "A movie started at 14:15 hours and lasted for 2 hours 35 minutes. At what time did the movie end?",
+      "qHi": "एक फिल्म 14:15 बजे शुरू हुई और 2 घंटे 35 मिनट तक चली। फिल्म किस समय समाप्त हुई?",
+      "options": [
+        "16:40 hours",
+        "16:50 hours",
+        "17:00 hours",
+        "17:15 hours"
+      ],
+      "optionsHi": [
+        "16:40 बजे",
+        "16:50 बजे",
+        "17:00 बजे",
+        "17:15 बजे"
+      ],
+      "ans": 1,
+      "pyqRef": "BPSC TRE 2.0 & DSSSB",
+      "explanation": "14:15 + 2:35 = 16:50 hours (4:50 PM).",
+      "explanationHi": "14:15 + 2:35 = 16:50 बजे (शाम 4:50)।"
+    },
+    {
+      "id": 6,
+      "q": "How many total days are there in a Leap Year?",
+      "qHi": "एक लीप वर्ष (अधिवर्ष) में कुल कितने दिन होते हैं?",
+      "options": [
+        "364 days",
+        "365 days",
+        "366 days",
+        "367 days"
+      ],
+      "optionsHi": [
+        "364 दिन",
+        "365 दिन",
+        "366 दिन",
+        "367 दिन"
+      ],
+      "ans": 2,
+      "pyqRef": "CTET Paper 1 & BPSC TRE Primary",
+      "explanation": "A normal year has 365 days; a leap year has 366 days (February has 29 days).",
+      "explanationHi": "सामान्य वर्ष में 365 दिन होते हैं; लीप वर्ष में 366 दिन होते हैं (फरवरी 29 दिनों की होती है)।"
+    },
+    {
+      "id": 7,
+      "q": "Which of the following years is a Leap Year?",
+      "qHi": "निम्नलिखित में से कौन सा वर्ष एक लीप वर्ष है?",
+      "options": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "optionsHi": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "ans": 3,
+      "pyqRef": "JNVST Class 6 Entrance",
+      "explanation": "2024 is divisible by 4 (2024 ÷ 4 = 506 with no remainder), so it is a leap year.",
+      "explanationHi": "2024 संख्या 4 से पूर्णतः विभाज्य है, अतः यह एक लीप वर्ष है।"
+    },
+    {
+      "id": 8,
+      "q": "A primary school starts at 07:45 AM and closes at 01:30 PM. What is the total operating duration of the school?",
+      "qHi": "एक प्राथमिक विद्यालय सुबह 07:45 AM पर शुरू होता है और दोपहर 01:30 PM पर बंद होता है। विद्यालय के चलने की कुल अवधि क्या है?",
+      "options": [
+        "5 hours 15 minutes",
+        "5 hours 30 minutes",
+        "5 hours 45 minutes",
+        "6 hours 15 minutes"
+      ],
+      "optionsHi": [
+        "5 घंटे 15 मिनट",
+        "5 घंटे 30 मिनट",
+        "5 घंटे 45 मिनट",
+        "6 घंटे 15 मिनट"
+      ],
+      "ans": 2,
+      "pyqRef": "CTET Paper 1 & REET",
+      "explanation": "07:45 AM to 12:00 Noon = 4h 15m. 12:00 to 01:30 PM = 1h 30m. Total = 5 hours 45 minutes.",
+      "explanationHi": "07:45 AM से 12:00 दोपहर = 4 घंटे 15 मिनट। 12:00 से 01:30 PM = 1 घंटा 30 मिनट। कुल = 5 घंटे 45 मिनट।"
+    },
+    {
+      "id": 9,
+      "q": "How many seconds are in 15 minutes?",
+      "qHi": "15 मिनट में कितने सेकंड होते हैं?",
+      "options": [
+        "600 seconds",
+        "900 seconds",
+        "1200 seconds",
+        "1500 seconds"
+      ],
+      "optionsHi": [
+        "600 सेकंड",
+        "900 सेकंड",
+        "1200 सेकंड",
+        "1500 सेकंड"
+      ],
+      "ans": 1,
+      "pyqRef": "BPSC TRE 3.0 & CTET",
+      "explanation": "15 × 60 seconds = 900 seconds.",
+      "explanationHi": "15 × 60 सेकंड = 900 सेकंड।"
+    },
+    {
+      "id": 10,
+      "q": "In an athletic race, an athlete completes Lap 1 in 58 seconds and Lap 2 in 1 minute 14 seconds. What is the total time taken?",
+      "qHi": "एक दौड़ प्रतियोगिता में एक धावक पहला चक्कर 58 सेकंड में और दूसरा चक्कर 1 मिनट 14 सेकंड में पूरा करता है। कुल कितना समय लगा?",
+      "options": [
+        "2 minutes 08 seconds",
+        "2 minutes 12 seconds",
+        "2 minutes 15 seconds",
+        "2 minutes 20 seconds"
+      ],
+      "optionsHi": [
+        "2 मिनट 08 सेकंड",
+        "2 मिनट 12 सेकंड",
+        "2 मिनट 15 सेकंड",
+        "2 मिनट 20 सेकंड"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & Sainik School",
+      "explanation": "58 s + 74 s = 132 seconds = 2 minutes 12 seconds.",
+      "explanationHi": "58 सेकंड + 74 सेकंड = 132 सेकंड = 2 मिनट 12 सेकंड।"
+    },
+    {
+      "id": 11,
+      "q": "If today is Monday, what day of the week will it be after exactly 21 days?",
+      "qHi": "यदि आज सोमवार है, तो ठीक 21 दिनों के बाद कौन सा दिन होगा?",
+      "options": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday"
+      ],
+      "optionsHi": [
+        "रविवार",
+        "सोमवार",
+        "मंगलवार",
+        "बुधवार"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & BPSC TRE",
+      "explanation": "21 ÷ 7 = 3 complete weeks with 0 remainder. The day will again be Monday.",
+      "explanationHi": "21 ÷ 7 = 3 पूरे सप्ताह (शेषफल 0)। अतः वही दिन 'सोमवार' होगा।"
+    },
+    {
+      "id": 12,
+      "q": "A wall clock is 15 minutes fast. If it currently shows 04:10, what is the actual correct time?",
+      "qHi": "एक दीवार घड़ी 15 मिनट तेज चल रही है। यदि यह वर्तमान में 04:10 दिखाती है, तो वास्तविक सही समय क्या है?",
+      "options": [
+        "04:25",
+        "03:55",
+        "03:45",
+        "04:00"
+      ],
+      "optionsHi": [
+        "04:25",
+        "03:55",
+        "03:45",
+        "04:00"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & DSSSB PRT",
+      "explanation": "Subtract 15 minutes from 04:10: 04:10 - 15 minutes = 03:55.",
+      "explanationHi": "04:10 में से 15 मिनट घटाइए: 04:10 - 15 मिनट = 03:55।"
+    },
+    {
+      "id": 13,
+      "q": "How many times in a 24-hour period do the hour and minute hands of a clock overlap (0° angle)?",
+      "qHi": "24 घंटे की अवधि में घड़ी की दोनों सुइयाँ (घंटे और मिनट) कुल कितनी बार परस्पर मिलती (0° कोण बनाती) हैं?",
+      "options": [
+        "20 times",
+        "22 times",
+        "24 times",
+        "44 times"
+      ],
+      "optionsHi": [
+        "20 बार",
+        "22 बार",
+        "24 बार",
+        "44 बार"
+      ],
+      "ans": 1,
+      "pyqRef": "BPSC TRE & SSC CGL / CTET",
+      "explanation": "In 12 hours they overlap 11 times (due to the 11-1 overlap at 12). In 24 hours: 11 × 2 = 22 times.",
+      "explanationHi": "12 घंटे में सुइयाँ 11 बार मिलती हैं। अतः 24 घंटे में 11 × 2 = 22 बार मिलती हैं।"
+    },
+    {
+      "id": 14,
+      "q": "A car covers a distance of 180 km in 3 hours at constant speed. What is the speed of the car?",
+      "qHi": "एक कार समान गति से 3 घंटे में 180 किमी की दूरी तय करती है। कार की गति क्या है?",
+      "options": [
+        "50 km/h",
+        "60 km/h",
+        "70 km/h",
+        "90 km/h"
+      ],
+      "optionsHi": [
+        "50 किमी/घंटा",
+        "60 किमी/घंटा",
+        "70 किमी/घंटा",
+        "90 किमी/घंटा"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & UPTET",
+      "explanation": "Speed = Distance ÷ Time = 180 km ÷ 3 h = 60 km/h.",
+      "explanationHi": "गति = दूरी ÷ समय = 180 किमी ÷ 3 घंटे = 60 किमी/घंटा।"
+    },
+    {
+      "id": 15,
+      "q": "Convert a speed of 36 km/h into metres per second (m/s).",
+      "qHi": "36 किमी/घंटा की गति को मीटर प्रति सेकंड (m/s) में बदलिए।",
+      "options": [
+        "5 m/s",
+        "10 m/s",
+        "15 m/s",
+        "20 m/s"
+      ],
+      "optionsHi": [
+        "5 m/s",
+        "10 m/s",
+        "15 m/s",
+        "20 m/s"
+      ],
+      "ans": 1,
+      "pyqRef": "BPSC TRE 2.0 & SSC GD",
+      "explanation": "Multiply by 5/18: 36 × (5/18) = 2 × 5 = 10 m/s.",
+      "explanationHi": "5/18 से गुणा कीजिए: 36 × (5/18) = 10 m/s।"
+    },
+    {
+      "id": 16,
+      "q": "A high-speed train travels at 72 km/h. How many metres does it travel in 1 second?",
+      "qHi": "एक तीव्र गति ट्रेन 72 किमी/घंटा की चाल से चलती है। यह 1 सेकंड में कितने मीटर की दूरी तय करती है?",
+      "options": [
+        "15 m",
+        "20 m",
+        "25 m",
+        "30 m"
+      ],
+      "optionsHi": [
+        "15 m",
+        "20 m",
+        "25 m",
+        "30 m"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & BPSC TRE",
+      "explanation": "72 × (5/18) = 4 × 5 = 20 m/s. In 1 second, it covers 20 metres.",
+      "explanationHi": "72 × (5/18) = 20 m/s। 1 सेकंड में यह 20 मीटर की दूरी तय करती है।"
+    },
+    {
+      "id": 17,
+      "q": "How many total hours are there in 1 full week (7 days)?",
+      "qHi": "1 पूरे सप्ताह (7 दिन) में कुल कितने घंटे होते हैं?",
+      "options": [
+        "144 hours",
+        "168 hours",
+        "172 hours",
+        "180 hours"
+      ],
+      "optionsHi": [
+        "144 घंटे",
+        "168 घंटे",
+        "172 घंटे",
+        "180 घंटे"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & KVS PRT",
+      "explanation": "7 days × 24 hours/day = 168 hours.",
+      "explanationHi": "7 दिन × 24 घंटे/दिन = 168 घंटे।"
+    },
+    {
+      "id": 18,
+      "q": "An athlete runs a 400-metre sprint in 50 seconds. What is the runner's speed in m/s?",
+      "qHi": "एक एथलीट 50 सेकंड में 400 मीटर की दौड़ पूरी करता है। धावक की गति m/s में क्या है?",
+      "options": [
+        "6 m/s",
+        "8 m/s",
+        "10 m/s",
+        "12 m/s"
+      ],
+      "optionsHi": [
+        "6 m/s",
+        "8 m/s",
+        "10 m/s",
+        "12 m/s"
+      ],
+      "ans": 1,
+      "pyqRef": "JNVST Class 6 Entrance",
+      "explanation": "Speed = Distance ÷ Time = 400 ÷ 50 = 8 m/s.",
+      "explanationHi": "गति = दूरी ÷ समय = 400 ÷ 50 = 8 m/s।"
+    },
+    {
+      "id": 19,
+      "q": "What is 00:00 hours in 12-hour clock notation?",
+      "qHi": "24-घंटे वाली घड़ी के 00:00 बजे को 12-घंटे वाले प्रारूप में क्या कहा जाता है?",
+      "options": [
+        "12:00 Noon",
+        "12:00 Midnight",
+        "01:00 AM",
+        "11:59 PM"
+      ],
+      "optionsHi": [
+        "दोपहर 12:00 बजे (Noon)",
+        "मध्यरात्रि 12:00 बजे (Midnight)",
+        "रात 01:00 AM",
+        "रात 11:59 PM"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & State TET",
+      "explanation": "00:00 hours corresponds to 12:00 Midnight (start of a new calendar day).",
+      "explanationHi": "00:00 बजे का अर्थ मध्यरात्रि 12:00 बजे (12:00 Midnight) होता है।"
+    },
+    {
+      "id": 20,
+      "q": "In a non-leap year, if January 1st falls on a Sunday, on what day of the week will December 31st fall?",
+      "qHi": "किसी सामान्य वर्ष (गैर-लीप वर्ष) में यदि 1 जनवरी को रविवार है, तो 31 दिसंबर को कौन सा दिन होगा?",
+      "options": [
+        "Saturday",
+        "Sunday",
+        "Monday",
+        "Tuesday"
+      ],
+      "optionsHi": [
+        "शनिवार",
+        "रविवार",
+        "सोमवार",
+        "मंगलवार"
+      ],
+      "ans": 1,
+      "pyqRef": "BPSC TRE Primary & SSC MTS",
+      "explanation": "A non-leap year has 365 days = 52 weeks + 1 odd day. Thus, the year ends on the same weekday it begins: Sunday.",
+      "explanationHi": "सामान्य वर्ष में 365 दिन (52 सप्ताह + 1 दिन) होते हैं। अतः वर्ष जिस दिन शुरू होता है, उसी दिन समाप्त होता है: रविवार।"
+    },
+    {
+      "id": 21,
+      "q": "Convert 4 minutes 20 seconds into total seconds.",
+      "qHi": "4 मिनट 20 सेकंड को कुल सेकंड में बदलिए।",
+      "options": [
+        "240 seconds",
+        "260 seconds",
+        "280 seconds",
+        "420 seconds"
+      ],
+      "optionsHi": [
+        "240 सेकंड",
+        "260 सेकंड",
+        "280 सेकंड",
+        "420 सेकंड"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & REET",
+      "explanation": "4 × 60 + 20 = 240 + 20 = 260 seconds.",
+      "explanationHi": "4 × 60 + 20 = 240 + 20 = 260 सेकंड।"
+    },
+    {
+      "id": 22,
+      "q": "How many minutes elapse between 09:40 AM and 02:15 PM on the same day?",
+      "qHi": "उसी दिन सुबह 09:40 AM से दोपहर 02:15 PM के बीच कितने मिनट बीतते हैं?",
+      "options": [
+        "255 minutes",
+        "275 minutes",
+        "295 minutes",
+        "315 minutes"
+      ],
+      "optionsHi": [
+        "255 मिनट",
+        "275 मिनट",
+        "295 मिनट",
+        "315 मिनट"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & BPSC TRE 1.0",
+      "explanation": "09:40 to 14:15. Hours diff = 4 hours 35 minutes = (4 × 60) + 35 = 240 + 35 = 275 minutes.",
+      "explanationHi": "09:40 से 14:15 = 4 घंटे 35 मिनट = 240 + 35 = 275 मिनट।"
+    },
+    {
+      "id": 23,
+      "q": "A flight departs at 22:45 on Monday and arrives at 03:15 on Tuesday. What is the total flight time?",
+      "qHi": "एक उड़ान सोमवार रात 22:45 पर रवाना होती है और मंगलवार सुबह 03:15 पर पहुँचती है। उड़ान का कुल समय क्या है?",
+      "options": [
+        "4 hours 15 minutes",
+        "4 hours 30 minutes",
+        "5 hours 00 minutes",
+        "5 hours 30 minutes"
+      ],
+      "optionsHi": [
+        "4 घंटे 15 मिनट",
+        "4 घंटे 30 मिनट",
+        "5 घंटे 00 मिनट",
+        "5 घंटे 30 मिनट"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & DSSSB",
+      "explanation": "From 22:45 to 24:00 is 1h 15m. From 00:00 to 03:15 is 3h 15m. Total = 4 hours 30 minutes.",
+      "explanationHi": "22:45 से 24:00 तक 1 घंटा 15 मिनट + 3 घंटे 15 मिनट = 4 घंटे 30 मिनट।"
+    },
+    {
+      "id": 24,
+      "q": "How many decades are there in 1 Century?",
+      "qHi": "1 शताब्दी (Century) में कितने दशक (Decades) होते हैं?",
+      "options": [
+        "5 decades",
+        "10 decades",
+        "20 decades",
+        "100 decades"
+      ],
+      "optionsHi": [
+        "5 दशक",
+        "10 दशक",
+        "20 दशक",
+        "100 दशक"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 Pedagogy",
+      "explanation": "1 Century = 100 years. 1 Decade = 10 years. 100 ÷ 10 = 10 decades.",
+      "explanationHi": "1 शताब्दी = 100 वर्ष। 1 दशक = 10 वर्ष। 100 ÷ 10 = 10 दशक।"
+    },
+    {
+      "id": 25,
+      "q": "As the hour hand of a clock moves from 12 to 5, through what angle in degrees does it turn?",
+      "qHi": "घड़ी की घंटे वाली सुई 12 से 5 तक जाने में कितने अंश (डिग्री) का कोण बनाती है?",
+      "options": [
+        "120°",
+        "150°",
+        "160°",
+        "180°"
+      ],
+      "optionsHi": [
+        "120°",
+        "150°",
+        "160°",
+        "180°"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & BPSC TRE",
+      "explanation": "Each hour represents 360° ÷ 12 = 30°. From 12 to 5 is 5 hours: 5 × 30° = 150°.",
+      "explanationHi": "प्रत्येक 1 घंटा = 360° ÷ 12 = 30°। 12 से 5 तक = 5 घंटे: 5 × 30° = 150°।"
+    },
+    {
+      "id": 26,
+      "q": "In 1 minute, through how many degrees does the second hand of a clock rotate?",
+      "qHi": "1 मिनट में घड़ी की सेकंड वाली सुई कितने डिग्री घूमती है?",
+      "options": [
+        "60°",
+        "180°",
+        "270°",
+        "360°"
+      ],
+      "optionsHi": [
+        "60°",
+        "180°",
+        "270°",
+        "360°"
+      ],
+      "ans": 3,
+      "pyqRef": "JNVST Class 6 & UPTET",
+      "explanation": "In 1 minute (60 seconds), the second hand completes one full revolution = 360°.",
+      "explanationHi": "1 मिनट में सेकंड वाली सुई 1 पूरा चक्कर लगाती है = 360°।"
+    },
+    {
+      "id": 27,
+      "q": "How many minutes are in 3.5 hours?",
+      "qHi": "3.5 घंटे में कितने मिनट होते हैं?",
+      "options": [
+        "180 minutes",
+        "200 minutes",
+        "210 minutes",
+        "225 minutes"
+      ],
+      "optionsHi": [
+        "180 मिनट",
+        "200 मिनट",
+        "210 मिनट",
+        "225 मिनट"
+      ],
+      "ans": 2,
+      "pyqRef": "CTET Paper 1 & KVS",
+      "explanation": "3.5 × 60 = 210 minutes.",
+      "explanationHi": "3.5 × 60 = 210 मिनट।"
+    },
+    {
+      "id": 28,
+      "q": "If a watch loses 2 minutes every day, how many minutes will it lose in the month of April (30 days)?",
+      "qHi": "यदि एक घड़ी प्रतिदिन 2 मिनट धीमी हो जाती है, तो अप्रैल माह (30 दिन) में यह कुल कितने मिनट धीमी हो जाएगी?",
+      "options": [
+        "30 minutes",
+        "45 minutes",
+        "60 minutes (1 hour)",
+        "90 minutes"
+      ],
+      "optionsHi": [
+        "30 मिनट",
+        "45 मिनट",
+        "60 मिनट (1 घंटा)",
+        "90 मिनट"
+      ],
+      "ans": 2,
+      "pyqRef": "BPSC TRE 3.0 & CTET",
+      "explanation": "30 days × 2 minutes = 60 minutes = 1 hour.",
+      "explanationHi": "30 दिन × 2 मिनट = 60 मिनट = 1 घंटा।"
+    },
+    {
+      "id": 29,
+      "q": "How many leap years occur in a period of 100 consecutive ordinary calendar years (like 1901 to 2000)?",
+      "qHi": "100 वर्षों की सामान्य समयावधि में कितने लीप वर्ष होते हैं?",
+      "options": [
+        "24 or 25",
+        "25 only",
+        "26",
+        "20"
+      ],
+      "optionsHi": [
+        "24 या 25",
+        "केवल 25",
+        "26",
+        "20"
+      ],
+      "ans": 0,
+      "pyqRef": "SSC MTS & BPSC TRE",
+      "explanation": "Usually 24 leap years (if century year is not leap, e.g. 1900) or 25 leap years (if century year is leap, e.g. 2000).",
+      "explanationHi": "सामान्यतः 24 (यदि शताब्दी वर्ष 400 से न कटे) या 25 (यदि शताब्दी वर्ष 400 से कटे जैसे वर्ष 2000)।"
+    },
+    {
+      "id": 30,
+      "q": "What is the total number of minutes in 1 entire day (24 hours)?",
+      "qHi": "1 पूरे दिन (24 घंटे) में कुल कितने मिनट होते हैं?",
+      "options": [
+        "1200 minutes",
+        "1440 minutes",
+        "1500 minutes",
+        "1600 minutes"
+      ],
+      "optionsHi": [
+        "1200 मिनट",
+        "1440 मिनट",
+        "1500 मिनट",
+        "1600 मिनट"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & BPSC TRE Primary",
+      "explanation": "24 hours × 60 minutes/hour = 1440 minutes.",
+      "explanationHi": "24 घंटे × 60 मिनट/घंटा = 1440 मिनट।"
+    }
+  ],
+  "ncert-c5-math-ch13": [
+    {
+      "id": 1,
+      "q": "Which of the following numbers is a multiple of 6?",
+      "qHi": "निम्नलिखित में से कौन सी संख्या 6 का गुणज (Multiple) है?",
+      "options": [
+        "16",
+        "28",
+        "42",
+        "52"
+      ],
+      "optionsHi": [
+        "16",
+        "28",
+        "42",
+        "52"
+      ],
+      "ans": 2,
+      "pyqRef": "CTET Paper 1 & BPSC TRE Primary",
+      "explanation": "6 × 7 = 42. Hence, 42 is a multiple of 6.",
+      "explanationHi": "6 × 7 = 42। अतः 42, 6 का एक गुणज है।"
+    },
+    {
+      "id": 2,
+      "q": "What is the Least Common Multiple (LCM) of 4 and 6?",
+      "qHi": "4 और 6 का लघुत्तम समापवर्त्य (LCM) क्या है?",
+      "options": [
+        "8",
+        "12",
+        "18",
+        "24"
+      ],
+      "optionsHi": [
+        "8",
+        "12",
+        "18",
+        "24"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & UPTET",
+      "explanation": "Multiples of 4: 4, 8, 12, 16... Multiples of 6: 6, 12, 18... Smallest common is 12.",
+      "explanationHi": "4 के गुणज: 4, 8, 12... 6 के गुणज: 6, 12, 18... सबसे छोटा उभयनिष्ठ गुणज 12 है।"
+    },
+    {
+      "id": 3,
+      "q": "How many total factors does the number 12 have?",
+      "qHi": "संख्या 12 के कुल कितने गुणनखंड (Factors) होते हैं?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "optionsHi": [
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "ans": 2,
+      "pyqRef": "CTET Paper 1 & BPSC TRE",
+      "explanation": "Factors of 12 are 1, 2, 3, 4, 6, 12 (6 factors).",
+      "explanationHi": "12 के गुणनखंड हैं: 1, 2, 3, 4, 6, 12 (कुल 6 गुणनखंड)।"
+    },
+    {
+      "id": 4,
+      "q": "What is the Highest Common Factor (HCF) of 18 and 24?",
+      "qHi": "18 और 24 का महत्तम समापवर्तक (HCF / म.स.) क्या है?",
+      "options": [
+        "3",
+        "4",
+        "6",
+        "12"
+      ],
+      "optionsHi": [
+        "3",
+        "4",
+        "6",
+        "12"
+      ],
+      "ans": 2,
+      "pyqRef": "BPSC TRE 2.0 & JNVST",
+      "explanation": "Factors of 18: 1, 2, 3, 6, 9, 18. Factors of 24: 1, 2, 3, 4, 6, 8, 12, 24. Greatest common factor = 6.",
+      "explanationHi": "18 और 24 का सबसे बड़ा उभयनिष्ठ गुणनखंड 6 है।"
+    },
+    {
+      "id": 5,
+      "q": "Which is the smallest prime number?",
+      "qHi": "सबसे छोटी अभाज्य संख्या (Prime number) कौन सी है?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "optionsHi": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "ans": 2,
+      "pyqRef": "CTET Paper 1 (Repeated PYQ)",
+      "explanation": "2 is the smallest prime number and also the only even prime number.",
+      "explanationHi": "2 सबसे छोटी अभाज्य संख्या है और यह एकमात्र सम अभाज्य संख्या भी है।"
+    },
+    {
+      "id": 6,
+      "q": "Two numbers having only 1 as their common factor are called:",
+      "qHi": "वे दो संख्याएँ जिनका उभयनिष्ठ गुणनखंड केवल 1 होता है, क्या कहलाती हैं?",
+      "options": [
+        "Twin primes",
+        "Co-prime numbers",
+        "Composite numbers",
+        "Perfect numbers"
+      ],
+      "optionsHi": [
+        "जुड़वाँ अभाज्य",
+        "सह-अभाज्य संख्याएँ (Co-prime)",
+        "भाज्य संख्याएँ",
+        "सम्पूर्ण संख्याएँ"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & DSSSB PRT",
+      "explanation": "Numbers whose HCF is 1 are defined as co-prime numbers (e.g., 8 and 9).",
+      "explanationHi": "जिन संख्याओं का म.स. (HCF) 1 होता है, उन्हें सह-अभाज्य (Co-prime) संख्याएँ कहते हैं।"
+    },
+    {
+      "id": 7,
+      "q": "Find the LCM of 12, 15, and 20.",
+      "qHi": "12, 15 और 20 का लघुत्तम समापवर्त्य (LCM) ज्ञात कीजिए।",
+      "options": [
+        "30",
+        "45",
+        "60",
+        "120"
+      ],
+      "optionsHi": [
+        "30",
+        "45",
+        "60",
+        "120"
+      ],
+      "ans": 2,
+      "pyqRef": "BPSC TRE Primary & SSC MTS",
+      "explanation": "12 = 2² × 3, 15 = 3 × 5, 20 = 2² × 5. LCM = 2² × 3 × 5 = 60.",
+      "explanationHi": "12, 15 और 20 का ल.स. = 2² × 3 × 5 = 60।"
+    },
+    {
+      "id": 8,
+      "q": "The HCF of two numbers is 5 and their LCM is 60. If one number is 15, what is the other number?",
+      "qHi": "दो संख्याओं का म.स. 5 और ल.स. 60 है। यदि एक संख्या 15 है, तो दूसरी संख्या क्या होगी?",
+      "options": [
+        "18",
+        "20",
+        "24",
+        "25"
+      ],
+      "optionsHi": [
+        "18",
+        "20",
+        "24",
+        "25"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & BPSC TRE 3.0",
+      "explanation": "Product of numbers = LCM × HCF. Other number = (60 × 5) ÷ 15 = 300 ÷ 15 = 20.",
+      "explanationHi": "संख्याओं का गुणनफल = ल.स. × म.स.। दूसरी संख्या = (60 × 5) ÷ 15 = 20।"
+    },
+    {
+      "id": 9,
+      "q": "A frog jumps 3 steps at a time and a rabbit jumps 5 steps at a time. Both start jumping from 0. At which step will they land together for the first time?",
+      "qHi": "एक मेंढक एक बार में 3 कदम कूदता है और खरगोश 5 कदम कूदता है। दोनों 0 से कूदना शुरू करते हैं। वे पहली बार किस कदम पर एक साथ मिलेंगे?",
+      "options": [
+        "8",
+        "12",
+        "15",
+        "30"
+      ],
+      "optionsHi": [
+        "8",
+        "12",
+        "15",
+        "30"
+      ],
+      "ans": 2,
+      "pyqRef": "NCERT Class 5 Ch 13 & CTET",
+      "explanation": "They will meet at the LCM of 3 and 5. Since 3 and 5 are prime, LCM = 3 × 5 = 15.",
+      "explanationHi": "वे 3 और 5 के ल.स. (LCM) पर मिलेंगे: LCM = 3 × 5 = 15।"
+    },
+    {
+      "id": 10,
+      "q": "Three temple bells ring at intervals of 10, 15, and 20 minutes respectively. If they ring together at 8:00 AM, at what time will they ring together next?",
+      "qHi": "मंदिर की तीन घंटियाँ क्रमशः 10, 15 और 20 मिनट के अंतराल पर बजती हैं। यदि वे सुबह 8:00 AM पर एक साथ बजीं, तो अगली बार वे किस समय एक साथ बजेंगी?",
+      "options": [
+        "8:30 AM",
+        "8:45 AM",
+        "9:00 AM",
+        "9:30 AM"
+      ],
+      "optionsHi": [
+        "8:30 AM",
+        "8:45 AM",
+        "9:00 AM (1 घंटे बाद)",
+        "9:30 AM"
+      ],
+      "ans": 2,
+      "pyqRef": "CTET Paper 1 & State TET",
+      "explanation": "LCM(10, 15, 20) = 60 minutes = 1 hour. 8:00 AM + 1 hour = 9:00 AM.",
+      "explanationHi": "10, 15, 20 का ल.स. = 60 मिनट = 1 घंटा। 8:00 AM + 1 घंटा = 9:00 AM।"
+    },
+    {
+      "id": 11,
+      "q": "Find the HCF of 36, 54, and 72.",
+      "qHi": "36, 54 और 72 का महत्तम समापवर्तक (HCF) ज्ञात कीजिए।",
+      "options": [
+        "9",
+        "12",
+        "18",
+        "36"
+      ],
+      "optionsHi": [
+        "9",
+        "12",
+        "18",
+        "36"
+      ],
+      "ans": 2,
+      "pyqRef": "BPSC TRE 2.0 & Sainik School",
+      "explanation": "36 = 18 × 2, 54 = 18 × 3, 72 = 18 × 4. The greatest common divisor is 18.",
+      "explanationHi": "36 = 18 × 2, 54 = 18 × 3, 72 = 18 × 4। सबसे बड़ा उभयनिष्ठ भाजक 18 है।"
+    },
+    {
+      "id": 12,
+      "q": "Which of the following numbers is a composite number?",
+      "qHi": "निम्नलिखित में से कौन सी संख्या एक भाज्य संख्या (Composite number) है?",
+      "options": [
+        "19",
+        "23",
+        "29",
+        "33"
+      ],
+      "optionsHi": [
+        "19",
+        "23",
+        "29",
+        "33"
+      ],
+      "ans": 3,
+      "pyqRef": "CTET Paper 1 & KVS PRT",
+      "explanation": "33 has factors 1, 3, 11, 33 (more than 2 factors), so it is composite.",
+      "explanationHi": "33 के गुणनखंड 1, 3, 11, 33 हैं (2 से अधिक), अतः यह भाज्य संख्या है।"
+    },
+    {
+      "id": 13,
+      "q": "What is the sum of all prime numbers between 1 and 10?",
+      "qHi": "1 से 10 के बीच की सभी अभाज्य संख्याओं का योग क्या है?",
+      "options": [
+        "15",
+        "17",
+        "18",
+        "21"
+      ],
+      "optionsHi": [
+        "15",
+        "17",
+        "18",
+        "21"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & REET",
+      "explanation": "Prime numbers between 1 and 10 are 2, 3, 5, 7. Sum = 2 + 3 + 5 + 7 = 17.",
+      "explanationHi": "1 से 10 के बीच अभाज्य संख्याएँ हैं: 2, 3, 5, 7। योग = 2 + 3 + 5 + 7 = 17।"
+    },
+    {
+      "id": 14,
+      "q": "Which pair of numbers represents 'Twin Primes'?",
+      "qHi": "कौन सा युग्म 'जुड़वाँ अभाज्य' (Twin Primes) को दर्शाता है?",
+      "options": [
+        "(3, 7)",
+        "(5, 7)",
+        "(7, 9)",
+        "(11, 15)"
+      ],
+      "optionsHi": [
+        "(3, 7)",
+        "(5, 7)",
+        "(7, 9)",
+        "(11, 15)"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & BPSC TRE",
+      "explanation": "Twin primes are prime numbers that differ by 2. 5 and 7 are both prime and 7 - 5 = 2.",
+      "explanationHi": "जुड़वाँ अभाज्य वे अभाज्य संख्याएँ हैं जिनमें 2 का अंतर होता है। 5 और 7 दोनों अभाज्य हैं और 7 - 5 = 2।"
+    },
+    {
+      "id": 15,
+      "q": "What is the prime factorization of 60?",
+      "qHi": "60 का अभाज्य गुणनखंडन (Prime factorization) क्या है?",
+      "options": [
+        "2 × 3 × 10",
+        "2 × 2 × 3 × 5",
+        "4 × 3 × 5",
+        "2 × 30"
+      ],
+      "optionsHi": [
+        "2 × 3 × 10",
+        "2 × 2 × 3 × 5",
+        "4 × 3 × 5",
+        "2 × 30"
+      ],
+      "ans": 1,
+      "pyqRef": "JNVST Class 6 Entrance",
+      "explanation": "60 = 2 × 2 × 3 × 5 = 2² × 3 × 5 (all factors must be prime).",
+      "explanationHi": "60 = 2 × 2 × 3 × 5 (सभी गुणनखंड अभाज्य होने चाहिए)।"
+    },
+    {
+      "id": 16,
+      "q": "What is the greatest number that divides 28 and 42 without leaving any remainder?",
+      "qHi": "वह सबसे बड़ी संख्या कौन सी है जो 28 और 42 को बिना कोई शेष छोड़े पूर्णतः विभाजित करती है?",
+      "options": [
+        "7",
+        "14",
+        "21",
+        "28"
+      ],
+      "optionsHi": [
+        "7",
+        "14",
+        "21",
+        "28"
+      ],
+      "ans": 1,
+      "pyqRef": "BPSC TRE 1.0 & CTET",
+      "explanation": "HCF(28, 42) = 14.",
+      "explanationHi": "28 और 42 का म.स. (HCF) = 14।"
+    },
+    {
+      "id": 17,
+      "q": "What is the smallest 3-digit number that is exactly divisible by 4, 6, and 8?",
+      "qHi": "वह सबसे छोटी 3-अंकीय संख्या कौन सी है जो 4, 6 और 8 से पूर्णतः विभाज्य है?",
+      "options": [
+        "100",
+        "120",
+        "144",
+        "160"
+      ],
+      "optionsHi": [
+        "100",
+        "120",
+        "144",
+        "160"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & SSC MTS",
+      "explanation": "LCM(4, 6, 8) = 24. Multiples of 24: 24, 48, 72, 96, 120. Smallest 3-digit is 120.",
+      "explanationHi": "4, 6, 8 का ल.स. = 24। 24 का पहला 3-अंकीय गुणज = 120।"
+    },
+    {
+      "id": 18,
+      "q": "A teacher wants to distribute 36 pens and 48 pencils equally among students without any leftovers. What is the maximum number of students who can receive an equal share?",
+      "qHi": "एक शिक्षक 36 पेन और 48 पेंसिल छात्रों में बिना कुछ बचाए बराबर बाँटना चाहते हैं। समान हिस्सा पाने वाले छात्रों की अधिकतम संख्या क्या हो सकती है?",
+      "options": [
+        "6",
+        "12",
+        "18",
+        "24"
+      ],
+      "optionsHi": [
+        "6",
+        "12",
+        "18",
+        "24"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & KVS PRT",
+      "explanation": "Maximum number = HCF(36, 48) = 12 students.",
+      "explanationHi": "अधिकतम संख्या = 36 और 48 का म.स. = 12 छात्र।"
+    },
+    {
+      "id": 19,
+      "q": "Which of the following numbers is divisible by 9?",
+      "qHi": "निम्नलिखित में से कौन सी संख्या 9 से विभाज्य है?",
+      "options": [
+        "5471",
+        "5472",
+        "5473",
+        "5474"
+      ],
+      "optionsHi": [
+        "5471",
+        "5472",
+        "5473",
+        "5474"
+      ],
+      "ans": 1,
+      "pyqRef": "BPSC TRE Primary & CTET",
+      "explanation": "Sum of digits of 5472 = 5 + 4 + 7 + 2 = 18, which is divisible by 9.",
+      "explanationHi": "5472 के अंकों का योग = 5 + 4 + 7 + 2 = 18, जो 9 से विभाज्य है।"
+    },
+    {
+      "id": 20,
+      "q": "According to the divisibility rules, a number is divisible by 6 if and only if:",
+      "qHi": "विभाज्यता के नियमों के अनुसार, कोई संख्या 6 से विभाज्य तभी होती है जब:",
+      "options": [
+        "It ends with 6",
+        "It is divisible by both 2 and 3",
+        "It is divisible by 3 only",
+        "Sum of its digits is 6"
+      ],
+      "optionsHi": [
+        "यह 6 पर समाप्त होती है",
+        "यह 2 और 3 दोनों से विभाज्य हो",
+        "यह केवल 3 से विभाज्य हो",
+        "इसके अंकों का योग 6 हो"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & UPTET",
+      "explanation": "Since 6 = 2 × 3 (co-prime factors), a number must be divisible by both 2 and 3 to be divisible by 6.",
+      "explanationHi": "चूंकि 6 = 2 × 3, अतः किसी संख्या को 6 से विभाज्य होने के लिए 2 और 3 दोनों से विभाज्य होना आवश्यक है।"
+    },
+    {
+      "id": 21,
+      "q": "What is the LCM of two co-prime numbers 'a' and 'b'?",
+      "qHi": "दो सह-अभाज्य संख्याओं 'a' और 'b' का लघुत्तम समापवर्त्य (LCM) क्या होता है?",
+      "options": [
+        "1",
+        "a + b",
+        "a × b",
+        "(a × b) / 2"
+      ],
+      "optionsHi": [
+        "1",
+        "a + b",
+        "a × b (दोनों का गुणनफल)",
+        "(a × b) / 2"
+      ],
+      "ans": 2,
+      "pyqRef": "CTET Paper 1 & Bihar STET",
+      "explanation": "For co-prime numbers, HCF = 1. Therefore, LCM = Product ÷ HCF = a × b.",
+      "explanationHi": "सह-अभाज्य संख्याओं का HCF = 1 होता है। अतः LCM = a × b।"
+    },
+    {
+      "id": 22,
+      "q": "What is the HCF of any two consecutive natural numbers (such as 14 and 15)?",
+      "qHi": "किन्हीं दो क्रमागत प्राकृतिक संख्याओं (जैसे 14 और 15) का महत्तम समापवर्तक (HCF) सदैव क्या होता है?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "Their product"
+      ],
+      "optionsHi": [
+        "0",
+        "1",
+        "2",
+        "उनका गुणनफल"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & BPSC TRE",
+      "explanation": "Consecutive integers have no common factors greater than 1; their HCF is always 1.",
+      "explanationHi": "दो क्रमागत संख्याओं में 1 के अतिरिक्त कोई उभयनिष्ठ गुणनखंड नहीं होता, अतः HCF सदैव 1 होता है।"
+    },
+    {
+      "id": 23,
+      "q": "A number is called a 'perfect number' if the sum of all its proper factors equals the number itself. Which is the smallest perfect number?",
+      "qHi": "यदि किसी संख्या के सभी उचित गुणनखंडों का योग उस संख्या के बराबर हो, तो उसे 'सम्पूर्ण संख्या' (Perfect number) कहते हैं। सबसे छोटी सम्पूर्ण संख्या कौन सी है?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "optionsHi": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 Pedagogy & BPSC TRE",
+      "explanation": "Factors of 6 other than 6 are 1, 2, 3. Sum = 1 + 2 + 3 = 6. Hence, 6 is the smallest perfect number.",
+      "explanationHi": "6 के उचित गुणनखंड 1, 2, 3 हैं। योग = 1 + 2 + 3 = 6। अतः 6 सबसे छोटी सम्पूर्ण संख्या है।"
+    },
+    {
+      "id": 24,
+      "q": "Find the least number which when divided by 6, 8, and 12 leaves a remainder of 3 in each case.",
+      "qHi": "वह सबसे छोटी संख्या ज्ञात कीजिए जिसे 6, 8 और 12 से भाग देने पर प्रत्येक दशा में 3 शेष बचे।",
+      "options": [
+        "21",
+        "27",
+        "45",
+        "51"
+      ],
+      "optionsHi": [
+        "21",
+        "27",
+        "45",
+        "51"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & Sainik School",
+      "explanation": "LCM(6, 8, 12) = 24. Required number = LCM + remainder = 24 + 3 = 27.",
+      "explanationHi": "6, 8, 12 का ल.स. = 24। अभीष्ट संख्या = 24 + 3 = 27।"
+    },
+    {
+      "id": 25,
+      "q": "Which digit should replace * in 34*2 so that the number becomes divisible by 3?",
+      "qHi": "संख्या 34*2 में * के स्थान पर कौन सा सबसे छोटा अंक आए ताकि संख्या 3 से विभाज्य हो जाए?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "optionsHi": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "ans": 0,
+      "pyqRef": "BPSC TRE 2.0 & UPTET",
+      "explanation": "Sum of known digits = 3 + 4 + 2 = 9 (already divisible by 3). Smallest digit is 0 (3+4+0+2=9).",
+      "explanationHi": "ज्ञात अंकों का योग = 3 + 4 + 2 = 9 (पहले से 3 से विभाज्य)। सबसे छोटा अंक 0 होगा।"
+    },
+    {
+      "id": 26,
+      "q": "How many prime numbers exist between 1 and 20?",
+      "qHi": "1 और 20 के बीच कुल कितनी अभाज्य संख्याएँ हैं?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "optionsHi": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "ans": 2,
+      "pyqRef": "CTET Paper 1 & REET",
+      "explanation": "The primes are 2, 3, 5, 7, 11, 13, 17, 19 (total 8 prime numbers).",
+      "explanationHi": "अभाज्य संख्याएँ हैं: 2, 3, 5, 7, 11, 13, 17, 19 (कुल 8 अभाज्य संख्याएँ)।"
+    },
+    {
+      "id": 27,
+      "q": "What is the HCF of any two distinct prime numbers 'p' and 'q'?",
+      "qHi": "किन्हीं दो भिन्न अभाज्य संख्याओं 'p' और 'q' का महत्तम समापवर्तक (HCF) क्या होता है?",
+      "options": [
+        "0",
+        "1",
+        "p × q",
+        "p + q"
+      ],
+      "optionsHi": [
+        "0",
+        "1",
+        "p × q",
+        "p + q"
+      ],
+      "ans": 1,
+      "pyqRef": "BPSC TRE Primary & CTET",
+      "explanation": "Prime numbers only have 1 and themselves as factors. Common factor between two distinct primes is always 1.",
+      "explanationHi": "दो भिन्न अभाज्य संख्याओं का उभयनिष्ठ गुणनखंड केवल 1 होता है, अतः HCF = 1।"
+    },
+    {
+      "id": 28,
+      "q": "Which of the following is divisible by 11?",
+      "qHi": "निम्नलिखित में से कौन सी संख्या 11 से विभाज्य है?",
+      "options": [
+        "1331",
+        "1341",
+        "1321",
+        "1351"
+      ],
+      "optionsHi": [
+        "1331",
+        "1341",
+        "1321",
+        "1351"
+      ],
+      "ans": 0,
+      "pyqRef": "CTET Paper 1 & SSC GD",
+      "explanation": "In 1331: (1+3) - (3+1) = 4 - 4 = 0. Divisible by 11 (11³ = 1331).",
+      "explanationHi": "1331 में: (1+3) - (3+1) = 0। अतः यह 11 से पूर्णतः विभाज्य है।"
+    },
+    {
+      "id": 29,
+      "q": "Find the common factors of 15 and 25.",
+      "qHi": "15 और 25 के सार्व गुणनखंड (Common factors) ज्ञात कीजिए।",
+      "options": [
+        "1 and 3",
+        "1 and 5",
+        "3 and 5",
+        "1, 3, 5"
+      ],
+      "optionsHi": [
+        "1 और 3",
+        "1 और 5",
+        "3 और 5",
+        "1, 3, 5"
+      ],
+      "ans": 1,
+      "pyqRef": "JNVST Class 6 Entrance",
+      "explanation": "Factors of 15: 1, 3, 5, 15. Factors of 25: 1, 5, 25. Common factors are 1 and 5.",
+      "explanationHi": "15 और 25 दोनों को विभाजित करने वाले अंक 1 और 5 हैं।"
+    },
+    {
+      "id": 30,
+      "q": "What is the smallest number having four different prime factors?",
+      "qHi": "चार भिन्न अभाज्य गुणनखंडों वाली सबसे छोटी संख्या कौन सी है?",
+      "options": [
+        "60",
+        "120",
+        "210",
+        "330"
+      ],
+      "optionsHi": [
+        "60",
+        "120",
+        "210",
+        "330"
+      ],
+      "ans": 2,
+      "pyqRef": "CTET Paper 1 & BPSC TRE",
+      "explanation": "Smallest 4 primes are 2, 3, 5, 7. Product = 2 × 3 × 5 × 7 = 210.",
+      "explanationHi": "चार सबसे छोटी अभाज्य संख्याएँ 2, 3, 5, 7 हैं। गुणनफल = 2 × 3 × 5 × 7 = 210।"
+    }
+  ],
+  "ncert-c5-math-ch14": [
+    {
+      "id": 1,
+      "q": "On a state road map, the scale is 1 cm = 10 km. If the distance between two towns on the map is 4.5 cm, what is the actual distance?",
+      "qHi": "सड़क के एक नक्शे पर पैमाना 1 cm = 10 km है। यदि नक्शे पर दो शहरों के बीच की दूरी 4.5 cm है, तो वास्तविक दूरी क्या होगी?",
+      "options": [
+        "35 km",
+        "40 km",
+        "45 km",
+        "50 km"
+      ],
+      "optionsHi": [
+        "35 km",
+        "40 km",
+        "45 km",
+        "50 km"
+      ],
+      "ans": 2,
+      "pyqRef": "CTET Paper 1 & BPSC TRE Primary",
+      "explanation": "Actual distance = 4.5 × 10 km = 45 km.",
+      "explanationHi": "वास्तविक दूरी = 4.5 × 10 km = 45 किमी।"
+    },
+    {
+      "id": 2,
+      "q": "In standard cartography (map reading), which direction is conventionally at the top of the map?",
+      "qHi": "मानक मानचित्र पठन (Cartography) में मानचित्र के शीर्ष (ऊपरी भाग) पर कौन सी दिशा दर्शायी जाती है?",
+      "options": [
+        "East",
+        "West",
+        "North",
+        "South"
+      ],
+      "optionsHi": [
+        "पूर्व (East)",
+        "पश्चिम (West)",
+        "उत्तर (North)",
+        "दक्षिण (South)"
+      ],
+      "ans": 2,
+      "pyqRef": "CTET Paper 1 Pedagogy & BPSC TRE",
+      "explanation": "By convention, maps are oriented with North pointing directly towards the top.",
+      "explanationHi": "मानक परंपरा के अनुसार मानचित्र का ऊपरी भाग सदैव उत्तर (North) दिशा को दर्शाता है।"
+    },
+    {
+      "id": 3,
+      "q": "On a map with scale 1 cm = 5 km, two tourist spots are actually 35 km apart. What will be the distance between them on the map?",
+      "qHi": "1 cm = 5 km पैमाने वाले नक्शे पर दो पर्यटन स्थल वास्तव में 35 km दूर हैं। नक्शे पर उनके बीच की दूरी क्या होगी?",
+      "options": [
+        "5 cm",
+        "6 cm",
+        "7 cm",
+        "8 cm"
+      ],
+      "optionsHi": [
+        "5 cm",
+        "6 cm",
+        "7 cm",
+        "8 cm"
+      ],
+      "ans": 2,
+      "pyqRef": "CTET Paper 1 & UPTET",
+      "explanation": "Map distance = 35 ÷ 5 = 7 cm.",
+      "explanationHi": "नक्शे पर दूरी = 35 ÷ 5 = 7 cm।"
+    },
+    {
+      "id": 4,
+      "q": "The direction located midway between North and East is known as:",
+      "qHi": "उत्तर (North) और पूर्व (East) के ठीक मध्य में स्थित दिशा को क्या कहा जाता है?",
+      "options": [
+        "North-East (उत्तर-पूर्व / ईशान)",
+        "North-West (उत्तर-पश्चिम)",
+        "South-East (दक्षिण-पूर्व)",
+        "South-West (दक्षिण-पश्चिम)"
+      ],
+      "optionsHi": [
+        "उत्तर-पूर्व (ईशान)",
+        "उत्तर-पश्चिम",
+        "दक्षिण-पूर्व",
+        "दक्षिण-पश्चिम"
+      ],
+      "ans": 0,
+      "pyqRef": "CTET Paper 1 & DSSSB PRT",
+      "explanation": "The intermediate direction between North and East is North-East (NE).",
+      "explanationHi": "उत्तर और पूर्व के बीच की दिशा को उत्तर-पूर्व (NE) कहा जाता है।"
+    },
+    {
+      "id": 5,
+      "q": "If you are facing North and you turn 90° clockwise, which direction are you now facing?",
+      "qHi": "यदि आपका मुख उत्तर दिशा की ओर है और आप घड़ी की सुई की दिशा (Clockwise) में 90° घूमते हैं, तो अब आपका मुख किस दिशा में होगा?",
+      "options": [
+        "West",
+        "East",
+        "South",
+        "North-East"
+      ],
+      "optionsHi": [
+        "पश्चिम",
+        "पूर्व (East)",
+        "दक्षिण",
+        "उत्तर-पूर्व"
+      ],
+      "ans": 1,
+      "pyqRef": "BPSC TRE 2.0 & JNVST",
+      "explanation": "90° clockwise turn from North points directly towards East.",
+      "explanationHi": "उत्तर से दक्षिणावर्त 90° घूमने पर मुख पूर्व दिशा की ओर होगा।"
+    },
+    {
+      "id": 6,
+      "q": "If a person faces East and makes a half-turn (180° rotation), which direction will they face?",
+      "qHi": "यदि कोई व्यक्ति पूर्व की ओर मुख करके खड़ा है और 180° का आधा घुमाव करता है, तो उसका मुख किस दिशा में होगा?",
+      "options": [
+        "North",
+        "South",
+        "West",
+        "North-West"
+      ],
+      "optionsHi": [
+        "उत्तर",
+        "दक्षिण",
+        "पश्चिम (West)",
+        "उत्तर-पश्चिम"
+      ],
+      "ans": 2,
+      "pyqRef": "CTET Paper 1 & REET",
+      "explanation": "180° turn reverses direction completely. Opposite of East is West.",
+      "explanationHi": "180° घुमाने पर दिशा बिल्कुल विपरीत हो जाती है। पूर्व का विपरीत पश्चिम है।"
+    },
+    {
+      "id": 7,
+      "q": "What is the angle between North and East directions?",
+      "qHi": "उत्तर और पूर्व दिशाओं के बीच कितने अंश का कोण होता है?",
+      "options": [
+        "45°",
+        "60°",
+        "90°",
+        "180°"
+      ],
+      "optionsHi": [
+        "45°",
+        "60°",
+        "90° (समकोण)",
+        "180°"
+      ],
+      "ans": 2,
+      "pyqRef": "CTET Paper 1 & BPSC TRE",
+      "explanation": "The four cardinal directions are separated by 90° right angles each.",
+      "explanationHi": "चारों मुख्य दिशाओं के मध्य 90° (समकोण) का कोण होता है।"
+    },
+    {
+      "id": 8,
+      "q": "What is the angle between North and North-East?",
+      "qHi": "उत्तर और उत्तर-पूर्व के बीच कितने अंश का कोण होता है?",
+      "options": [
+        "30°",
+        "45°",
+        "60°",
+        "90°"
+      ],
+      "optionsHi": [
+        "30°",
+        "45°",
+        "60°",
+        "90°"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & KVS PRT",
+      "explanation": "North-East bisects the 90° angle between North and East: 90° ÷ 2 = 45°.",
+      "explanationHi": "उत्तर-पूर्व कोण को समद्विभाजित करता है: 90° ÷ 2 = 45°।"
+    },
+    {
+      "id": 9,
+      "q": "A scale on a blueprint is 1 cm = 2 m. A bedroom measures 3 cm in length and 2.5 cm in breadth on the print. What are the actual dimensions?",
+      "qHi": "एक नक्शे पर पैमाना 1 cm = 2 m है। नक्शे पर एक शयनकक्ष 3 cm लंबा और 2.5 cm चौड़ा है। इसके वास्तविक आयाम क्या हैं?",
+      "options": [
+        "5 m by 4 m",
+        "6 m by 5 m",
+        "6 m by 4 m",
+        "8 m by 6 m"
+      ],
+      "optionsHi": [
+        "5 m × 4 m",
+        "6 m × 5 m",
+        "6 m × 4 m",
+        "8 m × 6 m"
+      ],
+      "ans": 1,
+      "pyqRef": "BPSC TRE 3.0 & CTET",
+      "explanation": "Length = 3 × 2 = 6 m. Breadth = 2.5 × 2 = 5 m.",
+      "explanationHi": "लंबाई = 3 × 2 = 6 m। चौड़ाई = 2.5 × 2 = 5 m।"
+    },
+    {
+      "id": 10,
+      "q": "A person walks 4 km North, then turns East and walks 3 km. How far is the person from the starting point?",
+      "qHi": "एक व्यक्ति 4 किमी उत्तर की ओर चलता है, फिर पूर्व की ओर मुड़कर 3 किमी चलता है। वह प्रारंभिक बिंदु से कितनी दूरी पर है?",
+      "options": [
+        "5 km",
+        "6 km",
+        "7 km",
+        "8 km"
+      ],
+      "optionsHi": [
+        "5 किमी",
+        "6 किमी",
+        "7 किमी",
+        "8 किमी"
+      ],
+      "ans": 0,
+      "pyqRef": "CTET Paper 1 & SSC MTS",
+      "explanation": "Using Pythagoras theorem: √(4² + 3²) = √(16 + 9) = √25 = 5 km.",
+      "explanationHi": "पाइथागोरस प्रमेय से: √(4² + 3²) = √25 = 5 किमी।"
+    },
+    {
+      "id": 11,
+      "q": "In the morning at sunrise, in which direction does the shadow of a vertical flagpost fall?",
+      "qHi": "सुबह सूर्योदय के समय किसी ऊर्ध्वाधर ध्वजदंड की छाया किस दिशा में पड़ती है?",
+      "options": [
+        "East",
+        "West",
+        "North",
+        "South"
+      ],
+      "optionsHi": [
+        "पूर्व",
+        "पश्चिम (West)",
+        "उत्तर",
+        "दक्षिण"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 EVS & Math",
+      "explanation": "Sun rises in the East, so shadows fall in the opposite direction, which is West.",
+      "explanationHi": "सूर्य पूर्व में उगता है, अतः छाया इसके ठीक विपरीत पश्चिम दिशा में पड़ती है।"
+    },
+    {
+      "id": 12,
+      "q": "In a magnetic compass, towards which direction does the coloured magnetic needle point at rest?",
+      "qHi": "चुंबकीय कम्पास में विराम अवस्था में रंगीन चुंबकीय सुई किस दिशा की ओर संकेत करती है?",
+      "options": [
+        "Geographic East",
+        "Magnetic North",
+        "Magnetic South",
+        "Magnetic West"
+      ],
+      "optionsHi": [
+        "भौगोलिक पूर्व",
+        "चुंबकीय उत्तर (North)",
+        "चुंबकीय दक्षिण",
+        "चुंबकीय पश्चिम"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & BPSC TRE",
+      "explanation": "The north-seeking pole of the compass needle points towards the Earth's magnetic North.",
+      "explanationHi": "कम्पास की सुई सदैव उत्तर (North) दिशा की ओर संकेत करती है।"
+    },
+    {
+      "id": 13,
+      "q": "Which Indian state is located directly to the South of Bihar?",
+      "qHi": "कौन सा भारतीय राज्य बिहार के ठीक दक्षिण में स्थित है?",
+      "options": [
+        "Uttar Pradesh",
+        "West Bengal",
+        "Jharkhand",
+        "Odisha"
+      ],
+      "optionsHi": [
+        "उत्तर प्रदेश",
+        "पश्चिम बंगाल",
+        "झारखंड",
+        "ओडिशा"
+      ],
+      "ans": 2,
+      "pyqRef": "BPSC TRE Primary & Bihar STET",
+      "explanation": "Jharkhand lies to the South of Bihar (carved out of southern Bihar in 2000).",
+      "explanationHi": "झारखंड बिहार के दक्षिण में स्थित है।"
+    },
+    {
+      "id": 14,
+      "q": "Which neighbouring country shares an international border with Bihar to its North?",
+      "qHi": "बिहार के उत्तर में कौन सा पड़ोसी देश अंतर्राष्ट्रीय सीमा साझा करता है?",
+      "options": [
+        "Bhutan",
+        "Nepal",
+        "Bangladesh",
+        "Myanmar"
+      ],
+      "optionsHi": [
+        "भूटान",
+        "नेपाल",
+        "बांग्लादेश",
+        "म्यांमार"
+      ],
+      "ans": 1,
+      "pyqRef": "BPSC TRE 1.0 & Bihar Special",
+      "explanation": "Nepal borders Bihar along its northern frontier.",
+      "explanationHi": "बिहार के उत्तर में नेपाल देश स्थित है।"
+    },
+    {
+      "id": 15,
+      "q": "What direction is directly opposite to South-East?",
+      "qHi": "दक्षिण-पूर्व (South-East) के ठीक विपरीत कौन सी दिशा होती है?",
+      "options": [
+        "North-East",
+        "North-West",
+        "South-West",
+        "East-North"
+      ],
+      "optionsHi": [
+        "उत्तर-पूर्व",
+        "उत्तर-पश्चिम (North-West)",
+        "दक्षिण-पश्चिम",
+        "पूर्व-उत्तर"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & DSSSB",
+      "explanation": "Opposite of South is North, opposite of East is West. Hence, North-West.",
+      "explanationHi": "दक्षिण का विपरीत उत्तर और पूर्व का विपरीत पश्चिम है। अतः उत्तर-पश्चिम।"
+    },
+    {
+      "id": 16,
+      "q": "If the scale on a city map is 1 cm = 20 km, and the distance between Patna and Gaya is shown as 5 cm, what is the actual distance?",
+      "qHi": "यदि शहर के नक्शे का पैमाना 1 cm = 20 km है और पटना तथा गया के बीच की दूरी 5 cm दर्शायी गई है, तो वास्तविक दूरी क्या है?",
+      "options": [
+        "80 km",
+        "100 km",
+        "120 km",
+        "150 km"
+      ],
+      "optionsHi": [
+        "80 km",
+        "100 km",
+        "120 km",
+        "150 km"
+      ],
+      "ans": 1,
+      "pyqRef": "BPSC TRE 2.0 & CTET",
+      "explanation": "Actual distance = 5 × 20 km = 100 km.",
+      "explanationHi": "वास्तविक दूरी = 5 × 20 km = 100 किमी।"
+    },
+    {
+      "id": 17,
+      "q": "A boy walks 10 m South, then turns right and walks 10 m West, then turns right and walks 10 m North. In which direction is he now from his starting point?",
+      "qHi": "एक लड़का 10 m दक्षिण चलता है, फिर दाएँ मुड़कर 10 m पश्चिम चलता है, फिर दाएँ मुड़कर 10 m उत्तर चलता है। अब वह अपने प्रारंभिक बिंदु से किस दिशा में है?",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "optionsHi": [
+        "उत्तर",
+        "दक्षिण",
+        "पूर्व",
+        "पश्चिम (West)"
+      ],
+      "ans": 3,
+      "pyqRef": "CTET Paper 1 & State TET",
+      "explanation": "The South and North movements cancel out (10 m down and 10 m up). He is exactly 10 m to the West.",
+      "explanationHi": "दक्षिण और उत्तर की दूरियाँ परस्पर कट जाती हैं। वह प्रारंभिक बिंदु से ठीक पश्चिम दिशा में 10 m दूर है।"
+    },
+    {
+      "id": 18,
+      "q": "If you are facing the setting sun in the evening (facing West), which cardinal direction is to your right-hand side?",
+      "qHi": "यदि शाम को आपका मुख ढलते सूरज (पश्चिम) की ओर है, तो आपके दाएँ हाथ की ओर कौन सी दिशा होगी?",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "North-West"
+      ],
+      "optionsHi": [
+        "उत्तर (North)",
+        "दक्षिण",
+        "पूर्व",
+        "उत्तर-पश्चिम"
+      ],
+      "ans": 0,
+      "pyqRef": "CTET Paper 1 Pedagogy",
+      "explanation": "When facing West, North is to your right and South is to your left.",
+      "explanationHi": "पश्चिम की ओर मुख करने पर दायाँ हाथ उत्तर (North) और बायाँ हाथ दक्षिण की ओर होता है।"
+    },
+    {
+      "id": 19,
+      "q": "What does the symbol of parallel lines with small perpendicular hatches represent on a survey map?",
+      "qHi": "सर्वेक्षण मानचित्र पर छोटी आड़ी रेखाओं वाली समानांतर पटरियों का प्रतीक क्या दर्शाता है?",
+      "options": [
+        "Highway",
+        "River",
+        "Railway track",
+        "Boundary wall"
+      ],
+      "optionsHi": [
+        "राष्ट्रीय राजमार्ग",
+        "नदी",
+        "रेलवे लाइन (Railway track)",
+        "सीमा दीवार"
+      ],
+      "ans": 2,
+      "pyqRef": "CTET Paper 1 EVS/Map",
+      "explanation": "In conventional map symbols, parallel lines with cross ties depict a railway line.",
+      "explanationHi": "मानचित्र पर पटरियों वाला यह प्रतीक रेलवे लाइन को दर्शाता है।"
+    },
+    {
+      "id": 20,
+      "q": "A map scale is given as 1 : 50,000. How many kilometres on the ground does 2 cm on this map represent?",
+      "qHi": "एक नक्शे का पैमाना 1 : 50,000 दिया गया है। इस नक्शे पर 2 cm जमीन पर कितने किलोमीटर को दर्शाता है?",
+      "options": [
+        "0.5 km",
+        "1 km",
+        "2 km",
+        "5 km"
+      ],
+      "optionsHi": [
+        "0.5 km",
+        "1 km",
+        "2 km",
+        "5 km"
+      ],
+      "ans": 1,
+      "pyqRef": "BPSC TRE 3.0 & CTET",
+      "explanation": "2 cm on map = 2 × 50,000 cm = 100,000 cm = 1,000 m = 1 km.",
+      "explanationHi": "2 cm = 2 × 50,000 cm = 100,000 cm = 1,000 m = 1 km।"
+    },
+    {
+      "id": 21,
+      "q": "In a coordinate grid map, the point where the horizontal X-axis and vertical Y-axis intersect is called:",
+      "qHi": "निर्देशांक ग्रिड मानचित्र में जहाँ क्षैतिज X-अक्ष और ऊर्ध्वाधर Y-अक्ष परस्पर काटते हैं, उस बिंदु को क्या कहते हैं?",
+      "options": [
+        "Quadrant",
+        "Origin (0,0)",
+        "Centroid",
+        "Apex"
+      ],
+      "optionsHi": [
+        "चतुर्थांश",
+        "मूल बिंदु / Origin (0,0)",
+        "केंद्रक",
+        "शीर्ष"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & Bihar STET",
+      "explanation": "The intersection of the axes is defined as the Origin (0, 0).",
+      "explanationHi": "दोनों अक्षों के प्रतिच्छेदन बिंदु को मूल बिंदु (Origin) कहते हैं।"
+    },
+    {
+      "id": 22,
+      "q": "Starting from home at (2, 3) on a grid, Ritu moves 3 units East and 2 units North. What are her new coordinates?",
+      "qHi": "ग्रिड पर (2, 3) से शुरू करके रितु 3 इकाई पूर्व और 2 इकाई उत्तर चलती है। उसके नए निर्देशांक क्या होंगे?",
+      "options": [
+        "(5, 5)",
+        "(5, 1)",
+        "(1, 5)",
+        "(4, 6)"
+      ],
+      "optionsHi": [
+        "(5, 5)",
+        "(5, 1)",
+        "(1, 5)",
+        "(4, 6)"
+      ],
+      "ans": 0,
+      "pyqRef": "CTET Paper 1 & KVS PRT",
+      "explanation": "East increases x by 3: 2 + 3 = 5. North increases y by 2: 3 + 2 = 5. New coordinates = (5, 5).",
+      "explanationHi": "पूर्व में x + 3 = 5। उत्तर में y + 2 = 5। नए निर्देशांक = (5, 5)।"
+    },
+    {
+      "id": 23,
+      "q": "If a person turns 270° clockwise from North, which direction are they facing?",
+      "qHi": "यदि कोई व्यक्ति उत्तर से दक्षिणावर्त 270° घूमता है, तो उसका मुख किस दिशा में होगा?",
+      "options": [
+        "East",
+        "South",
+        "West",
+        "North-East"
+      ],
+      "optionsHi": [
+        "पूर्व",
+        "दक्षिण",
+        "पश्चिम (West)",
+        "उत्तर-पूर्व"
+      ],
+      "ans": 2,
+      "pyqRef": "JNVST Class 6 Entrance",
+      "explanation": "270° clockwise is equivalent to 90° counter-clockwise. North to 90° anti-clockwise points West.",
+      "explanationHi": "270° दक्षिणावर्त = 90° वामावर्त। उत्तर से 90° वामावर्त पश्चिम दिशा होती है।"
+    },
+    {
+      "id": 24,
+      "q": "Which state is located immediately to the West of Bihar?",
+      "qHi": "बिहार के ठीक पश्चिम में कौन सा राज्य स्थित है?",
+      "options": [
+        "West Bengal",
+        "Uttar Pradesh",
+        "Madhya Pradesh",
+        "Jharkhand"
+      ],
+      "optionsHi": [
+        "पश्चिम बंगाल",
+        "उत्तर प्रदेश (UP)",
+        "मध्य प्रदेश",
+        "झारखंड"
+      ],
+      "ans": 1,
+      "pyqRef": "BPSC TRE Primary & Bihar GK",
+      "explanation": "Uttar Pradesh shares the western border of Bihar.",
+      "explanationHi": "बिहार के पश्चिम में उत्तर प्रदेश राज्य स्थित है।"
+    },
+    {
+      "id": 25,
+      "q": "Which state is located immediately to the East of Bihar?",
+      "qHi": "बिहार के ठीक पूर्व में कौन सा राज्य स्थित है?",
+      "options": [
+        "Assam",
+        "West Bengal",
+        "Odisha",
+        "Jharkhand"
+      ],
+      "optionsHi": [
+        "असम",
+        "पश्चिम बंगाल",
+        "ओडिशा",
+        "झारखंड"
+      ],
+      "ans": 1,
+      "pyqRef": "BPSC TRE Primary",
+      "explanation": "West Bengal is situated to the East of Bihar.",
+      "explanationHi": "बिहार के पूर्व में पश्चिम बंगाल स्थित है।"
+    },
+    {
+      "id": 26,
+      "q": "What is the ratio between distance on a map and the corresponding distance on the ground called?",
+      "qHi": "मानचित्र पर मापी गई दूरी और जमीन पर उसकी वास्तविक दूरी के अनुपात को क्या कहा जाता है?",
+      "options": [
+        "Legend",
+        "Scale of map",
+        "Elevation",
+        "Grid reference"
+      ],
+      "optionsHi": [
+        "संकेतिका",
+        "मानचित्र का पैमाना (Scale)",
+        "उन्नतांश",
+        "ग्रिड संदर्भ"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 Pedagogy",
+      "explanation": "The ratio of map distance to real ground distance is called the Map Scale.",
+      "explanationHi": "मानचित्र दूरी और वास्तविक धरातलीय दूरी के अनुपात को पैमाना (Scale) कहते हैं।"
+    },
+    {
+      "id": 27,
+      "q": "If 1 cm on a map represents 50 metres on ground, how many square metres are represented by a 2 cm × 2 cm square on the map?",
+      "qHi": "यदि नक्शे पर 1 cm जमीन पर 50 मीटर को दर्शाता है, तो नक्शे पर 2 cm × 2 cm का वर्ग जमीन पर कितने वर्ग मीटर को दर्शाएगा?",
+      "options": [
+        "100 m²",
+        "1,000 m²",
+        "10,000 m²",
+        "40,000 m²"
+      ],
+      "optionsHi": [
+        "100 m²",
+        "1,000 m²",
+        "10,000 m²",
+        "40,000 m²"
+      ],
+      "ans": 2,
+      "pyqRef": "CTET Paper 1 & BPSC TRE",
+      "explanation": "2 cm on map = 2 × 50 = 100 m on ground. Area = 100 m × 100 m = 10,000 m².",
+      "explanationHi": "2 cm = 100 मीटर। क्षेत्रफल = 100 m × 100 m = 10,000 m²।"
+    },
+    {
+      "id": 28,
+      "q": "What is the direction midway between South and West?",
+      "qHi": "दक्षिण और पश्चिम के ठीक मध्य की दिशा को क्या कहते हैं?",
+      "options": [
+        "South-East",
+        "South-West (नैऋत्य)",
+        "North-West",
+        "West-South"
+      ],
+      "optionsHi": [
+        "दक्षिण-पूर्व",
+        "दक्षिण-पश्चिम (नैऋत्य)",
+        "उत्तर-पश्चिम",
+        "पश्चिम-दक्षिण"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & State TET",
+      "explanation": "The intermediate direction is South-West (SW).",
+      "explanationHi": "दक्षिण और पश्चिम के मध्य की दिशा दक्षिण-पश्चिम (SW) कहलाती है।"
+    },
+    {
+      "id": 29,
+      "q": "Which component of a map helps users identify what different symbols, colours, and lines mean?",
+      "qHi": "मानचित्र का कौन सा घटक उपयोगकर्ताओं को विभिन्न प्रतीकों, रंगों और रेखाओं के अर्थ समझने में मदद करता है?",
+      "options": [
+        "Title",
+        "Scale",
+        "Legend / Key",
+        "Compass rose"
+      ],
+      "optionsHi": [
+        "शीर्षक",
+        "पैमाना",
+        "संकेतिका / कुंजी (Legend / Key)",
+        "दिशा सूचक"
+      ],
+      "ans": 2,
+      "pyqRef": "CTET Paper 1 Pedagogy",
+      "explanation": "The Legend (or Key) explains the meaning of all symbols, colours, and markers on a map.",
+      "explanationHi": "संकेतिका (Legend / Key) नक्शे पर प्रयुक्त सभी प्रतीकों और रंगों के अर्थ को स्पष्ट करती है।"
+    },
+    {
+      "id": 30,
+      "q": "If an ant starts at (0, 0) and moves 4 units East, then 5 units North, then 4 units West, where is the ant now?",
+      "qHi": "यदि एक चींटी (0, 0) से शुरू करके 4 इकाई पूर्व, फिर 5 इकाई उत्तर, फिर 4 इकाई पश्चिम चलती है, तो चींटी अब कहाँ स्थित है?",
+      "options": [
+        "(0, 5)",
+        "(4, 5)",
+        "(0, 0)",
+        "(5, 0)"
+      ],
+      "optionsHi": [
+        "(0, 5)",
+        "(4, 5)",
+        "(0, 0)",
+        "(5, 0)"
+      ],
+      "ans": 0,
+      "pyqRef": "CTET Paper 1 & BPSC TRE Primary",
+      "explanation": "X-coordinate: 0 + 4 - 4 = 0. Y-coordinate: 0 + 5 = 5. Current position = (0, 5).",
+      "explanationHi": "X-अक्ष: 0 + 4 - 4 = 0। Y-अक्ष: 0 + 5 = 5। वर्तमान स्थिति = (0, 5)।"
+    }
+  ],
+  "ncert-c5-math-ch15": [
+    {
+      "id": 1,
+      "q": "What is a graphical representation of data using pictures or icons called?",
+      "qHi": "चित्रों या प्रतीकों का उपयोग करके आँकड़ों के चित्रात्मक निरूपण को क्या कहा जाता है?",
+      "options": [
+        "Bar graph",
+        "Pictograph (चित्रालेख)",
+        "Tally chart",
+        "Histogram"
+      ],
+      "optionsHi": [
+        "दण्ड आलेख (Bar graph)",
+        "चित्रालेख (Pictograph)",
+        "मिलान चिह्न चार्ट",
+        "आयतचित्र"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & BPSC TRE Primary",
+      "explanation": "A pictograph represents numerical data visually using pictures or symbols.",
+      "explanationHi": "चित्रों या प्रतीकों द्वारा आँकड़ों के निरूपण को चित्रालेख (Pictograph) कहते हैं।"
+    },
+    {
+      "id": 2,
+      "q": "In a school pictograph, 1 smiley icon represents 5 students. How many students are represented by 6 smiley icons?",
+      "qHi": "विद्यालय के एक चित्रालेख में 1 स्माइली प्रतीक 5 छात्रों को दर्शाता है। 6 स्माइली प्रतीक कितने छात्रों को दर्शाते हैं?",
+      "options": [
+        "25 students",
+        "30 students",
+        "35 students",
+        "40 students"
+      ],
+      "optionsHi": [
+        "25 छात्र",
+        "30 छात्र",
+        "35 छात्र",
+        "40 छात्र"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & UPTET",
+      "explanation": "6 smileys × 5 students/smiley = 30 students.",
+      "explanationHi": "6 × 5 = 30 छात्र।"
+    },
+    {
+      "id": 3,
+      "q": "If 1 book icon represents 10 books in a library chart, how many icons are needed to represent 45 books?",
+      "qHi": "यदि पुस्तकालय चार्ट में 1 पुस्तक का प्रतीक 10 पुस्तकों को दर्शाता है, तो 45 पुस्तकों को दर्शाने के लिए कितने प्रतीकों की आवश्यकता होगी?",
+      "options": [
+        "4 full icons",
+        "4.5 icons (4 full and 1 half)",
+        "5 full icons",
+        "40 icons"
+      ],
+      "optionsHi": [
+        "4 पूरे प्रतीक",
+        "4.5 प्रतीक (4 पूरे और 1 आधा)",
+        "5 पूरे प्रतीक",
+        "40 प्रतीक"
+      ],
+      "ans": 1,
+      "pyqRef": "NCERT Class 5 Ch 15 & CTET",
+      "explanation": "45 ÷ 10 = 4.5 icons (4 complete book icons and 1 half book icon).",
+      "explanationHi": "45 ÷ 10 = 4.5 प्रतीक (4 पूरे और 1 आधा प्रतीक)।"
+    },
+    {
+      "id": 4,
+      "q": "In tally marks notation, how is the number 8 represented?",
+      "qHi": "मिलान चिह्नों (Tally marks) में संख्या 8 को कैसे लिखा जाता है?",
+      "options": [
+        "||||||||",
+        "卌 |||",
+        "卌 卌",
+        "|||| ||||"
+      ],
+      "optionsHi": [
+        "||||||||",
+        "卌 ||| (एक 5 का बंडल + 3 डंडे)",
+        "卌 卌",
+        "|||| ||||"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & DSSSB PRT",
+      "explanation": "5 is represented by 4 vertical strokes with 1 diagonal stroke across them, followed by 3 individual strokes: 卌 |||.",
+      "explanationHi": "5 का एक बंडल और 3 अलग डंडे = 卌 |||।"
+    },
+    {
+      "id": 5,
+      "q": "How is the number 14 represented in standard tally marks?",
+      "qHi": "मानक मिलान चिह्नों में संख्या 14 को किस प्रकार दर्शाया जाता है?",
+      "options": [
+        "卌 卌 ||||",
+        "卌 卌 卌",
+        "卌 |||| ||||",
+        "卌 卌 |||"
+      ],
+      "optionsHi": [
+        "卌 卌 |||| (दो 5 के बंडल + 4 डंडे)",
+        "卌 卌 卌",
+        "卌 |||| ||||",
+        "卌 卌 |||"
+      ],
+      "ans": 0,
+      "pyqRef": "CTET Paper 1 & BPSC TRE",
+      "explanation": "14 = 5 + 5 + 4 = two bundles of 5 and four individual strokes (卌 卌 ||||).",
+      "explanationHi": "14 = 5 + 5 + 4 = 5 के दो बंडल और 4 अलग डंडे (卌 卌 ||||)।"
+    },
+    {
+      "id": 6,
+      "q": "In a vertical bar graph, what does the height of each bar indicate?",
+      "qHi": "एक ऊर्ध्वाधर दण्ड आलेख (Bar graph) में प्रत्येक दण्ड (बार) की ऊँचाई क्या दर्शाती है?",
+      "options": [
+        "Width of data",
+        "Frequency or magnitude of the category",
+        "Number of bars",
+        "Scale of the axis"
+      ],
+      "optionsHi": [
+        "आँकड़ों की चौड़ाई",
+        "श्रेणी की बारंबारता या मान (Frequency / Value)",
+        "दण्डों की संख्या",
+        "अक्ष का पैमाना"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 Pedagogy",
+      "explanation": "The height of each bar is proportional to the frequency or numerical value of that category.",
+      "explanationHi": "प्रत्येक दण्ड की ऊँचाई उस वर्ग की बारंबारता या मान के समानुपाती होती है।"
+    },
+    {
+      "id": 7,
+      "q": "In a correctly drawn bar graph, which property must remain uniform and equal for all bars?",
+      "qHi": "सही ढंग से बनाए गए दण्ड आलेख में सभी दण्डों के लिए कौन सी विशेषता एकसमान और बराबर होनी चाहिए?",
+      "options": [
+        "Height of bars",
+        "Width of bars and spacing between them",
+        "Colour of bars",
+        "Number of labels"
+      ],
+      "optionsHi": [
+        "दण्डों की ऊँचाई",
+        "दण्डों की चौड़ाई और उनके बीच की दूरी",
+        "दण्डों का रंग",
+        "लेबल की संख्या"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 Pedagogy & BPSC TRE",
+      "explanation": "All bars must have equal width and equal spacing between adjacent bars.",
+      "explanationHi": "सभी दण्डों की चौड़ाई और उनके बीच का अंतराल सदैव एकसमान होना चाहिए।"
+    },
+    {
+      "id": 8,
+      "q": "The value that appears most frequently in a given set of observations is called the:",
+      "qHi": "दिए गए प्रेक्षणों के समूह में सबसे अधिक बार आने वाला मान क्या कहलाता है?",
+      "options": [
+        "Mean (माध्य)",
+        "Median (माध्यिका)",
+        "Mode (बहुलक)",
+        "Range (परिसर)"
+      ],
+      "optionsHi": [
+        "माध्य (Mean)",
+        "माध्यिका (Median)",
+        "बहुलक (Mode)",
+        "परिसर (Range)"
+      ],
+      "ans": 2,
+      "pyqRef": "CTET Paper 1 & BPSC TRE Primary",
+      "explanation": "The observation with the highest frequency is called the Mode.",
+      "explanationHi": "सर्वाधिक बारंबारता वाले प्रेक्षण को बहुलक (Mode) कहा जाता है।"
+    },
+    {
+      "id": 9,
+      "q": "Find the mean (average) of the numbers: 10, 15, 20, 25, 30.",
+      "qHi": "संख्याओं 10, 15, 20, 25, 30 का माध्य (औसत) ज्ञात कीजिए।",
+      "options": [
+        "18",
+        "20",
+        "22",
+        "25"
+      ],
+      "optionsHi": [
+        "18",
+        "20",
+        "22",
+        "25"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & JNVST",
+      "explanation": "Sum = 10 + 15 + 20 + 25 + 30 = 100. Mean = 100 ÷ 5 = 20.",
+      "explanationHi": "योग = 100। माध्य = 100 ÷ 5 = 20।"
+    },
+    {
+      "id": 10,
+      "q": "In a class survey of 40 students, favorite sports are: Cricket 16, Football 12, Badminton 8, Chess 4. Which sport is the mode of this dataset?",
+      "qHi": "40 छात्रों के एक सर्वेक्षण में पसंदीदा खेल हैं: क्रिकेट 16, फुटबॉल 12, बैडमिंटन 8, शतरंज 4। इस आँकड़े का बहुलक कौन सा खेल है?",
+      "options": [
+        "Football",
+        "Badminton",
+        "Cricket",
+        "Chess"
+      ],
+      "optionsHi": [
+        "फुटबॉल",
+        "बैडमिंटन",
+        "क्रिकेट (Cricket)",
+        "शतरंज"
+      ],
+      "ans": 2,
+      "pyqRef": "CTET Paper 1 & REET",
+      "explanation": "Cricket has the highest frequency (16 students), so Cricket is the mode.",
+      "explanationHi": "क्रिकेट की बारंबारता सबसे अधिक (16) है, अतः क्रिकेट बहुलक है।"
+    },
+    {
+      "id": 11,
+      "q": "If a bar representing 20 vehicles is drawn with a height of 4 cm, what scale was used?",
+      "qHi": "यदि 20 वाहनों को दर्शाने वाले दण्ड की ऊँचाई 4 cm खींची गई है, तो किस पैमाने का उपयोग किया गया था?",
+      "options": [
+        "1 cm = 4 vehicles",
+        "1 cm = 5 vehicles",
+        "1 cm = 10 vehicles",
+        "1 cm = 20 vehicles"
+      ],
+      "optionsHi": [
+        "1 cm = 4 वाहन",
+        "1 cm = 5 वाहन",
+        "1 cm = 10 वाहन",
+        "1 cm = 20 वाहन"
+      ],
+      "ans": 1,
+      "pyqRef": "BPSC TRE 2.0 & CTET",
+      "explanation": "20 vehicles ÷ 4 cm = 5 vehicles per 1 cm.",
+      "explanationHi": "20 ÷ 4 = 5 वाहन प्रति सेंटीमीटर (1 cm = 5 वाहन)।"
+    },
+    {
+      "id": 12,
+      "q": "On a bar graph scale where 1 unit length = 50 people, how many people are represented by a bar of 7 units length?",
+      "qHi": "दण्ड आलेख के पैमाने पर 1 इकाई लंबाई = 50 व्यक्ति है। 7 इकाई लंबाई वाले दण्ड द्वारा कितने व्यक्ति दर्शाए गए हैं?",
+      "options": [
+        "300 people",
+        "350 people",
+        "400 people",
+        "450 people"
+      ],
+      "optionsHi": [
+        "300 व्यक्ति",
+        "350 व्यक्ति",
+        "400 व्यक्ति",
+        "450 व्यक्ति"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & KVS PRT",
+      "explanation": "7 units × 50 people/unit = 350 people.",
+      "explanationHi": "7 × 50 = 350 व्यक्ति।"
+    },
+    {
+      "id": 13,
+      "q": "What is the range of the following dataset: 14, 28, 9, 35, 18, 42, 21?",
+      "qHi": "निम्नलिखित आँकड़ों का परिसर (Range) क्या है: 14, 28, 9, 35, 18, 42, 21?",
+      "options": [
+        "28",
+        "33",
+        "35",
+        "42"
+      ],
+      "optionsHi": [
+        "28",
+        "33",
+        "35",
+        "42"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & BPSC TRE 1.0",
+      "explanation": "Range = Maximum value - Minimum value = 42 - 9 = 33.",
+      "explanationHi": "परिसर = उच्चतम मान - न्यूनतम मान = 42 - 9 = 33।"
+    },
+    {
+      "id": 14,
+      "q": "In a pie chart (circular graph), what does the entire complete circle represent in terms of angle?",
+      "qHi": "एक वृत्त आलेख (Pie chart) में पूरा वृत्त कोण के रूप में कितने अंश को दर्शाता है?",
+      "options": [
+        "90°",
+        "180°",
+        "270°",
+        "360°"
+      ],
+      "optionsHi": [
+        "90°",
+        "180°",
+        "270°",
+        "360°"
+      ],
+      "ans": 3,
+      "pyqRef": "CTET Paper 1 Pedagogy & BPSC TRE",
+      "explanation": "A complete circle has an angle of 360° representing 100% of the data.",
+      "explanationHi": "एक पूर्ण वृत्त का कुल केंद्रीय कोण 360° (100% आँकड़े) होता है।"
+    },
+    {
+      "id": 15,
+      "q": "In a circular pie chart, a sector with a right angle (90°) represents what percentage of the total data?",
+      "qHi": "एक वृत्त आलेख में 90° (समकोण) वाला त्रिज्यखंड कुल आँकड़ों का कितने प्रतिशत दर्शाता है?",
+      "options": [
+        "20%",
+        "25%",
+        "33.3%",
+        "50%"
+      ],
+      "optionsHi": [
+        "20%",
+        "25%",
+        "33.3%",
+        "50%"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & DSSSB",
+      "explanation": "90° ÷ 360° = 1/4 = 25%.",
+      "explanationHi": "90° ÷ 360° = 1/4 = 25%।"
+    },
+    {
+      "id": 16,
+      "q": "Find the mean (average) of the first five prime numbers (2, 3, 5, 7, 11).",
+      "qHi": "प्रथम पाँच अभाज्य संख्याओं (2, 3, 5, 7, 11) का माध्य ज्ञात कीजिए।",
+      "options": [
+        "5.0",
+        "5.4",
+        "5.6",
+        "6.0"
+      ],
+      "optionsHi": [
+        "5.0",
+        "5.4",
+        "5.6",
+        "6.0"
+      ],
+      "ans": 2,
+      "pyqRef": "CTET Paper 1 & BPSC TRE 3.0",
+      "explanation": "Sum = 2 + 3 + 5 + 7 + 11 = 28. Mean = 28 ÷ 5 = 5.6.",
+      "explanationHi": "योग = 2 + 3 + 5 + 7 + 11 = 28। माध्य = 28 ÷ 5 = 5.6।"
+    },
+    {
+      "id": 17,
+      "q": "In a frequency table, if the tally mark shows 4 bundles of 5 and 3 single strokes, what is the frequency?",
+      "qHi": "एक बारंबारता तालिका में यदि मिलान चिह्न 5 के 4 बंडल और 3 अलग डंडे दिखाता है, तो बारंबारता क्या है?",
+      "options": [
+        "20",
+        "22",
+        "23",
+        "25"
+      ],
+      "optionsHi": [
+        "20",
+        "22",
+        "23",
+        "25"
+      ],
+      "ans": 2,
+      "pyqRef": "CTET Paper 1 & UPTET",
+      "explanation": "Frequency = (4 × 5) + 3 = 20 + 3 = 23.",
+      "explanationHi": "बारंबारता = (4 × 5) + 3 = 20 + 3 = 23।"
+    },
+    {
+      "id": 18,
+      "q": "What is the median of the following set of test scores: 5, 8, 12, 15, 20, 22, 25?",
+      "qHi": "परीक्षा अंकों के निम्नलिखित समूह की माध्यिका (Median) क्या है: 5, 8, 12, 15, 20, 22, 25?",
+      "options": [
+        "12",
+        "15",
+        "18",
+        "20"
+      ],
+      "optionsHi": [
+        "12",
+        "15",
+        "18",
+        "20"
+      ],
+      "ans": 1,
+      "pyqRef": "BPSC TRE Primary & SSC MTS",
+      "explanation": "Data is already ordered. There are 7 values. The middle (4th) value is 15.",
+      "explanationHi": "7 मानों में ठीक बीच का (चौथा) मान 15 है, अतः माध्यिका 15 है।"
+    },
+    {
+      "id": 19,
+      "q": "In a Cartesian bar chart, the horizontal base line is designated as the:",
+      "qHi": "दण्ड आलेख में क्षैतिज आधार रेखा को क्या कहा जाता है?",
+      "options": [
+        "X-axis",
+        "Y-axis",
+        "Z-axis",
+        "Origin line"
+      ],
+      "optionsHi": [
+        "X-अक्ष (X-axis)",
+        "Y-अक्ष (Y-axis)",
+        "Z-अक्ष",
+        "मूल रेखा"
+      ],
+      "ans": 0,
+      "pyqRef": "CTET Paper 1 Pedagogy",
+      "explanation": "The horizontal axis is called the X-axis.",
+      "explanationHi": "क्षैतिज अक्ष को X-अक्ष कहा जाता है।"
+    },
+    {
+      "id": 20,
+      "q": "In a Cartesian bar chart, the vertical line displaying frequency scale is designated as the:",
+      "qHi": "दण्ड आलेख में बारंबारता पैमाना दर्शाने वाली ऊर्ध्वाधर रेखा को क्या कहा जाता है?",
+      "options": [
+        "X-axis",
+        "Y-axis",
+        "Baseline",
+        "Grid"
+      ],
+      "optionsHi": [
+        "X-अक्ष",
+        "Y-अक्ष (Y-axis)",
+        "आधार रेखा",
+        "ग्रिड"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 Pedagogy",
+      "explanation": "The vertical axis is called the Y-axis.",
+      "explanationHi": "ऊर्ध्वाधर अक्ष को Y-अक्ष कहा जाता है।"
+    },
+    {
+      "id": 21,
+      "q": "Ramesh scored 65, 70, 75, 80, and 90 marks in 5 subjects. What is his mean percentage score?",
+      "qHi": "रमेश ने 5 विषयों में 65, 70, 75, 80 और 90 अंक प्राप्त किए। उसके औसत अंक क्या हैं?",
+      "options": [
+        "74",
+        "76",
+        "78",
+        "80"
+      ],
+      "optionsHi": [
+        "74",
+        "76",
+        "78",
+        "80"
+      ],
+      "ans": 1,
+      "pyqRef": "JNVST Class 6 Entrance",
+      "explanation": "Sum = 65 + 70 + 75 + 80 + 90 = 380. Mean = 380 ÷ 5 = 76.",
+      "explanationHi": "योग = 380। माध्य = 380 ÷ 5 = 76।"
+    },
+    {
+      "id": 22,
+      "q": "In an orchard pictograph, 3 tree icons represent 18 mango trees. How many trees are represented by 7 tree icons?",
+      "qHi": "बगीचे के एक चित्रालेख में 3 पेड़ के प्रतीक 18 आम के पेड़ों को दर्शाते हैं। 7 पेड़ के प्रतीक कितने पेड़ों को दर्शाएंगे?",
+      "options": [
+        "35 trees",
+        "42 trees",
+        "48 trees",
+        "54 trees"
+      ],
+      "optionsHi": [
+        "35 पेड़",
+        "42 पेड़",
+        "48 पेड़",
+        "54 पेड़"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & REET",
+      "explanation": "1 icon = 18 ÷ 3 = 6 trees. 7 icons = 7 × 6 = 42 trees.",
+      "explanationHi": "1 प्रतीक = 18 ÷ 3 = 6 पेड़। 7 प्रतीक = 7 × 6 = 42 पेड़।"
+    },
+    {
+      "id": 23,
+      "q": "Find the mode of the following data: 4, 6, 7, 6, 8, 6, 9, 7, 6.",
+      "qHi": "निम्नलिखित आँकड़ों का बहुलक (Mode) ज्ञात कीजिए: 4, 6, 7, 6, 8, 6, 9, 7, 6.",
+      "options": [
+        "4",
+        "6",
+        "7",
+        "8"
+      ],
+      "optionsHi": [
+        "4",
+        "6 (4 बार आया)",
+        "7",
+        "8"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & BPSC TRE",
+      "explanation": "The number 6 appears 4 times, which is more than any other number. Mode = 6.",
+      "explanationHi": "संख्या 6 सबसे अधिक 4 बार आई है, अतः बहुलक = 6।"
+    },
+    {
+      "id": 24,
+      "q": "What type of graph is specially designed to compare two sets of related data simultaneously (e.g. marks of boys vs girls across subjects)?",
+      "qHi": "दो संबंधित आँकड़ों की एक साथ तुलना करने के लिए किस प्रकार का आलेख विशेष रूप से उपयुक्त होता है (जैसे विषयों में लड़कों बनाम लड़कियों के अंक)?",
+      "options": [
+        "Single bar graph",
+        "Double bar graph",
+        "Line graph only",
+        "Pictograph"
+      ],
+      "optionsHi": [
+        "एकल दण्ड आलेख",
+        "द्वि-दण्ड आलेख (Double bar graph)",
+        "केवल रेखा आलेख",
+        "चित्रालेख"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 & NCERT Class 5 Ch 15",
+      "explanation": "A double bar graph displays two sets of bars side by side for direct comparison.",
+      "explanationHi": "द्वि-दण्ड आलेख (Double bar graph) दो समूहों की सीधी तुलना के लिए प्रयुक्त होता है।"
+    },
+    {
+      "id": 25,
+      "q": "What is the difference between the maximum and minimum observations of a dataset termed as?",
+      "qHi": "किसी आँकड़ा समूह के अधिकतम और न्यूनतम मान के अंतर को क्या कहा जाता है?",
+      "options": [
+        "Frequency",
+        "Range (परिसर)",
+        "Mean",
+        "Class interval"
+      ],
+      "optionsHi": [
+        "बारंबारता",
+        "परिसर (Range)",
+        "माध्य",
+        "वर्ग अंतराल"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 Pedagogy",
+      "explanation": "Range = Maximum value - Minimum value.",
+      "explanationHi": "अधिकतम और न्यूनतम मान के अंतर को परिसर (Range) कहते हैं।"
+    },
+    {
+      "id": 26,
+      "q": "If 1 apple symbol represents 8 apples in a fruit store chart, how many apples do 3.5 symbols represent?",
+      "qHi": "यदि 1 सेब का प्रतीक 8 सेबों को दर्शाता है, तो 3.5 प्रतीक कितने सेबों को दर्शाते हैं?",
+      "options": [
+        "24 apples",
+        "26 apples",
+        "28 apples",
+        "32 apples"
+      ],
+      "optionsHi": [
+        "24 सेब",
+        "26 सेब",
+        "28 सेब",
+        "32 सेब"
+      ],
+      "ans": 2,
+      "pyqRef": "JNVST Class 6 Entrance",
+      "explanation": "3.5 × 8 = 28 apples.",
+      "explanationHi": "3.5 × 8 = 28 सेब।"
+    },
+    {
+      "id": 27,
+      "q": "Information systematically collected in numerical form for a specific inquiry or investigation is defined as:",
+      "qHi": "किसी विशिष्ट उद्देश्य के लिए संख्यात्मक रूप में व्यवस्थित ढंग से एकत्र की गई जानकारी को क्या कहा जाता है?",
+      "options": [
+        "Hypothesis",
+        "Data (आँकड़े)",
+        "Formula",
+        "Variable"
+      ],
+      "optionsHi": [
+        "परिकल्पना",
+        "आँकड़े (Data)",
+        "सूत्र",
+        "चर"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 Pedagogy & BPSC TRE",
+      "explanation": "A collection of numerical facts and figures gathered for an inquiry is called Data.",
+      "explanationHi": "संख्यात्मक रूप में एकत्रित तथ्यों को आँकड़े (Data) कहा जाता है।"
+    },
+    {
+      "id": 28,
+      "q": "The temperatures recorded at 5 cities are: 28°C, 32°C, 35°C, 30°C, 25°C. What is the average temperature?",
+      "qHi": "5 शहरों का दर्ज तापमान है: 28°C, 32°C, 35°C, 30°C, 25°C। औसत तापमान क्या है?",
+      "options": [
+        "29°C",
+        "30°C",
+        "31°C",
+        "32°C"
+      ],
+      "optionsHi": [
+        "29°C",
+        "30°C",
+        "31°C",
+        "32°C"
+      ],
+      "ans": 1,
+      "pyqRef": "BPSC TRE 2.0 & CTET",
+      "explanation": "Sum = 28 + 32 + 35 + 30 + 25 = 150°C. Average = 150 ÷ 5 = 30°C.",
+      "explanationHi": "योग = 150°C। औसत = 150 ÷ 5 = 30°C।"
+    },
+    {
+      "id": 29,
+      "q": "Which graph is most suitable to display continuous variation of body temperature over 24 hours of hospital observation?",
+      "qHi": "अस्पताल में 24 घंटों के दौरान शरीर के तापमान में निरंतर उतार-चढ़ाव को दर्शाने के लिए कौन सा आलेख सर्वाधिक उपयुक्त है?",
+      "options": [
+        "Bar graph",
+        "Line graph (रेखा आलेख)",
+        "Pictograph",
+        "Tally chart"
+      ],
+      "optionsHi": [
+        "दण्ड आलेख",
+        "रेखा आलेख (Line graph)",
+        "चित्रालेख",
+        "मिलान चिह्न तालिका"
+      ],
+      "ans": 1,
+      "pyqRef": "CTET Paper 1 Pedagogy",
+      "explanation": "A line graph best visualizes continuous changes over time intervals.",
+      "explanationHi": "समय के साथ निरंतर परिवर्तन को दर्शाने के लिए रेखा आलेख (Line graph) सबसे उपयुक्त होता है।"
+    },
+    {
+      "id": 30,
+      "q": "In an election between two candidates, Candidate A received 60% of votes and Candidate B received 40% of votes. What would be the central angles of their sectors in a pie chart?",
+      "qHi": "दो उम्मीदवारों के चुनाव में उम्मीदवार A को 60% और B को 40% वोट मिले। पाई चार्ट में उनके त्रिज्यखंडों के केंद्रीय कोण क्या होंगे?",
+      "options": [
+        "180° and 180°",
+        "216° and 144°",
+        "200° and 160°",
+        "240° and 120°"
+      ],
+      "optionsHi": [
+        "180° और 180°",
+        "216° और 144°",
+        "200° और 160°",
+        "240° और 120°"
+      ],
+      "ans": 1,
+      "pyqRef": "BPSC TRE 1.0 & SSC CGL / CTET",
+      "explanation": "Candidate A: 60% of 360° = 0.60 × 360° = 216°. Candidate B: 40% of 360° = 144°.",
+      "explanationHi": "उम्मीदवार A: 360° का 60% = 216°। उम्मीदवार B: 360° का 40% = 144°।"
+    }
+  ]
+}
